@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +6,10 @@
 }
 
 :root {
-    
+    --primary-color: #76b101;
+    --coollime: #b1d823;
+}
+body {
+    font-family: monospace;
+    height: 100vh;
 }
