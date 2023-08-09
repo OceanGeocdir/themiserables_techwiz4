@@ -31,3 +31,12 @@ pro.forEach(item => {
         window.location.href = 'sproduct.html'
     })
 })
+
+// var light = document.querySelectorAll('.title-1')
+// var ul = document.querySelectorAll('.light ul')
+
+// light.forEach(item => {
+//     item.addEventListener('click', () => {
+//         ul.classList.add("active")
+//     })
+// })
