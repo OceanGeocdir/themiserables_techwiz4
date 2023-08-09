@@ -1,0 +1,130 @@
+{
+    "flower":[
+        {
+            "id": 1,
+            "name": "Mediterranean Pink Heather",
+            "price": "$24.95",
+            "height": "30-40cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Calluna vulgaris",
+            "light": "Full sun to partial shade",
+            "water": "Moderate watering",
+            "humidity": "Low to moderate humidity",
+            "about": "Mediterranean Pink Heather, or Calluna vulgaris, is a small evergreen shrub that is native to Europe. It is prized for its vibrant pink flowers and needle-like foliage. This plant thrives in well-draining, acidic soils and adds a splash of color to rock gardens and borders.",
+            "about1": "Flowers: Pink, bell-shaped flowers in late summer to early fall.",
+            "about2": "Foliage: Needle-like leaves that change color throughout the year.",
+            "about3": "Habit: Low-growing and spreading.",
+            "about4": "Cultural Significance: In addition to its ornamental value, heather has cultural significance in some European traditions and is associated with good luck and protection."
+          },
+          {
+            "id": 2,
+            "name": "Proven Winners® Color Choice® Black Lace® Elderberry",
+            "price": "$69.95",
+            "height": "180-240cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Sambucus nigra 'Eva'",
+            "light": "Full sun to light shade",
+            "water": "Regular watering",
+            "humidity": "Adaptable humidity",
+            "about": "The Proven Winners® Color Choice® Black Lace® Elderberry, scientifically known as Sambucus nigra 'Eva', is a deciduous shrub with unique dark-colored foliage. Its deep purple leaves and black stems create an attractive appearance in landscapes. It produces clusters of pinkish flowers that mature into dark berries.",
+            "about1": "Berries: Dark berries are often used for making jams and wines.",
+            "about2": "Growth Habit: Upright and spreading.",
+            "about3": "Wildlife: The flowers and berries attract birds and pollinators.",
+            "about4": "Landscape Use: Adds dramatic foliage contrast to gardens and can be used as a focal point."
+          },
+          {
+            "id": 3,
+            "name": "Pink Double Knock Out® Rose",
+            "price": "$69.95",
+            "height": "35cm-40cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Rosa 'Radtkopink'",
+            "light": "Full sun to partial shade",
+            "water": "Consistent and even moisture",
+            "humidity": "Adaptable humidity",
+            "about": "The Pink Double Knock Out® Rose is a cultivar of the Knock Out® Rose series. It produces double, bright pink flowers that continue to bloom throughout the growing season. This disease-resistant rose variety is known for its self-cleaning ability and overall low maintenance requirements.",
+            "about1": "Flowers: Double, bright pink blooms.",
+            "about2": "Blooming Season: Spring to fall.",
+            "about3": "Maintenance: Prune as needed to maintain shape.",
+            "about4": "Landscape Use: Adds vibrant color to garden beds, borders, and containers."
+          },
+        {
+            "id": 4,
+            "name": "Flutterby Petite® Tutti Fruitti Butterfly Bush",
+            "price": "$72.95",
+            "height": "60-90cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Buddleja davidii 'Tutti Fruitti'",
+            "light": "Full sun to partial shade",
+            "water": "Regular watering",
+            "humidity": "Moderate humidity",
+            "about": "The Flutterby Petite® Tutti Fruitti Butterfly Bush is a compact shrub known for its vibrant flower clusters that attract butterflies. It has a moderate growth rate and reaches a height of about 2-3 feet. This variety prefers well-draining soil and benefits from occasional pruning.",
+            "about1": "Flowers: Clusters of small, fragrant flowers in a range of colors.",
+            "about2": "Blooming Season: Summer to fall.",
+            "about3": "Maintenance: Prune in early spring to encourage new growth and shape the plant.",
+            "about4": "Wildlife: The flowers of this butterfly bush variety are especially attractive to butterflies and pollinators, making it a valuable addition to pollinator-friendly gardens."
+          },
+          {
+            "id": 5,
+            "name": "Apricot Drift® Rose",
+            "price": "$69.95",
+            "height": "60-90cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Rosa 'Meimirrote'",
+            "light": "Full sun",
+            "water": "Regular watering",
+            "humidity": "Adaptable humidity",
+            "about": "The Apricot Drift® Rose is a low-growing groundcover rose that produces clusters of apricot-colored blooms. It has a spreading habit and reaches a height of about 1-2 feet. This variety is disease-resistant and provides continuous blooms throughout the season.",
+            "about1": "Flowers: Small, double flowers in shades of apricot.",
+            "about2": "Blooming Season: Spring to fall.",
+            "about3": "Maintenance: Prune lightly in early spring to shape the plant and remove dead wood.",
+            "about4": "Landscape Use: The Apricot Drift® Rose is ideal for adding vibrant color to borders, rock gardens, and containers."
+          },
+          {
+            "id": 6,
+            "name": "Sweet Drift® Rose",
+            "price": "$69.95",
+            "height": "60-80cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Rosa 'Meiswetdom'",
+            "light": "Full sun",
+            "water": "Regular watering",
+            "humidity": "Adaptable humidity",
+            "about": "The Sweet Drift® Rose is a compact groundcover rose with a profusion of small, soft pink blooms. It has a spreading growth habit and reaches a height of about 1-2 feet. This variety is disease-resistant and adds charm to borders, containers, or rock gardens.",
+            "about1": "Flowers: Abundant clusters of soft pink, semi-double flowers.",
+            "about2": "Blooming Season: Spring to fall.",
+            "about3": "Maintenance: Prune lightly in early spring to maintain shape and promote new growth.",
+            "about4": "Versatility: The Sweet Drift® Rose's compact size and continual bloom make it a versatile choice for various landscaping designs."
+          }
+    ]
+}
