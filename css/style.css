@@ -106,7 +106,7 @@ button.white {
     align-items: center;
 }
 #hero {
-    background-image: url("/img/imgbanner.webp");
+    background-image: url("img/imgbanner.webp");
     height: 90vh;
     width: 100%;
     background-size: cover;
