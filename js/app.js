@@ -32,11 +32,21 @@ pro.forEach(item => {
     })
 })
 
-// var light = document.querySelectorAll('.title-1')
-// var ul = document.querySelectorAll('.light ul')
 
-// light.forEach(item => {
-//     item.addEventListener('click', () => {
-//         ul.classList.add("active")
-//     })
-// })
+
+//scroll to top
+let toTop = document.getElementById('toTop')
+toTop.style.display = 'none'
+window.addEventListener('scroll', ()=>{
+    if(this.scrollY > 500 ){
+        toTop.style.display = 'block'
+    }else{
+        toTop.style.display = 'none'
+    }
+})
+toTop.onclick = function () {
+    window.scrollTo ({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
