@@ -6,14 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
    
-
-    <section id="page-header" class="about-header">
-        <h2>#let's_talk</h2>
-        <p>LEAVE A MESSAGE, We love to hear from you!</p>
-    </section>
 
     <section id="cart" class="section-p1">
         <table>
@@ -27,72 +23,24 @@
                     <td>Subtotal</td>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="#">
-                            <i class="fa-solid fa-trash"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <img src="img/giaohang.jpg" alt="">
-                    </td>
-                    <td>cartoon Astronaut T-Shits</td>
-                    <td>$118.19</td>
-                    <td>
-                        <input type="number" value="1">
-                    </td>
-                    <td>$118.19</td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="#">
-                            <i class="fa-solid fa-trash"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <img src="img/giaohang.jpg" alt="">
-                    </td>
-                    <td>cartoon Astronaut T-Shits</td>
-                    <td>$118.19</td>
-                    <td>
-                        <input type="number" value="1">
-                    </td>
-                    <td>$118.19</td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="#">
-                            <i class="fa-solid fa-trash"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <img src="img/giaohang.jpg" alt="">
-                    </td>
-                    <td>cartoon Astronaut T-Shits</td>
-                    <td>$118.19</td>
-                    <td>
-                        <input type="number" value="1">
-                    </td>
-                    <td>$118.19</td>
-                </tr>
+            <tbody id="cart-body">
+                <!-- Dữ liệu giỏ hàng sẽ được thêm vào đây -->
             </tbody>
         </table>
     </section>
-
     <section id="cart-add" class="section-p1">
         <div id="coupon">
             <h3>Apply Coupon</h3>
             <input type="text" placeholder="Enter Your Counpon">
             <button class="normal">Apply</button>
         </div>
-
+    
         <div id="subtotal">
             <h3>Cart Totals</h3>
             <table>
                 <tr>
                     <td>Cart Subtotal</td>
-                    <td>$ 335</td>
+                    <td id="cart-subtotal">$ 0.00</td>
                 </tr>
                 <tr>
                     <td>Shipping</td>
@@ -100,15 +48,16 @@
                 </tr>
                 <tr>
                     <td><strong>Total</strong></td>
-                    <td><strong>$ 335</strong></td>
+                    <td id="cart-total"><strong>$ 0.00</strong></td>
                 </tr>
             </table>
             <button class="normal">Procees to checkout</button>
         </div>
     </section>
-
     
 </body>
 
 <script src="app.js"></script>
+<script src="./js/cart.js"></script>
+
 </html>
