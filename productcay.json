@@ -1,0 +1,60 @@
+{
+    "Cayluoiho":
+    [
+        {"id":1, "name":"cayluoiho/Cây Lưỡi Hổ Chậu Đá Mài Giọt Nước Đen.jpg","Price": "390k","Date":"20/8/2022"},
+        {"id":2, "name":"cayluoiho/Cây Lưỡi Hổ Chậu Đá Mài Giọt nƯớc Trắng.jpg","Price": "390k","Date":"26/4/2022"},
+        {"id":3, "name":"cayluoiho/Cây Lưỡi Hổ Chậu Sơn Tròn Bầu Trắng.jpg","Price": "390k","Date":"21/2/2020"},
+        {"id":4, "name":"cayluoiho/Cây Lưỡi Hổ Chậu Sứ Trắng Trơn.jpg","Price": "390k","Date":"10/5/2020"},
+        {"id":5, "name":"cayluoiho/Cây Lưỡi Hổ Chậu Sứ Xoắn Ngang.jpg","Price": "390k","Date":"15/3/2022"},
+        {"id":6, "name":"cayluoiho/Cây Lưỡi Hổ Thần Tài Chậu Đan Mây Eo Lớn.jpg","Price": "390k","Date":"30/2/2022"},
+        {"id":7, "name":"cayluoiho/Cây Lưỡi Hổ Thần Tài Chậu Đan Mây Tròn Bầu Lớn.jpg","Price": "390k","Date":"14/5/2023"},
+        {"id":8, "name":"cayluoiho/Cây Lưỡi Hổ Thần Tài Chậu Sứ Hoa Văn Lớn.jpg","Price": "390k","Date":"22/2/2022"},
+        {"id":9, "name":"cayluoiho/Cây Lưỡi Hổ Tiền Tài Chậu Đá Mài Trắng 30x30 cm.jpg","Price": "390k","Date":"5/2/2022"},
+        {"id":10, "name":"cayluoiho/Cây Lưỡi Hổ Tiền Tài Chậu Đan Mây Eo.jpg","Price": "390k","Date":"25/5/2022"},
+        {"id":11, "name":"cayluoiho/Chậu Lưỡi Hổ Tài Lộc Chậu Gốm Sứ Xoắn Ngang Nhỏ.jpg","Price": "390k","Date":"9/5/2023"}
+    ],
+    "Caykimtien":[
+        {"id":1, "name":"caykimtien/caykimphatai.jpg","Price": "390k","Date":"18/8/2023"},
+        {"id":2, "name":"caykimtien/caykimtienchausu.jpg","Price": "390k","Date":"19/2/2022"}
+    ],
+    "Cayphattai":[
+        {"id":1, "name":"cayphattai/Cây Phát Tài Núi Chậu Đá Mài Giọt Nước trắng.jpg","Price": "390k","Date":"22/2/2023"},
+        {"id":2, "name":"cayphattai/Cây Phát Tài Núi Chậu Đá Mài Vát Đáy Vuông Đen.jpg","Price": "390k","Date":"26/4/2022"},
+        {"id":3, "name":"cayphattai/Cây Phát Tài Núi Chậu Đá Mài Vuông 32 x 32 Đen.jpg","Price": "390k","Date":"21/2/2020"},
+        {"id":4, "name":"cayphattai/Cây Phát Tài Núi Chậu Nhựa Vuông Tự Tưới.jpg","Price": "390k","Date":"12/5/2022"},
+        {"id":5, "name":"cayphattai/Cây Phát Tài Núi Chậu Sứ Hoa Văn.jpg","Price": "390k","Date":"15/9/2021"},
+        {"id":6, "name":"cayphattai/Cây Phát Tài Núi Thần Tài Chậu Đan Cát Nâu Lớn.jpg","Price": "390k","Date":"4/5/2022"},
+        {"id":7, "name":"cayphattai/Cây Phát Tài Núi Thần Tài Chậu Sứ Xoắn Ngang Lớn.jpg","Price": "390k","Date":"25/5/2022"}
+    ],
+    "Cayphuquy":[
+        {"id":1, "name":"cayphuquy/cayphuquychaucatdannho.jpg","Price": "390k","Date":"22/2/2023"},
+        {"id":2, "name":"cayphuquy/cayphuquychausonbaudo.jpg","Price": "390k","Date":"26/4/2022"},
+        {"id":3, "name":"cayphuquy/cayphuquychausonbautrang.jpg","Price": "390k","Date":"21/2/2020"},
+        {"id":4, "name":"cayphuquy/cayphuquychausonbautrang2.jpg","Price": "390k","Date":"12/5/2022"},
+        {"id":5, "name":"cayphuquy/cayphuquychausonvuongtrang.jpg","Price": "390k","Date":"15/9/2021"},
+        {"id":6, "na,me":"cayphuquy/cayphuquychausu.jpg","Price": "390k","Date":"4/5/2022"},
+        {"id":7, "name":"cayphuquy/cayphuquychausutronbau.jpg","Price": "390k","Date":"25/5/2022"},
+        {"id":8, "name":"cayphuquy/cayphuquychausutrutron.jpg","Price": "390k","Date":"4/5/2022"},
+        {"id":9, "name":"cayphuquy/cayphuquychausuvanhnghieng.jpg","Price": "390k","Date":"25/5/2022"}
+    ],
+    "Caybonsai":
+    [
+        {"id":1, "name":"bonsai/bonsai1.jpg","Price": "390k","Date":"20/8/2022"},
+        {"id":2, "name":"bonsai/bonsai2.jpg","Price": "390k","Date":"26/4/2022"},
+        {"id":3, "name":"bonsai/bonsai3.jpg","Price": "390k","Date":"21/2/2020"},
+        {"id":4, "name":"bonsai/bonsai4.jpg","Price": "390k","Date":"10/5/2020"},
+        {"id":5, "name":"bonsai/bonsai5.jpg","Price": "390k","Date":"15/3/2022"},
+        {"id":6, "name":"bonsai/bonsai6.jpg","Price": "390k","Date":"30/2/2022"},
+        {"id":7, "name":"bonsai/bonsai7.jpg","Price": "390k","Date":"14/5/2023"},
+        {"id":8, "name":"bonsai/bonsai8.jpg","Price": "390k","Date":"22/2/2022"},
+        {"id":9, "name":"bonsai/bonsai9.jpg","Price": "390k","Date":"5/2/2022"},
+        {"id":10, "name":"bonsai/bonsai10.jpg","Price": "390k","Date":"25/5/2022"},
+        {"id":11, "name":"bonsai/bonsai11.jpg","Price": "390k","Date":"9/5/2023"},
+        {"id":11, "name":"bonsai/bonsaimini.jpg","Price": "390k","Date":"9/5/2023"}
+
+    ]
+    
+}
+
+
+    
