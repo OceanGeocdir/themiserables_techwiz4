@@ -1184,4 +1184,11 @@ page-header .about-header {
         padding: 20px;
     }
 
+    .cart-1 {
+        width: 100%;
+    }
+    .col-title-1 {
+        display: none;
+    }
+
 }
