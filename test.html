@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Succulents Catalog</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+    <div ng-controller="SucculentsController">
+        <div ng-repeat="succulent in succulents">
+            <h2>{{ succulent.name }}</h2>
+            <p>Price: {{ succulent.price }}</p>
+            <p>Scientific Name: {{ succulent.scientific_name }}</p>
+            <p>Light: {{ succulent.light }}</p>
+            <p>Water: {{ succulent.water }}</p>
+            <p>About: {{ succulent.about }}</p>
+            <!-- Hiển thị ảnh thu nhỏ -->
+            <div ng-repeat="thumbnail in succulent.thumbnails">
+                <img src="{{ thumbnail }}" alt="Thumbnail" width="100">
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <script>
+        angular.module('myApp', [])
+            .controller('SucculentsController', function($scope, $http) {
+                // Sử dụng $http để tải dữ liệu từ tệp JSON
+                $http.get('./json/Succulents.json').then(function(response) {
+                    $scope.succulents = response.data.Succulents;
+                });
+            });
+    </script>
+</body>
+</html>

@@ -32,6 +32,7 @@ pro.forEach(item => {
     })
 })
 
+
 // ! header search box
 document.addEventListener("DOMContentLoaded", function() {
     var searchButton = document.querySelector(".searchIcon");
@@ -41,3 +42,13 @@ document.addEventListener("DOMContentLoaded", function() {
       searchModal.classList.toggle("hover");
     });
   });
+
+// var light = document.querySelectorAll('.title-1')
+// var ul = document.querySelectorAll('.light ul')
+
+// light.forEach(item => {
+//     item.addEventListener('click', () => {
+//         ul.classList.add("active")
+//     })
+// })
+

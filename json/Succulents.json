@@ -1,0 +1,130 @@
+{
+    "Succulents": [
+        {
+          "id": 1,
+          "name": "Sedum reflexum 'Blue Spruce'",
+          "price": "$5.49",
+          "height": "",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum reflexum",
+          "light": "Full Sun",
+          "water": "Regular water in spring to summer",
+          "humidity": "Not specific",
+          "about": "'Blue Spruce' is a hardy, low-maintenance ground cover succulent with blue-green leaves that turn salmon pink in winter.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping, Hanging / Trailing",
+          "about3": "Seasonality: Blooms in Summer, Year-round Color",
+          "about4": "Special Characteristic: Super hardy, attracts pollinators"
+        },
+        {
+          "id": 2,
+          "name": "Sedum hybridum 'Immergrünchen'",
+          "price": "$5.49",
+          "height": "",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Phedimus stoloniferus",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Immergrünchen' is a robust ground cover with red and green foliage, producing yellow flowers in mid- to late summer.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping, Hanging / Trailing",
+          "about3": "Seasonality: Blooms in Summer",
+          "about4": ""
+        },
+        {
+          "id": 3,
+          "name": "Sedum dasyphyllum 'Himalayan Skies'",
+          "price": "$6.49",
+          "height": "",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum dasyphyllum",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Himalayan Skies' features blue foliage on creeping stems, producing small white blooms in early summer.",
+          "about1": "Cold Hardiness: Zone 7 (0F)",
+          "about2": "Growth Habit: Low Growing / Creeping, Hanging / Trailing",
+          "about3": "Seasonality: Year-round Color",
+          "about4": "Special Characteristic: Easy to propagate, pet safe"
+        },
+        {
+          "id": 4,
+          "name": "Sedum album 'Coral Carpet'",
+          "price": "$5.49",
+          "height": "",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum album",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Coral Carpet' is a low-growing ground cover with bead-like leaves that can turn from green to red. It produces small white star-shaped flowers.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Blooms in Summer",
+          "about4": "Special Characteristic: Hard to kill, fast grower, easy to propagate, pet safe"
+        },
+        {
+          "id": 5,
+          "name": "Sedum spurium 'Dragon's Blood'",
+          "price": "$5.49",
+          "height": "",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Phedimus spurius (formerly Sedum spurium 'Schorbuser Blut')",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Dragon's Blood' is a colorful ground cover that transitions from bright green to wine red. It produces red flowers and stems.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Winter Dormant Partial",
+          "about4": "Special Characteristic: Easy to propagate, pet safe"
+        },
+        {
+          "id": 6,
+          "name": "Sedum album 'Black Pearl'",
+          "price": "$5.49",
+          "height": "",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum album",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Black Pearl' is a low-growing ground cover with small, beady leaves of bright green and dark purple tones. It can tolerate full sun, rocky soil, droughts, and frosts.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Blooms in Summer",
+          "about4": "Special Characteristic: Hard to kill, fast grower, easy to propagate, pet safe"
+        }
+      ]
+}
