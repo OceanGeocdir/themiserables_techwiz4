@@ -1,0 +1,240 @@
+{
+    "outdoor": [
+        {
+            "id": 1,
+            "name": "Laura tree",
+            "height": "80-90cm",
+<<<<<<< Updated upstream
+            "price": "£35.00 - £110.00",
+            "origin": "the Mediterranean region",
+=======
+            "price": "$110",
+>>>>>>> Stashed changes
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientificname": "Laurus nobilis",
+            "light": "Most light conditions: She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day.",
+            "water": "Regular watering: She likes her soil gently moist. In hot summers she'll like very frequent watering. She needs less in winter.",
+            "humidity": "Help her grow strong and healthy by giving her a feed with some liquid fertiliser once per month in spring and summer.",
+            "about": "The bay tree, or bay laurel, has been a beloved plant for centuries. The ancient Greeks and the ancient Romans considered it quite the status symbol. Wreaths of bay laurel were worn on the heads of the most important members of society and given as prizes in sporting competitions. Bay was a plant for champions. ",
+            "about1": "One of the best things about bay is that you can pick off its leaves and use them in cooking. A bay leaf added to pasta sauce or stew will add subtle warm flavour. A leaf picked fresh off your plant will have much more flavour than any from the supermarket.",
+            "about2": "Did you know?",
+            "about3": "It’s not just the leaves that are used in cooking. Dried bay berries and bay oil are also used in cuisines around the world."
+        },
+        {
+            "id": 2,
+            "name": "Laura shrub",
+            "price": "$100",
+            "height": "20-30cm",
+            "origin": "the Mediterranean region",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientificname": "Laurus Nobilis",
+            "light": "Most light conditions: She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day.",
+            "water": "Light watering: She likes her soil gently moist. She’ll cope with a bit of forgetful watering but doesn’t like to dry out entirely.",
+            "humidity": "Help her grow strong and healthy by giving her a feed with some liquid fertiliser once per month in spring and summer.",
+            "about": "The bay tree, or bay laurel, has been a beloved plant for centuries. The ancient Greeks and the ancient Romans considered it quite the status symbol. Wreaths of bay laurel were worn on the heads of the most important members of society and given as prizes in sporting competitions. Bay was a plant for champions. ",
+            "about1": "You don’t see a lot of people wearing it on their heads these days, but the bay tree is as popular as ever. It’s an evergreen, which means it will look good on your patio or balcony all year round, and it’s very easy to look after. It will love a sunny spot, though will be happy with a mix of sun and shade.",
+            "about2": "Did you know?",
+            "about3": "It’s not just the leaves that are used in cooking. Dried bay berries and bay oil are also used in cuisines around the world."
+        },
+        {
+            "id": 3,
+            "name": "Boo",
+            "price": "$60.00",
+            "height": "70-80cm",
+            "origin": "Sichuan, China",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientificname": "Fargesia robusta",
+            "light": "A sunny spot: They like a spot that gets a mix of sun and shade. Sun all day can be a bit much for them.",
+            "water": "Moist soil: They like their soil quite moist, so give them a drink whenever the surface of the soil feels dry.",
+            "humidity": "Haircuts: Boo is a very quick grower, so don’t be afraid to chop them back if they gets too big.",
+            "about": "If there are two things most of us know about bamboo they’re that it produces hollow canes and pandas eat it. There is a whole lot more to know about bamboo. ",
+            "about1": "There are over 1,000 different bamboo species, growing natively on every continent except Europe. They almost all have hollow stems, grow in dense clumps and many grow very, very quickly. Some species are known to grow at a rate of almost 4cm per hour. Yes, per hour. This one, umbrella bamboo, is a lot slower than that, but still a quick grower.",
+            "about2": "Did you know?",
+            "about3": "Bamboo is significant in the mythologies of a number of Asian countries. In Phillipine mythology the first man and woman emerged from a stem of bamboo."
+        },
+        {
+            "id": 4,
+            "name": "Phoebe",
+            "price": "$150",
+            "height": "100-110cm",
+            "origin": "Canary Islands off the coast of Morocco",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientificname": "Phoenix canariensis",
+            "light": "Medium light: She loves the sun, but she’s happiest if she gets a little bit of shade for part of the day, for a break from the heat.",
+            "water": "Light watering: She likes her soil on the dry side. You can let her dry out completely between drinks.",
+            "humidity": "humidity: Help her grow big and strong by giving her a feed with liquid fertiliser once per month in spring and summer.",
+            "about": "You’ll have already guessed where this plant comes from. This magnificent specimen is the national emblem of the Canary Islands, where you’ll find it growing to heights of around 40m. Don’t worry about it growing that tall on your balcony. Even in the wild it would take 60 years or more to reach full height. ",
+            "about1": "You’re unlikely to get fruit on a plant grown in the UK, but it’s no great loss as they’re apparently not particularly tasty. This is more a plant to enjoy for its large sculptural leaves. In the Canary Islands, those leaves are used to make all sorts of things, from baskets, to brooms, to hats. ",
+            "about2": "Did you know?",
+            "about3": "The sap of a mature Canary Island date palm is very sweet and is used to make syrup."
+        },
+        {
+            "id": 5,
+            "name": "Tam",
+            "height": "110-120cm",
+<<<<<<< Updated upstream
+            "price": "£65.00",
+            "origin": "eastern Australia",
+=======
+            "price": "$65.99",
+>>>>>>> Stashed changes
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientificname": "Dicksonia Antarctica",
+            "light": "Gentle sun: His preferred place to live is a spot that gives him a mix of shade and gentle sun. A south exposure, for example, will burn his leaves!",
+            "water": "Moist soil: Don't let him dry out. Water him when the top two inches of soil are dry.",
+            "humidity": "Shelter: Strong winds are no friend of tree ferns so position him somewhere that he'll be well protected from them.",
+            "about": "Tam, our tree fern, brings a prehistoric vibe to your outdoor space - like something you'd find in Jurassic Park. In fact, the fossil history of Tam dates back 250 million years, which is 50 million years before the beginning of the Jurassic Period. Pretty cool.",
+            "about1": "Native to Australia and New Zealand, Tam the tree fern is a sought after outdoor plant - and no wonder, considering his rich history and stunning foliage.",
+            "about2": "Did you know?",
+            "about3": "Tam doesn't ask too much, just that you give him a bit of shade and keep his soil moist."
+        },
+        {
+            "id": 6,
+            "name": "Ivy",
+            "height": "20-30cm",
+<<<<<<< Updated upstream
+            "price": "£8.00 - £25.00",
+            "origin": "western, central, and southern Europe as well as southeast Asia",
+=======
+            "price": "$25",
+>>>>>>> Stashed changes
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientificname": "Hedera helix",
+            "light": "Most light conditions: She could not be more easygoing when it comes to light. She’ll cope in almost anything but loves bright, indirect light.",
+            "water": "Regular watering: She likes her soil gently moist, but not soggy. Water her when her top two inches of soil are dry.",
+            "humidity": "Humidity: She’s used to lots of rain - well, she is English - so she likes a moist atmosphere. Mist her every couple of days.",
+            "about": "There can hardly be a person in the UK who isn’t familiar with this plant. It grows up buildings, trees and anything else it can get its rootlets on. Although it’s known as English ivy, this climbing plant grows in all sorts of countries, including Portugal, Turkey and even Iran.",
+            "about1": "In the wild, it’s a vital source of food to birds and insects. Over 70 species of insect sip nectar from its flowers and many different types of bird feast on its fruit.",
+            "about2": "Did you know?",
+            "about3": "English ivy leaf extract is used in cough syrups. Please note ivy is poisonous and should not be eaten, for coughs or otherwise."
+        },
+        {
+            "id": 7,
+            "name": "Lime Tree",
+            "height": "80-150cm",
+<<<<<<< Updated upstream
+            "price": "£40.00 - £100.00",
+            "origin": "tropical areas along the Malay archipelago",
+=======
+            "price": "$10",
+>>>>>>> Stashed changes
+            "thumbnails": [
+                "lime_tree_img1__link",
+                "lime_tree_img2__link",
+                "lime_tree_img3__link",
+                "lime_tree_img4__link"
+            ],
+            "scientificname": "Citrus aurantiifolia",
+            "light": "Full sunlight: Requires 6-8 hours of direct sunlight daily.",
+            "water": "Regular watering: Keep the soil evenly moist, allowing the top inch to dry out between waterings.",
+            "humidity": "Average humidity preferred: Mist occasionally if the air is dry.",
+            "about": "The Lime Tree is known for its small, tangy fruits that are used in cooking, cocktails, and beverages. While typically grown outdoors in warmer climates, it can thrive indoors if provided with adequate sunlight and care.",
+            "about1": "Originating from Southeast Asia, Lime Trees thrive in tropical and subtropical climates with plenty of sunshine.",
+            "about2": "Did you know?",
+            "about3": "Lime juice is a common ingredient in culinary and cocktail recipes, adding a zesty flavor to dishes and drinks."
+        },
+        {
+            "id": 8,
+            "name": "Olive Tree",
+            "height": "60-150cm",
+<<<<<<< Updated upstream
+            "price": "£30.00 - £80.00",
+            "origin": "Africa and temperate Asia as well as southern Europe",
+=======
+            "price": "$20.99",
+>>>>>>> Stashed changes
+            "thumbnails": [
+                "olive_tree_img1__link",
+                "olive_tree_img2__link",
+                "olive_tree_img3__link",
+                "olive_tree_img4__link"
+            ],
+            "scientificname": "Olea europaea",
+            "light": "Full sunlight: Requires at least 6-8 hours of direct sunlight daily.",
+            "water": "Moderate watering: Allow the top inch of soil to dry before watering thoroughly.",
+            "humidity": "Average humidity preferred: Tolerates dry air well.",
+            "about": "The Olive Tree is renowned for its small, flavorful fruits that are pressed into olive oil. It's a symbol of peace and longevity and can be grown indoors as an ornamental plant, adding a touch of Mediterranean charm to your space.",
+            "about1": "Native to the Mediterranean region, Olive Trees thrive in warm, sunny climates with well-draining soil.",
+            "about2": "Did you know?",
+            "about3": "Olive oil, produced from the fruits of the Olive Tree, has a long history of culinary, medicinal, and cosmetic uses."
+        },
+        {
+            "id": 9,
+            "name": "Star Jasmine",
+            "height": "30-90cm",
+<<<<<<< Updated upstream
+            "price": "£20.00 - £60.00",
+            "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
+=======
+            "price": "$25",
+>>>>>>> Stashed changes
+            "thumbnails": [
+                "star_jasmine_img1__link",
+                "star_jasmine_img2__link",
+                "star_jasmine_img3__link",
+                "star_jasmine_img4__link"
+            ],
+            "scientificname": "Trachelospermum jasminoides",
+            "light": "Bright indirect light: Prefers bright, indirect sunlight, but can tolerate some direct sun.",
+            "water": "Regular watering: Keep the soil consistently moist, but not waterlogged.",
+            "humidity": "Average humidity preferred: Mist occasionally in dry conditions.",
+            "about": "Star Jasmine, also known as Confederate Jasmine, is cherished for its fragrant, star-shaped white flowers and glossy leaves. It's a popular choice for both indoor and outdoor spaces, adding beauty and a delightful aroma.",
+            "about1": "Native to East Asia, Star Jasmine is a vining plant that climbs and cascades naturally.",
+            "about2": "Did you know?",
+            "about3": "Star Jasmine's sweet fragrance makes it a sought-after choice for arbors, trellises, and garden landscapes."
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "id": 10,
+            "name": "Kumquat Tree",
+            "height": "60-120cm",
+            "price": "$55",
+            "thumbnails": [
+                "kumquat_tree_img1__link",
+                "kumquat_tree_img2__link",
+                "kumquat_tree_img3__link",
+                "kumquat_tree_img4__link"
+            ],
+            "scientific name": "Fortunella",
+            "light": "Bright sunlight: Requires 6-8 hours of direct sunlight daily.",
+            "water": "Moderate watering: Allow the top inch of soil to dry before watering thoroughly.",
+            "humidity": "Average humidity preferred: Regular misting can help in dry environments.",
+            "about": "The Kumquat Tree produces small, flavorful citrus fruits that can be eaten whole, peel and all. It's a compact tree suitable for indoor cultivation, adding both aesthetic appeal and a tangy treat to your living space.",
+            "about1": "Kumquat Trees are native to East Asia and thrive in warm, sunny climates.",
+            "about2": "Did you know?",
+            "about3": "Kumquat fruits are often enjoyed fresh or used in culinary creations, such as jams and baked goods."
+>>>>>>> Stashed changes
+        }
+    ]
+}

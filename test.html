@@ -1,34 +1,75 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
-<head>
-    <title>Succulents Catalog</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-</head>
-<body>
-    <div ng-controller="SucculentsController">
-        <div ng-repeat="succulent in succulents">
-            <h2>{{ succulent.name }}</h2>
-            <p>Price: {{ succulent.price }}</p>
-            <p>Scientific Name: {{ succulent.scientific_name }}</p>
-            <p>Light: {{ succulent.light }}</p>
-            <p>Water: {{ succulent.water }}</p>
-            <p>About: {{ succulent.about }}</p>
-            <!-- Hiển thị ảnh thu nhỏ -->
-            <div ng-repeat="thumbnail in succulent.thumbnails">
-                <img src="{{ thumbnail }}" alt="Thumbnail" width="100">
-            </div>
-            <hr>
-        </div>
-    </div>
+<html lang="en" ng-app="myApp">
 
-    <script>
-        angular.module('myApp', [])
-            .controller('SucculentsController', function($scope, $http) {
-                // Sử dụng $http để tải dữ liệu từ tệp JSON
-                $http.get('./json/Succulents.json').then(function(response) {
-                    $scope.succulents = response.data.Succulents;
-                });
-            });
-    </script>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row" style="flex-wrap: nowrap; overflow: auto;">
+                <div class="col-lg-3 col-md-12 col-title p-0" >
+                    <div class="col-title-1">
+                        <div class="title">
+                            <h3>Filter</h3>
+                        </div>
+                        <div class="light">
+                            <div class="title-1">
+                                <h4>Light</h4>
+                            </div>
+                            <ul>
+                                <li><div><a href="#!">1sddss</a></div></li>
+                                <li><div><a href="#!/a">2dsdsds</a></div></li>
+                                <li><div><a href="#!/b">3dsdsd</a></div></li>
+                                <li><div><a href="#!/c">4sdsds</a></div></li>
+                                <li><div><a href="#!/d">4sdsds</a></div></li>
+                                <li><div><a href="#!/e">4sdsds</a></div></li>
+                                <li><div><a href="#!/f">4sdsds</a></div></li>
+    
+                            </ul>
+                        </div>
+                        <div class="light">
+                            <div class="title-1">
+                                <h4>Light</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Happiest in direct sunlight</a></li>
+                                <li><a href="#">Happy in light and shade</a></li>
+                                <li><a href="">Happy in shade</a></li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div ng-view></div>
+            </div>
+        </div>
+    
+
+            <script src="./js/addtocart1.js"></script>
+        </body>
+
+    </html>
