@@ -72,55 +72,5 @@ titleIcon.addEventListener("click", ()=>{
     document.querySelector('.col-title-2').style.left = '-500px'
 })
 
-// phan trang
 
-let thisPage = 1
-let litmit = 6
-let list = document.querySelectorAll('.col-md-6')
 
-function loadItem(){
-    let beginGet = litmit* (thisPage -1)
-    let endGet = litmit* thisPage - 1
-    list.forEach((item, key) =>{
-        if(key >=beginGet && key <=endGet){
-            item.style.display = 'block'
-        }else {
-            item.style.display = 'none'
-        }
-    })
-    listpage()
-}
-loadItem()
-
-function listpage(){
-    let count = Math.ceil(list.length / litmit)
-    document.querySelector('.listPage').innerHTML = ''
-
-    if(thisPage!=1){
-        let prev = document.createElement('li')
-        prev.innerText = 'PREV'
-        prev.setAttribute('onclick', "changePage("+ (thisPage - 1) +")")
-        document.querySelector('.listPage').appendChild(prev)
-
-    }
-
-    for(var i = 1; i<=count; i++){
-        let newPage = document.createElement('li')
-        newPage.innerText = i
-        if(i == thisPage) {
-            newPage.classList.add('active')
-        }
-        newPage.setAttribute('onclick', "changepage("+ i +")")
-        document.querySelector('.listPage').appendChild(newPage)
-    }
-    if(thisPage!=count) {
-        let next = document.createElement('li')
-        next.innerText = 'NEXT'
-        next.setAttribute('onclick', "changePage("+ (thisPage + 1) +")")
-        document.querySelector('.listPage').appendChild(next)
-    }
-}
-function changepage(i){
-    thisPage = i
-    loadItem()
-}
