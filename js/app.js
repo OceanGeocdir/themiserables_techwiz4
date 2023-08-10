@@ -35,7 +35,7 @@ pro.forEach(item => {
 
 // ! header search box
 document.addEventListener("DOMContentLoaded", function() {
-    var searchButton = document.querySelector(".searchIcon");
+    var searchButton = document.getElementById('searchButton');
     var searchModal = document.getElementById("searchTool");
     
     searchButton.addEventListener("click", function() {
