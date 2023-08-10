@@ -1239,6 +1239,9 @@ page-header .about-header {
     cursor: pointer;
     font-size: 20px;
 }
+.fa-solid{
+    cursor: pointer;
+}
 
 
 
