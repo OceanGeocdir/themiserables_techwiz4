@@ -125,6 +125,90 @@
             "about2": "Blooming Season: Spring to fall.",
             "about3": "Maintenance: Prune lightly in early spring to maintain shape and promote new growth.",
             "about4": "Versatility: The Sweet Drift® Rose's compact size and continual bloom make it a versatile choice for various landscaping designs."
+          },
+          {
+            "id": 7,
+            "name": "Flutterby Petite® Blue Heaven Butterfly Bush",
+            "price": "$72.95",
+            "height": "60-90cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Buddleja davidii",
+            "light": "Full Sun",
+            "water": "Moderate",
+            "humidity": "Average",
+            "about": "The Flutterby Petite® Blue Heaven Butterfly Bush is a compact shrub with stunning blue-purple flowers that attract butterflies and pollinators.",
+            "about1": "Growth Habit: Upright",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 5 (-20F)",
+            "about4": "Special Characteristic: Butterfly attractor"
+          },
+          {
+            "id": 8,
+            "name": "Endless Summer® Twist-n-Shout® Hydrangea",
+            "price": "$24.98",
+            "height": "90-120cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Hydrangea macrophylla",
+            "light": "Partial Shade to Full Sun",
+            "water": "Regular",
+            "humidity": "High",
+            "about": "The Endless Summer® Twist-n-Shout® Hydrangea features vibrant pink or periwinkle lacecap blooms that change color with soil pH.",
+            "about1": "Growth Habit: Upright",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 4 (-30F)",
+            "about4": "Special Characteristic: Color-changing blooms"
+          },
+          {
+            "id": 9,
+            "name": "Endless Summer® BloomStruck® Hydrangea",
+            "price": "$29.22",
+            "height": "120-150cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Hydrangea macrophylla",
+            "light": "Partial Shade to Full Sun",
+            "water": "Regular",
+            "humidity": "High",
+            "about": "The Endless Summer® BloomStruck® Hydrangea offers large mophead blooms that shift in color from rose to violet or blue based on soil pH.",
+            "about1": "Growth Habit: Upright",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 4 (-30F)",
+            "about4": "Special Characteristic: Color-changing blooms"
+          },
+          {
+            "id": 10,
+            "name": "Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea",
+            "price": "$86.95",
+            "height": "35-60cm",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Hydrangea serrata",
+            "light": "Partial Shade to Full Sun",
+            "water": "Regular",
+            "humidity": "High",
+            "about": "The Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea showcases lacecap blooms that change color with soil pH, ranging from blue to pink.",
+            "about1": "Growth Habit: Compact, Rounded",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 5 (-20F)",
+            "about4": "Special Characteristic: Color-changing blooms"
           }
     ]
 }

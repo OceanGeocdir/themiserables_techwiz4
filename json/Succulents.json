@@ -107,7 +107,7 @@
         },
         {
           "id": 6,
-          "name": "Sedum album 'Black Pearl'",
+          "name": "Sedum reflexum 'Angelina'",
           "price": "$5.49",
           "height": "",
           "thumbnails": [
@@ -125,6 +125,91 @@
           "about2": "Growth Habit: Low Growing / Creeping",
           "about3": "Seasonality: Blooms in Summer",
           "about4": "Special Characteristic: Hard to kill, fast grower, easy to propagate, pet safe"
+        },
+        {
+          "id": 7,
+          "name": "Sedum reflexum 'Blue Spruce'",
+          "price": "$3.99",
+          "height": "7-9cm",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum reflexum (Petrosedum rupestre)",
+          "light": "Full Sun",
+          "water": "Regular water in spring to summer",
+          "humidity": "Not specific",
+          "about": "'Blue Spruce' is a hardy, low-maintenance ground cover succulent with blue-green leaves that turn salmon pink in winter.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping, Hanging / Trailing",
+          "about3": "Seasonality: Blooms in Summer, Year-round Color",
+          "about4": "Special Characteristic: Super hardy, attracts pollinators"
+        },
+        {
+          "id": 8,
+          "name": "Sedum sediforme 'Turquoise Tails'",
+          "price": "$3.49",
+          "height": "23-30cm",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum sediforme",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Turquoise Tails' is a ground cover succulent with turquoise-blue leaves and yellow flowers in summer.",
+          "about1": "Cold Hardiness: Zone 5 (-20F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Blooms in Summer",
+          "about4": ""
+        },
+        {
+          "id": 9,
+          "name": "Sedum spurium 'Voodoo'",
+          "price": "$5.49",
+          "height": "15-20cm",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum spurium",
+          "light": "Full Sun to Partial Shade",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Voodoo' is a ground cover succulent with reddish-bronze leaves and pink flowers in late summer.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Blooms in Late Summer",
+          "about4": ""
+        },
+        {
+          "id": 10,
+          "name": "Sedum lineare f. variegatum - Carpet Sedum",
+          "price": "$4.49",
+          "height": "15-20cm",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientific_name": "Sedum lineare f. variegatum",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Carpet Sedum' is a low-growing succulent with variegated leaves and yellow flowers in summer.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Blooms in Summer",
+          "about4": ""
         }
+        
       ]
 }
