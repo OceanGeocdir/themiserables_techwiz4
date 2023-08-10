@@ -5,13 +5,14 @@
             "name": "Howard",
             "height": "40-50cm",
             "price": "£25.00 - £65.00",
+            "origin": "eastern Asia",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Aspidistra",
+            "scientificname": "Aspidistra",
             "light": "Most light conditions: He’s maybe the least fussy plant you’ll meet. He’ll deal with almost any light level (he’s not mad on strong sunshine).",
             "water": "Light watering: He’s very tolerant of irregular watering, let his soil dry out completely before giving him a drink.",
             "humidity": "Keep his leaves green and lush, and avoid brown tips, by giving him a mist every few days.",
@@ -25,13 +26,14 @@
             "name": "Rick",
             "price": "£9.00 - £85.00",
             "height": "30-40cm",
+            "origin": "tropical Africa",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Dracaena fragrans",
+            "scientificname": "Dracaena fragrans",
             "light": "Most light conditions: He's happy in anything from light shade to bright, soft light. Keep him out of harsh direct sun.",
             "water": "Light watering: He’s low maintenance on water. He’s very drought tolerant, let his soil dry out completely before giving him a drink.",
             "humidity": "As we all do, he needs moisture to keep looking fresh. He’ll love a bathroom or a spray with a mister every few days.",
@@ -45,13 +47,14 @@
             "name": "Jane",
             "price": "£18.00",
             "height": "20-30cm",
+            "origin": "Brazilian tropical forests",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Maranta leuconeura",
+            "scientificname": "Maranta leuconeura",
             "light": "Medium light: She loves lots of light but ideally not direct sun, which will make her colours fade. A little bit of shade is ok.",
             "water": "Light watering: She likes her soil on the drier side. Wait for her soil to be dry to a depth of at least two inches before watering again.",
             "humidity": "She enjoys a humid environment. A naturally steamy bathroom or kitchen is great, or you can mist her regularly.",
@@ -65,13 +68,14 @@
             "name": "Cedric",
             "price": "£20.00 - £40.00",
             "height": "30-40cm",
+            "origin": "Angola, Southern Africa",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Sansevieria cylindrica",
+            "scientificname": "Sansevieria cylindrica",
             "light": "Most light conditions: He’s happy almost anywhere, even shady corners. He’ll grow faster in a bright spot.",
             "water": "Light watering: He hardly ever needs water and can go ages without a drink. Water him when the soil is completely dry.",
             "feeding": "He needs almost no attention but a feed once in spring and again in summer will help him grow. ",
@@ -85,13 +89,14 @@
             "name": "Theodore",
             "height": "20-30cm",
             "price": "£20.00",
+            "origin": "tropical areas of China, India and most areas of Indo-China",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Dischidia nummularia",
+            "scientificname": "Dischidia nummularia",
             "light": "Medium light: He can tolerate partial shade, perfect for those rooms with medium light.",
             "water": "Light watering: He needs very little water, so let his soil totally dry out between drinks. Let all excess water drain off.",
             "humidity": "He loves moist air. He’ll enjoy living in a steamy bathroom, or give him a good mist a couple of times a week.",
@@ -105,13 +110,14 @@
             "name": "Phil",
             "height": "30-40cm",
             "price": "£15.00 - £75.00",
+            "origin": "Brazil and Colombia",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Philodendron Scandens",
+            "scientificname": "Philodendron Scandens",
             "light": "Medium light: He’ll be fine in semi-shade, though his leaves may fade a bit. He prefers a position in a bright room.",
             "water": "Light watering: He likes to be watered when his top two inches of soil are dry. He’s not keen on sitting in soggy soil.",
             "humidity": "A moist atmosphere helps keep his leaves healthy. Give him a good mist every few days. Or put him in a steamy bathroom.",
@@ -125,13 +131,14 @@
             "name": "ZZ Plant",
             "height": "30-60cm",
             "price": "£20.00 - £50.00",
+            "origin": "East Africa, from Kenya to South Africa",
             "thumbnails": [
                 "zz_img1__link",
                 "zz_img2__link",
                 "zz_img3__link",
                 "zz_img4__link"
             ],
-            "scientific name": "Zamioculcas zamiifolia",
+            "scientificname": "Zamioculcas zamiifolia",
             "light": "Low to bright indirect light: Can tolerate low light conditions but also thrives in brighter settings.",
             "water": "Infrequent watering: Allow the soil to dry out completely between waterings.",
             "humidity": "Not particularly humidity-sensitive.",
@@ -145,13 +152,14 @@
             "name": "Peace Lily",
             "height": "30-60cm",
             "price": "£15.00 - £40.00",
+            "origin": "tropical regions of the Americas and southeastern Asia",
             "thumbnails": [
                 "peace_lily_img1__link",
                 "peace_lily_img2__link",
                 "peace_lily_img3__link",
                 "peace_lily_img4__link"
             ],
-            "scientific name": "Spathiphyllum",
+            "scientificname": "Spathiphyllum",
             "light": "Low to bright indirect light: Prefers moderate light but can tolerate lower light levels.",
             "water": "Moderate watering: Keep the soil consistently moist but not waterlogged.",
             "humidity": "Higher humidity preferred: Mist the leaves regularly or place on a tray of water.",
@@ -165,13 +173,14 @@
             "name": "Chamaedorea",
             "height": "60-120cm",
             "price": "£30.00 - £70.00",
+            "origin": "southeastern Mexico to northern Guatemala",
             "thumbnails": [
                 "chamaedorea_img1__link",
                 "chamaedorea_img2__link",
                 "chamaedorea_img3__link",
                 "chamaedorea_img4__link"
             ],
-            "scientific name": "Chamaedorea elegans",
+            "scientificname": "Chamaedorea elegans",
             "light": "Indirect light: Thrives in bright but indirect sunlight.",
             "water": "Moderate watering: Allow the top inch of soil to dry out before watering again.",
             "humidity": "Higher humidity preferred: Mist the leaves or use a humidity tray.",
@@ -179,27 +188,6 @@
             "about1": "Originating from Mexico and Central America, Chamaedorea prefers the shaded forest floor, which makes it adaptable to lower light conditions indoors.",
             "about2": "Did you know?",
             "about3": "Chamaedorea elegans is considered non-toxic to pets and humans, making it a pet-friendly choice for households."
-        },
-        {
-            "id": 10,
-            "name": "Fiddle-Leaf Fig",
-            "height": "60-300cm",
-            "price": "£40.00 - £150.00",
-            "thumbnails": [
-                "fiddle_leaf_fig_img1__link",
-                "fiddle_leaf_fig_img2__link",
-                "fiddle_leaf_fig_img3__link",
-                "fiddle_leaf_fig_img4__link"
-            ],
-            "scientific name": "Ficus lyrata",
-            "light": "Bright, indirect light: Requires ample sunlight but avoid direct sunlight.",
-            "water": "Moderate watering: Allow the top inch of soil to dry before rewatering.",
-            "humidity": "Average to higher humidity preferred: Mist the leaves occasionally.",
-            "about": "The Fiddle-Leaf Fig is known for its large, violin-shaped leaves that create an elegant and dramatic presence. It's a popular choice for interior decoration, but it requires careful attention to light and humidity to thrive indoors.",
-            "about1": "Native to western Africa, Fiddle-Leaf Figs grow in tropical rainforests, receiving filtered light through the canopy.",
-            "about2": "Did you know?",
-            "about3": "Fiddle-Leaf Figs can be a bit finicky, but with proper care, they can make a stunning statement piece in your living space."
-        }
-        
+        } 
     ]
 }

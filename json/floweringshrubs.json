@@ -6,6 +6,7 @@
             "price": "$24.95",
             "height": "30-40cm",
             "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.jpg",
+            "origin": "Europe, Iceland, the Faroe Islands, and the Azores",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -28,6 +29,7 @@
             "price": "$69.95",
             "height": "180-240cm",
             "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.jpg",
+            "origin": "Europe as far east as Turkey",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -50,6 +52,7 @@
             "price": "$69.95",
             "height": "35cm-40cm",
             "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.jpg",
+            "origin": "the United States",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -72,6 +75,7 @@
             "price": "$72.95",
             "height": "60-90cm",
             "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.jpg",
+            "origin": "China",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -94,6 +98,7 @@
             "price": "$69.95",
             "height": "60-90cm",
             "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.jpg",
+            "origin": "eastern Asia, in northeastern China, Japan, Korea and southeastern Siberia",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -116,6 +121,7 @@
             "price": "$69.95",
             "height": "60-80cm",
             "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.jpg",
+            "origin": " the United States",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -138,6 +144,7 @@
             "price": "$72.95",
             "height": "60-90cm",
             "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.jpg",
+            "origin": "China",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -160,6 +167,7 @@
             "price": "$24.98",
             "height": "90-120cm",
             "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.jpg",
+            "origin": "Japan",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -182,6 +190,7 @@
             "price": "$29.22",
             "height": "120-150cm",
             "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.jpg",
+            "origin": "eastern Asia, specifically Japan and China",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -196,28 +205,6 @@
             "about1": "Growth Habit: Upright",
             "about2": "Blooms: Summer to Fall",
             "about3": "Cold Hardiness: Zone 4 (-30F)",
-            "about4": "Special Characteristic: Color-changing blooms"
-          },
-          {
-            "id": 10,
-            "name": "Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea",
-            "price": "$86.95",
-            "height": "35-60cm",
-            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.jpg",
-            "thumbnails": [
-              "img1__link",
-              "img2__link",
-              "img3__link",
-              "img4__link"
-            ],
-            "scientific_name": "Hydrangea serrata",
-            "light": "Partial Shade to Full Sun",
-            "water": "Regular",
-            "humidity": "High",
-            "about": "The Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea showcases lacecap blooms that change color with soil pH, ranging from blue to pink.",
-            "about1": "Growth Habit: Compact, Rounded",
-            "about2": "Blooms: Summer to Fall",
-            "about3": "Cold Hardiness: Zone 5 (-20F)",
             "about4": "Special Characteristic: Color-changing blooms"
           }
     ]

@@ -1,44 +1,75 @@
-<button class="addtocart" data-id="1" data-img="./imgcay/cay mong nuoc/Sedum lineare f. variegatum - Carpet Sedum.jpg" data-product="Sedum lineare f. variegatum - Carpet Sedum"  data-price="3.49" >Add to Cart</button>
-<button class="addtocart" data-id="2" data-img="./imgcay/cay mong nuoc/Sedum reflexum Angelina.jpg" data-product="Sedum reflexum Angelina"  data-price="5.49" >Add to Cart</button>
-<button class="addtocart" data-id="3" data-img="./imgcay/cay mong nuoc/Sedum sediforme Turquoise Tails.jpg" data-product="Sedum sediforme Turquoise Tails"  data-price="3.49" >Add to Cart</button>
-<button class="addtocart" data-id="4" data-img="./imgcay/cay mong nuoc/Sedum spurium 'Tricolor'.jpg" data-product="Sedum spurium 'Tricolor'"  data-price="5.49" >Add to Cart</button>
-<button class="addtocart" data-id="5" data-img="./imgcay/cay mong nuoc/Sedum spurium Voodoo.jpg" data-product="Sedum spurium Voodoo"  data-price="5.49" >Add to Cart</button>
-<button class="addtocart" data-id="6" data-img="./imgcay/cay mong nuoc/sedum-album-black-pearl.jpg" data-product="Sedum Album Black Pearl"  data-price="3.99" >Add to Cart</button>
-<button class="addtocart" data-id="7" data-img="./imgcay/cay mong nuoc/sedum-album-coral-carpet.jpg" data-product="Sedum Album Coral Carpet"  data-price="4.49" >Add to Cart</button>
-<button class="addtocart" data-id="8" data-img="./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.jpg" data-product="Sedum Dasyphyllum Himalayan Skies Limited"  data-price="6.49" >Add to Cart</button>
-<button class="addtocart" data-id="9" data-img="./imgcay/cay mong nuoc/sedum-hybridum-immergrunchen.jpg" data-product="Sedum Hybridum Immergrunchen"  data-price="5.49" >Add to Cart</button>
-<button class="addtocart" data-id="10" data-img="./imgcay/cay mong nuoc/sedum-reflexum-blue-spruce.jpg" data-product="Sedum Reflexum Blue Spruce"  data-price="5.49" >Add to Cart</button>
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
 
-<button class="addtocart" data-id="11" data-img="./imgcay/cay trong bui phan/Apricot Drift® Rose.jpg" data-product="Apricot Drift® Rose"  data-price="69.95" >Add to Cart</button>
-<button class="addtocart" data-id="12" data-img="./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.jpg" data-product="Endless Summer® BloomStruck® Hydrangea"  data-price="29.22" >Add to Cart</button>
-<button class="addtocart" data-id="13" data-img="./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.jpg" data-product="Endless Summer® Twist-n-Shout® Hydrangea"  data-price="24.98" >Add to Cart</button>
-<button class="addtocart" data-id="14" data-img="./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.jpg" data-product="Flutterby Petite® Blue Heaven Butterfly Bush"  data-price="72.95" >Add to Cart</button>
-<button class="addtocart" data-id="15" data-img="./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.jpg" data-product="Flutterby Petite® Tutti Fruitti Butterfly Bush"  data-price="72.95" >Add to Cart</button>
-<button class="addtocart" data-id="16" data-img="./imgcay/cay trong bui phan/Mediterranean Pink Heather.jpg" data-product="Mediterranean Pink Heather"  data-price="24.95" >Add to Cart</button>
-<button class="addtocart" data-id="17" data-img="./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.jpg" data-product="Pink Double Knock Out® Rose"  data-price="69.95" >Add to Cart</button>
-<button class="addtocart" data-id="18" data-img="./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.jpg" data-product="Proven Winners® Color Choice® Black Lace® Elderberry"  data-price="69.95" >Add to Cart</button>
-<button class="addtocart" data-id="19" data-img="./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.jpg" data-product="Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea"  data-price="86.95" >Add to Cart</button>
-<button class="addtocart" data-id="20" data-img="./imgcay/cay trong bui phan/Sweet Drift® Rose.jpg" data-product="Sweet Drift® Rose"  data-price="69.95" >Add to Cart</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
 
-<button class="addtocart" data-id="21" data-img="./imgcay/cay trong ngoai troi/Adrienne.jpg" data-product="Adrienne"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="22" data-img="./imgcay/cay trong ngoai troi/Angie.jpg" data-product="Angie"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="23" data-img="./imgcay/cay trong ngoai troi/Boo.jpg" data-product="Boo"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="24" data-img="./imgcay/cay trong ngoai troi/Ivy.jpg" data-product="Ivy"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="25" data-img="./imgcay/cay trong ngoai troi/Laura shrub.jpg" data-product="Laura shrub"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="26" data-img="./imgcay/cay trong ngoai troi/Laura tree.jpg" data-product="Laura tree"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="27" data-img="./imgcay/cay trong ngoai troi/Phoebe.jpg" data-product="Phoebe"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="28" data-img="./imgcay/cay trong ngoai troi/Rebecca.jpg" data-product="Rebecca"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="29" data-img="./imgcay/cay trong ngoai troi/Tam.jpg" data-product="Tam"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="30" data-img="./imgcay/cay trong ngoai troi/Vinnie.jpg" data-product="Vinnie"  data-price="" >Add to Cart</button>
+    <body>
 
-<button class="addtocart" data-id="31" data-img="./imgcay/cay trong nha/bali.jpg" data-product="Bali"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="32" data-img="./imgcay/cay trong nha/Cedric.jpg" data-product="Cedric"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="33" data-img="./imgcay/cay trong nha/Howard.jpg" data-product="Howard"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="34" data-img="./imgcay/cay trong nha/Jane.jpg" data-product="Jane"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="35" data-img="./imgcay/cay trong nha/Kitchen set.jpg" data-product="Kitchen set"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="36" data-img="./imgcay/cay trong nha/Large succulent set.jpg" data-product="Large succulent set"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="37" data-img="./imgcay/cay trong nha/Phil.jpg" data-product="Phil"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="38" data-img="./imgcay/cay trong nha/Rick.jpg" data-product="Rick"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="39" data-img="./imgcay/cay trong nha/Suri.jpg" data-product="Suri"  data-price="" >Add to Cart</button>
-<button class="addtocart" data-id="40" data-img="./imgcay/cay trong nha/Theodore.jpg" data-product="Theodore"  data-price="" >Add to Cart</button>
+        <div class="container">
+            <div class="row" style="flex-wrap: nowrap; overflow: auto;">
+                <div class="col-lg-3 col-md-12 col-title p-0" >
+                    <div class="col-title-1">
+                        <div class="title">
+                            <h3>Filter</h3>
+                        </div>
+                        <div class="light">
+                            <div class="title-1">
+                                <h4>Light</h4>
+                            </div>
+                            <ul>
+                                <li><div><a href="#!">1sddss</a></div></li>
+                                <li><div><a href="#!/a">2dsdsds</a></div></li>
+                                <li><div><a href="#!/b">3dsdsd</a></div></li>
+                                <li><div><a href="#!/c">4sdsds</a></div></li>
+                                <li><div><a href="#!/d">4sdsds</a></div></li>
+                                <li><div><a href="#!/e">4sdsds</a></div></li>
+                                <li><div><a href="#!/f">4sdsds</a></div></li>
+    
+                            </ul>
+                        </div>
+                        <div class="light">
+                            <div class="title-1">
+                                <h4>Light</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Happiest in direct sunlight</a></li>
+                                <li><a href="#">Happy in light and shade</a></li>
+                                <li><a href="">Happy in shade</a></li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div ng-view></div>
+            </div>
+        </div>
+    
 
+            <script src="./js/addtocart1.js"></script>
+        </body>
+
+    </html>

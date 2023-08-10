@@ -86,14 +86,20 @@ button.white {
     background-color: transparent;
     height: 67px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 0 30px;
+    gap: 30px;
     position: relative;
+    padding: 0 20px;
+}
+
+#header .logo img {
+    width: 60px;
+    height: 60px;
 }
 
 /* ?==================================nav-menu */
 .nav-toolbar {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(8, auto);
     align-items: center;
 }
 
@@ -105,14 +111,18 @@ button.white {
     position: relative;
 }
 
+.list-item.responsive {
+    display: none;
+}
+
 span::before {
     content: '';
-    width: 30px;
+    width: 40px;
     height: 2px;
     background-color: #088178;
     position: absolute;
     left: 20px;
-    top: 30px;
+    top: 35px;
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease-in;
@@ -122,6 +132,15 @@ span::before {
     transform: scaleX(1);
 }
 
+span::after {
+    content: '';
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 35px;
+}
+
 /*! shop */
 .list-item__modal {
     position: fixed;
@@ -129,6 +148,11 @@ span::before {
     left: 0;
     right: 0;
     bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translate(0);
+    transition: transform 1s ease-in-out;
 }
 
 .list-item__modal--overlay {
@@ -136,11 +160,6 @@ span::before {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transform: translate(0);
-    transition: transform 0.5s linear;
 }
 
 .list-item__modal--body {
@@ -153,22 +172,18 @@ span::before {
     display: flex;
     z-index: 10;
     padding-left: 370px;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 0.4s linear;
 }
 
-.list-item:hover .list-item__modal--body {
+.list-item:hover
+.list-item__modal--body {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
     transform: scaleY(1);
 }
 
-.list-item:hover .list-item__modal--overlay {
+.list-item:hover
+.list-item__modal--overlay {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
@@ -281,6 +296,235 @@ span::before {
 
 .login a button.signin {
     background-color: #C9E6C0;
+}
+
+#header__responsive {
+    display: none;
+}
+
+/* todo =============================== css mobile */
+#header__responsive {
+    position: absolute;
+    top: 69px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #408099;
+}
+
+.header__responsive--navbar{
+    display: block;
+
+}
+
+/* ?==================== Responsive header */
+@media (max-width: 1024px) {
+    #header {
+        gap: 20px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .login {
+        padding-right: 10px;
+    }
+
+    .login a button {
+        font-size: 12px;
+    }
+
+    span::before {
+        left: 16px;
+    }
+
+    .list-item__modal--body {
+        height: 300px;
+    }
+
+    .expand__all {
+        position: absolute;
+        left: 10%;
+    }
+
+    .expand__plants--type {
+        position: absolute;
+        left: 13%;
+    }
+
+    .expand__img img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-item.responsive {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .header__responsive--login {
+        display: block;
+    }
+
+    .header__responsive--login a button {
+        font-size: 14px;
+        border: none;
+        background-color: transparent;
+        width: 83px;
+        height: 33px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .header__responsive--login a button.signin {
+        background-color: #C9E6C0;
+    }
+
+    .nav-toolbar {
+        display: none;
+    }
+
+    #header__responsive {
+        display: block;
+        background-color: transparent;
+        width: 100%;
+        height: 100vh;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translate(0);
+        transition: transform 0.5s ease-in;
+    }
+
+    #header__responsive.active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+        transform: translate(1);
+    }
+
+    .header__responsive--overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .header__responsive--navbar {
+        background-color: #fff;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        top: 0px;
+        left: 0px;
+        display: block;
+        z-index: 10;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .header__responsive--navbar div {
+        padding: 5px 0;
+    }
+
+    .header__responsive--expand-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 302px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 8px;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform 0.3s linear;
+    }
+
+    .header__responsive--expand-list.hover {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+        transform: scaleY(1);
+    }
+
+    .header__responsive--expand-list a{
+        padding: 5px;
+    }
+
+    .search__modal--respon .search-box__responsive {
+        width: 280px;
+        border: 1px solid #000;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .search-box__responsive input {
+        width: 220px;
+        padding: 3px;
+        outline: none;
+        border: none;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    .search-box__responsive lord-icon {
+        position: absolute;
+        top: 2px;
+        right: 8px;
+        width: 25px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #header .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__responsive--navbar {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .header__responsive--expand-list {
+        left: 202px;
+        font-size: 12px;
+    }
+
+    .search__modal--respon .search-box__responsive {
+        width: 180px;
+    }
+
+    .search-box__responsive input {
+        width: 135px;
+    }
+
+    .search-box__responsive lord-icon {
+        width: 20px;
+        top: 1px;
+    }
+
+    .cartButton a lord-icon {
+        width: 25px;
+    }
 }
 
 .responsive__icon--header button {
@@ -1618,3 +1862,5 @@ page-header .about-header {
         height: 100%;
     }
 }
+
+
