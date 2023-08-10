@@ -4,12 +4,8 @@
             "id": 1,
             "name": "Laura tree",
             "height": "80-90cm",
-<<<<<<< Updated upstream
-            "price": "£35.00 - £110.00",
+            "price": "$40.00 - $96.00",
             "origin": "the Mediterranean region",
-=======
-            "price": "$110",
->>>>>>> Stashed changes
             "thumbnails": [
                 "img1__link",
                 "img2__link",
@@ -28,7 +24,7 @@
         {
             "id": 2,
             "name": "Laura shrub",
-            "price": "$100",
+            "price": "$100.00",
             "height": "20-30cm",
             "origin": "the Mediterranean region",
             "thumbnails": [
@@ -70,7 +66,7 @@
         {
             "id": 4,
             "name": "Phoebe",
-            "price": "$150",
+            "price": "$150.00",
             "height": "100-110cm",
             "origin": "Canary Islands off the coast of Morocco",
             "thumbnails": [
@@ -92,12 +88,8 @@
             "id": 5,
             "name": "Tam",
             "height": "110-120cm",
-<<<<<<< Updated upstream
-            "price": "£65.00",
+            "price": "$75.00",
             "origin": "eastern Australia",
-=======
-            "price": "$65.99",
->>>>>>> Stashed changes
             "thumbnails": [
                 "img1__link",
                 "img2__link",
@@ -117,12 +109,8 @@
             "id": 6,
             "name": "Ivy",
             "height": "20-30cm",
-<<<<<<< Updated upstream
-            "price": "£8.00 - £25.00",
+            "price": "$11.00 - $35.00",
             "origin": "western, central, and southern Europe as well as southeast Asia",
-=======
-            "price": "$25",
->>>>>>> Stashed changes
             "thumbnails": [
                 "img1__link",
                 "img2__link",
@@ -142,12 +130,8 @@
             "id": 7,
             "name": "Lime Tree",
             "height": "80-150cm",
-<<<<<<< Updated upstream
-            "price": "£40.00 - £100.00",
+            "price": "$49.00 - $120.00",
             "origin": "tropical areas along the Malay archipelago",
-=======
-            "price": "$10",
->>>>>>> Stashed changes
             "thumbnails": [
                 "lime_tree_img1__link",
                 "lime_tree_img2__link",
@@ -167,12 +151,8 @@
             "id": 8,
             "name": "Olive Tree",
             "height": "60-150cm",
-<<<<<<< Updated upstream
-            "price": "£30.00 - £80.00",
+            "price": "$41.00 - $92.00",
             "origin": "Africa and temperate Asia as well as southern Europe",
-=======
-            "price": "$20.99",
->>>>>>> Stashed changes
             "thumbnails": [
                 "olive_tree_img1__link",
                 "olive_tree_img2__link",
@@ -192,12 +172,8 @@
             "id": 9,
             "name": "Star Jasmine",
             "height": "30-90cm",
-<<<<<<< Updated upstream
-            "price": "£20.00 - £60.00",
+            "price": "$26.00 - $69.00",
             "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
-=======
-            "price": "$25",
->>>>>>> Stashed changes
             "thumbnails": [
                 "star_jasmine_img1__link",
                 "star_jasmine_img2__link",
@@ -212,29 +188,6 @@
             "about1": "Native to East Asia, Star Jasmine is a vining plant that climbs and cascades naturally.",
             "about2": "Did you know?",
             "about3": "Star Jasmine's sweet fragrance makes it a sought-after choice for arbors, trellises, and garden landscapes."
-<<<<<<< Updated upstream
-=======
-        },
-        {
-            "id": 10,
-            "name": "Kumquat Tree",
-            "height": "60-120cm",
-            "price": "$55",
-            "thumbnails": [
-                "kumquat_tree_img1__link",
-                "kumquat_tree_img2__link",
-                "kumquat_tree_img3__link",
-                "kumquat_tree_img4__link"
-            ],
-            "scientific name": "Fortunella",
-            "light": "Bright sunlight: Requires 6-8 hours of direct sunlight daily.",
-            "water": "Moderate watering: Allow the top inch of soil to dry before watering thoroughly.",
-            "humidity": "Average humidity preferred: Regular misting can help in dry environments.",
-            "about": "The Kumquat Tree produces small, flavorful citrus fruits that can be eaten whole, peel and all. It's a compact tree suitable for indoor cultivation, adding both aesthetic appeal and a tangy treat to your living space.",
-            "about1": "Kumquat Trees are native to East Asia and thrive in warm, sunny climates.",
-            "about2": "Did you know?",
-            "about3": "Kumquat fruits are often enjoyed fresh or used in culinary creations, such as jams and baked goods."
->>>>>>> Stashed changes
         }
     ]
 }
