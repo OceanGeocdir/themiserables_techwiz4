@@ -5,6 +5,7 @@
             "name": "Mediterranean Pink Heather",
             "price": "$24.95",
             "height": "30-40cm",
+            "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -26,6 +27,7 @@
             "name": "Proven Winners® Color Choice® Black Lace® Elderberry",
             "price": "$69.95",
             "height": "180-240cm",
+            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -47,6 +49,7 @@
             "name": "Pink Double Knock Out® Rose",
             "price": "$69.95",
             "height": "35cm-40cm",
+            "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -68,6 +71,7 @@
             "name": "Flutterby Petite® Tutti Fruitti Butterfly Bush",
             "price": "$72.95",
             "height": "60-90cm",
+            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -89,6 +93,7 @@
             "name": "Apricot Drift® Rose",
             "price": "$69.95",
             "height": "60-90cm",
+            "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -110,6 +115,7 @@
             "name": "Sweet Drift® Rose",
             "price": "$69.95",
             "height": "60-80cm",
+            "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -131,6 +137,7 @@
             "name": "Flutterby Petite® Blue Heaven Butterfly Bush",
             "price": "$72.95",
             "height": "60-90cm",
+            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -152,6 +159,7 @@
             "name": "Endless Summer® Twist-n-Shout® Hydrangea",
             "price": "$24.98",
             "height": "90-120cm",
+            "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -173,6 +181,7 @@
             "name": "Endless Summer® BloomStruck® Hydrangea",
             "price": "$29.22",
             "height": "120-150cm",
+            "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -194,6 +203,7 @@
             "name": "Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea",
             "price": "$86.95",
             "height": "35-60cm",
+            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",

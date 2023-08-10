@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/product_item.css">
+</head>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12 col-title" >
+                <div class="col-title-1">
+                    <div class="title">
+                        <h3>Filter</h3>
+                    </div>
+                    <div class="light">
+                        <div class="title-1">
+                            <h4>Light</h4>
+                        </div>
+                        <ul>
+                            <li><a href="#">Happiest in direct sunlight</a></li>
+                            <li><a href="#">Happy in light and shade</a></li>
+                            <li><a href="">Happy in shade</a></li>
+                        </ul>
+                    </div>
+                    <div class="light">
+                        <div class="title-1">
+                            <h4>Light</h4>
+                        </div>
+                        <ul>
+                            <li><a href="#">Happiest in direct sunlight</a></li>
+                            <li><a href="#">Happy in light and shade</a></li>
+                            <li><a href="">Happy in shade</a></li>
+                        </ul>
+                    </div>
+                    <div class="light">
+                        <div class="title-1">
+                            <h4>Light</h4>
+                        </div>
+                        <ul>
+                            <li><a href="#">Happiest in direct sunlight</a></li>
+                            <li><a href="#">Happy in light and shade</a></li>
+                            <li><a href="">Happy in shade</a></li>
+                        </ul>
+                    </div>
+                    <div class="light">
+                        <div class="title-1">
+                            <h4>Light</h4>
+                        </div>
+                        <ul>
+                            <li><a href="#">Happiest in direct sunlight</a></li>
+                            <li><a href="#">Happy in light and shade</a></li>
+                            <li><a href="">Happy in shade</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12" ng-controller="SucculentsController">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4" ng-repeat="succulent in succulents">
+                        <div class="card sp_card" style="width: 18rem;">
+                            <div class="sp_img_item">
+                                <img ng-src="{{ succulent.img }}" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{ succulent.name }}</h5>
+                                <p class="card-text">MARBLE QUEEN POTHOS</p>
+                                <div class="price_card">
+                                    <span>{{ succulent.price }}</span>
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" ng-repeat="flowers in Flower">
+                        <div class="card sp_card" style="width: 18rem;">
+                            <div class="sp_img_item">
+                                <img ng-src="{{ flowers.img }}" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{ flowers.name }}</h5>
+                                <p class="card-text">MARBLE QUEEN POTHOS</p>
+                                <div class="price_card">
+                                    <span>{{ flowers.price }}</span>
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" ng-repeat="Outdoor in outdoors">
+                        <div class="card sp_card" style="width: 18rem;">
+                            <div class="sp_img_item">
+                                <img ng-src="{{ Outdoor.img }}" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{ Outdoor.name }}</h5>
+                                <p class="card-text">MARBLE QUEEN POTHOS</p>
+                                <div class="price_card">
+                                    <span>{{ Outdoor.price }}</span>
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" ng-repeat="Indoor in indoors">
+                        <div class="card sp_card" style="width: 18rem;">
+                            <div class="sp_img_item">
+                                <img ng-src="{{ Indoor.img }}" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{ Indoor.name }}</h5>
+                                <p class="card-text">MARBLE QUEEN POTHOS</p>
+                                <div class="price_card">
+                                    <span>{{ Indoor.price }}</span>
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div class="button_croll">
+        <button id="toTop">
+            <i class="fa-solid fa-circle-chevron-up"></i>
+        </button>
+    </div>
+
+</body>
+
+<script src="./js/app.js"></script>
+<script>
+    angular.module('myApp', [])
+        .controller('SucculentsController', function($scope, $http) {
+            $http.get('./json/Succulents.json').then(function(response) {
+                $scope.succulents = response.data.Succulents;
+                $scope.Flower = response.data.flower;
+                $scope.indoors = response.data.indoor;
+                $scope.outdoors = response.data.outdoor;
+            });
+        })
+
+</script>
+</html>
