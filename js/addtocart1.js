@@ -20,7 +20,6 @@ app.controller("testController", function ($scope, $http) {
         product: item.name,
         price: item.price,
         img: item.img,
-        code: item.discountCode
     };
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
@@ -50,7 +49,6 @@ app.controller("page1Controller", function ($scope, $http) {
         product: item.name,
         price: item.price,
         img: item.img,
-        code: item.discountCode
     };
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
@@ -80,7 +78,6 @@ app.controller("page2Controller", function ($scope, $http) {
         product: item.name,
         price: item.price,
         img: item.img,
-        code: item.discountCode
     };
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
@@ -115,7 +112,6 @@ app.controller("page4Controller", function ($scope, $http) {
         product: item.name,
         price: item.price,
         img: item.img,
-        code: item.discountCode
     };
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
@@ -144,7 +140,6 @@ app.controller("page5Controller", function ($scope, $http) {
         product: item.name,
         price: item.price,
         img: item.img,
-        code: item.discountCode
     };
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
@@ -173,7 +168,6 @@ app.controller("page6Controller", function ($scope, $http) {
         product: item.name,
         price: item.price,
         img: item.img,
-        code: item.discountCode
     };
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
