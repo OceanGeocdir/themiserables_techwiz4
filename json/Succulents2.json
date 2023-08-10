@@ -6,7 +6,6 @@
           "price": "$5.49",
           "height": "10-20cm",
           "img":"./imgcay/cay mong nuoc/sedum-reflexum-blue-spruce.png",
-          "discountCode": "ABC123",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -29,7 +28,6 @@
           "price": "$5.49",
           "height": "10-30cm",
           "img":"./imgcay/cay mong nuoc/sedum-hybridum-immergrunchen.png",
-          "discountCode": "ABC123",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -52,7 +50,6 @@
           "price": "$6.49",
           "height": "6-10cm",
           "img":"./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.png",
-          "discountCode": "ABC123",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -75,7 +72,6 @@
           "price": "$5.49",
           "height": "10-15cm",
           "img":"./imgcay/cay mong nuoc/sedum-album-coral-carpet.png",
-          "discountCode": "ABC123",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -98,7 +94,6 @@
           "price": "$5.49",
           "height": "9-15cm",
           "img":"./imgcay/cay mong nuoc/Sedum spurium 'Tricolor'.png",
-          "discountCode": "ABC123",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -121,7 +116,6 @@
           "price": "$5.49",
           "height": "5-10cm",
           "img":"./imgcay/cay mong nuoc/Sedum reflexum Angelina.png",
-          "discountCode": "ABC123",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -146,8 +140,7 @@
             "price": "$3.99",
             "height": "7-9cm",
             "img":"./imgcay/cay mong nuoc/sedum-album-black-pearl.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -169,8 +162,7 @@
             "price": "$3.49",
             "height": "23-30cm",
             "img":"./imgcay/cay mong nuoc/Sedum sediforme Turquoise Tails.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -192,8 +184,7 @@
             "price": "$5.49",
             "height": "15-20cm",
             "img":"./imgcay/cay mong nuoc/Sedum spurium Voodoo.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -215,8 +206,7 @@
             "price": "$4.49",
             "height": "8-10cm",
             "img":"./imgcay/cay mong nuoc/Sedum lineare f. variegatum - Carpet Sedum.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -238,8 +228,7 @@
             "price": "$24.95",
             "height": "30-40cm",
             "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -261,8 +250,7 @@
             "price": "$69.95",
             "height": "180-240cm",
             "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -286,8 +274,7 @@
             "price": "$69.95",
             "height": "35cm-40cm",
             "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -309,8 +296,7 @@
             "price": "$72.95",
             "height": "60-90cm",
             "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -332,8 +318,7 @@
             "price": "$69.95",
             "height": "60-90cm",
             "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -355,8 +340,7 @@
             "price": "$69.95",
             "height": "60-80cm",
             "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -378,8 +362,7 @@
             "price": "$72.95",
             "height": "60-90cm",
             "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -401,8 +384,7 @@
             "price": "$24.98",
             "height": "90-120cm",
             "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -426,8 +408,7 @@
             "price": "$29.22",
             "height": "120-150cm",
             "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -449,8 +430,7 @@
             "price": "$86.95",
             "height": "35-60cm",
             "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
               "img1__link",
               "img2__link",
               "img3__link",
@@ -472,8 +452,7 @@
             "height": "80-90cm",
             "price": "£35.00 - £110.00",
             "img":"./imgcay/cay trong ngoai troi/Laura tree.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -494,8 +473,7 @@
             "price": "£15.00 - £100.00",
             "height": "20-30cm",
             "img":"./imgcay/cay trong ngoai troi/Laura shrub.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -516,8 +494,7 @@
             "price": "£35.00 - £60.00",
             "height": "70-80cm",
             "img":"./imgcay/cay trong ngoai troi/Boo.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -538,8 +515,7 @@
             "price": "£50.00 - £150.00",
             "height": "100-110cm",
             "img":"./imgcay/cay trong ngoai troi/Phoebe.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -562,8 +538,7 @@
             "height": "110-120cm",
             "price": "£65.00",
             "img":"./imgcay/cay trong ngoai troi/Tam.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -584,8 +559,7 @@
             "height": "20-30cm",
             "price": "£8.00 - £25.00",
             "img":"./imgcay/cay trong ngoai troi/Ivy.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -606,8 +580,7 @@
             "height": "80-150cm",
             "price": "£40.00 - £100.00",
             "img":"./imgcay/cay trong ngoai troi/Leon.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "lime_tree_img1__link",
                 "lime_tree_img2__link",
                 "lime_tree_img3__link",
@@ -628,8 +601,7 @@
             "height": "60-150cm",
             "price": "£30.00 - £80.00",
             "img":"./imgcay/cay trong ngoai troi/Ollie.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "olive_tree_img1__link",
                 "olive_tree_img2__link",
                 "olive_tree_img3__link",
@@ -650,8 +622,7 @@
             "height": "30-90cm",
             "price": "£20.00 - £60.00",
             "img":"./imgcay/cay trong ngoai troi/Jazz.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "star_jasmine_img1__link",
                 "star_jasmine_img2__link",
                 "star_jasmine_img3__link",
@@ -672,8 +643,7 @@
             "height": "60-120cm",
             "price": "£40.00 - £100.00",
             "img":"./imgcay/cay trong ngoai troi/Kai.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "kumquat_tree_img1__link",
                 "kumquat_tree_img2__link",
                 "kumquat_tree_img3__link",
@@ -696,8 +666,7 @@
             "height": "40-50cm",
             "price": "£25.00 - £65.00",
             "img":"./imgcay/cay trong nha/Howard.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -718,8 +687,7 @@
             "price": "£9.00 - £85.00",
             "height": "30-40cm",
             "img":"./imgcay/cay trong nha/Rick.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -740,8 +708,7 @@
             "price": "£18.00",
             "height": "20-30cm",
             "img":"./imgcay/cay trong nha/Jane.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -762,8 +729,7 @@
             "price": "£20.00 - £40.00",
             "height": "30-40cm",
             "img":"./imgcay/cay trong nha/Cedric.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -784,8 +750,7 @@
             "height": "20-30cm",
             "price": "£20.00",
             "img":"./imgcay/cay trong nha/Theodore.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
@@ -806,8 +771,7 @@
             "height": "30-40cm",
             "price": "£15.00 - £75.00",
             "img":"./imgcay/cay trong nha/Phil.png",
-            "discountCode": "ABC123",
-            "thumbnails": [
+              "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
