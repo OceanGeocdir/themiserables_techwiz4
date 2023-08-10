@@ -215,35 +215,7 @@
           "about2": "Growth Habit: Low Growing / Creeping",
           "about3": "Seasonality: Blooms in Late Summer",
           "about4": ""
-<<<<<<< Updated upstream
         }        
-=======
-        },
-        {
-          "id": 10,
-          "name": "Sedum lineare f. variegatum - Carpet Sedum",
-          "price": "$4.49",
-          "height": "8-10cm",
-          "img":"./imgcay/cay mong nuoc/Sedum lineare f. variegatum - Carpet Sedum.png",
-          "discountCode": "ABC123",
-          "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
-          ],
-          "scientificname": "Sedum lineare f. variegatum",
-          "light": "Full Sun",
-          "water": "Regular water to establish roots",
-          "humidity": "Not specific",
-          "about": "'Carpet Sedum' is a low-growing succulent with variegated leaves and yellow flowers in summer.",
-          "about1": "Cold Hardiness: Zone 4 (-30F)",
-          "about2": "Growth Habit: Low Growing / Creeping",
-          "about3": "Seasonality: Blooms in Summer",
-          "about4": ""
-        }
-        
->>>>>>> Stashed changes
       ],
       "flower":[
         {
