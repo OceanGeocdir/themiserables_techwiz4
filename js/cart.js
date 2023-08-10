@@ -31,6 +31,7 @@ function applyDiscount() {
             cartTotalElement.textContent = '$ ' + discountedTotal.toFixed(2);
         });
 }
+
 function updateCart() {
     var cartBody = document.getElementById('cart-body');
     cartBody.innerHTML = ''; // Xóa dữ liệu cũ
@@ -112,3 +113,17 @@ function removeProduct(index) {
 }
 
 updateCart();
+function login(){
+    var login = JSON.parse(localStorage.getItem('login'))
+    var checkout = document.getElementById('checkout')
+    checkout.addEventListener('click', function(){
+        if(login == true){
+            alert("Payment Succes")
+        }else{
+            alert("You Need Login To Payment")
+            window.location.href = "./login.html"
+        }
+    })
+}
+login()
+    
