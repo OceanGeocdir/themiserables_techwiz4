@@ -5,6 +5,7 @@
             "name": "Mediterranean Pink Heather",
             "price": "$24.95",
             "height": "30-40cm",
+            "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -26,6 +27,7 @@
             "name": "Proven Winners® Color Choice® Black Lace® Elderberry",
             "price": "$69.95",
             "height": "180-240cm",
+            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -47,6 +49,7 @@
             "name": "Pink Double Knock Out® Rose",
             "price": "$69.95",
             "height": "35cm-40cm",
+            "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -68,6 +71,7 @@
             "name": "Flutterby Petite® Tutti Fruitti Butterfly Bush",
             "price": "$72.95",
             "height": "60-90cm",
+            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -89,6 +93,7 @@
             "name": "Apricot Drift® Rose",
             "price": "$69.95",
             "height": "60-90cm",
+            "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -110,6 +115,7 @@
             "name": "Sweet Drift® Rose",
             "price": "$69.95",
             "height": "60-80cm",
+            "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.jpg",
             "thumbnails": [
               "img1__link",
               "img2__link",
@@ -125,6 +131,94 @@
             "about2": "Blooming Season: Spring to fall.",
             "about3": "Maintenance: Prune lightly in early spring to maintain shape and promote new growth.",
             "about4": "Versatility: The Sweet Drift® Rose's compact size and continual bloom make it a versatile choice for various landscaping designs."
+          },
+          {
+            "id": 7,
+            "name": "Flutterby Petite® Blue Heaven Butterfly Bush",
+            "price": "$72.95",
+            "height": "60-90cm",
+            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.jpg",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Buddleja davidii",
+            "light": "Full Sun",
+            "water": "Moderate",
+            "humidity": "Average",
+            "about": "The Flutterby Petite® Blue Heaven Butterfly Bush is a compact shrub with stunning blue-purple flowers that attract butterflies and pollinators.",
+            "about1": "Growth Habit: Upright",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 5 (-20F)",
+            "about4": "Special Characteristic: Butterfly attractor"
+          },
+          {
+            "id": 8,
+            "name": "Endless Summer® Twist-n-Shout® Hydrangea",
+            "price": "$24.98",
+            "height": "90-120cm",
+            "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.jpg",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Hydrangea macrophylla",
+            "light": "Partial Shade to Full Sun",
+            "water": "Regular",
+            "humidity": "High",
+            "about": "The Endless Summer® Twist-n-Shout® Hydrangea features vibrant pink or periwinkle lacecap blooms that change color with soil pH.",
+            "about1": "Growth Habit: Upright",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 4 (-30F)",
+            "about4": "Special Characteristic: Color-changing blooms"
+          },
+          {
+            "id": 9,
+            "name": "Endless Summer® BloomStruck® Hydrangea",
+            "price": "$29.22",
+            "height": "120-150cm",
+            "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.jpg",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Hydrangea macrophylla",
+            "light": "Partial Shade to Full Sun",
+            "water": "Regular",
+            "humidity": "High",
+            "about": "The Endless Summer® BloomStruck® Hydrangea offers large mophead blooms that shift in color from rose to violet or blue based on soil pH.",
+            "about1": "Growth Habit: Upright",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 4 (-30F)",
+            "about4": "Special Characteristic: Color-changing blooms"
+          },
+          {
+            "id": 10,
+            "name": "Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea",
+            "price": "$86.95",
+            "height": "35-60cm",
+            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.jpg",
+            "thumbnails": [
+              "img1__link",
+              "img2__link",
+              "img3__link",
+              "img4__link"
+            ],
+            "scientific_name": "Hydrangea serrata",
+            "light": "Partial Shade to Full Sun",
+            "water": "Regular",
+            "humidity": "High",
+            "about": "The Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea showcases lacecap blooms that change color with soil pH, ranging from blue to pink.",
+            "about1": "Growth Habit: Compact, Rounded",
+            "about2": "Blooms: Summer to Fall",
+            "about3": "Cold Hardiness: Zone 5 (-20F)",
+            "about4": "Special Characteristic: Color-changing blooms"
           }
     ]
 }
