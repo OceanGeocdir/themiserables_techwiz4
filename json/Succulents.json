@@ -5,7 +5,7 @@
           "name": "Sedum reflexum 'Blue Spruce'",
           "price": "$5.49",
           "height": "10-20cm",
-          "img":"./imgcay/cay mong nuoc/sedum-reflexum-blue-spruce.jpg",
+          "img":"./imgcay/cay mong nuoc/sedum-reflexum-blue-spruce.png",
           "discountCode": "ABC123",
           "origin": "Europe and parts of Asia",
           "thumbnails": [
@@ -29,7 +29,7 @@
           "name": "Sedum hybridum 'Immergrünchen'",
           "price": "$5.49",
           "height": "10-30cm",
-          "img":"./imgcay/cay mong nuoc/sedum-hybridum-immergrunchen.jpg",
+          "img":"./imgcay/cay mong nuoc/sedum-hybridum-immergrunchen.png",
           "discountCode": "ABC123",
           "origin": "eastern Asia, specifically regions of China, Korea, and Russia",
           "thumbnails": [
@@ -53,7 +53,7 @@
           "name": "Sedum dasyphyllum 'Himalayan Skies'",
           "price": "$6.49",
           "height": "6-10cm",
-          "img":"./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.jpg",
+          "img":"./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.png",
           "discountCode": "ABC123",
           "origin": "southern Europe and parts of northern Africa",
           "thumbnails": [
@@ -77,7 +77,7 @@
           "name": "Sedum album 'Coral Carpet'",
           "price": "$5.49",
           "height": "10-15cm",
-          "img":"./imgcay/cay mong nuoc/sedum-album-coral-carpet.jpg",
+          "img":"./imgcay/cay mong nuoc/sedum-album-coral-carpet.png",
           "discountCode": "ABC123",
           "origin": "a wide range of regions across Europe, including countries like France, Spain, Italy, and Greece",
           "thumbnails": [
@@ -101,7 +101,7 @@
           "name": "Sedum spurium 'Tricolor'",
           "price": "$5.49",
           "height": "9-15cm",
-          "img":"./imgcay/cay mong nuoc/Sedum spurium 'Tricolor'.jpg",
+          "img":"./imgcay/cay mong nuoc/Sedum spurium 'Tricolor'.png",
           "discountCode": "ABC123",
           "origin": "parts of Europe and Asia, including countries such as Russia, Ukraine, and Turkey",
           "thumbnails": [
@@ -110,7 +110,7 @@
             "img3__link",
             "img4__link"
           ],
-          "scientificname": "Phedimus spurius (formerly Sedum spurium 'Schorbuser Blut')",
+          "scientificname": "Phedimus spurius",
           "light": "Full Sun",
           "water": "Regular water to establish roots",
           "humidity": "Not specific",
@@ -125,7 +125,7 @@
           "name": "Sedum reflexum 'Angelina'",
           "price": "$5.49",
           "height": "5-10cm",
-          "img":"./imgcay/cay mong nuoc/Sedum reflexum Angelina.jpg",
+          "img":"./imgcay/cay mong nuoc/Sedum reflexum Angelina.png",
           "discountCode": "ABC123",
           "origin": "a wide range of regions across Europe, including countries like France, Spain, Italy, and Greece",
           "thumbnails": [
@@ -149,7 +149,7 @@
           "name": "Sedum Album Black Pearl",
           "price": "$3.99",
           "height": "7-9cm",
-          "img":"./imgcay/cay mong nuoc/sedum-album-black-pearl .jpg",
+          "img":"./imgcay/cay mong nuoc/sedum-album-black-pearl.png",
           "discountCode": "ABC123",
           "origin": "western and central Europe",
           "thumbnails": [
@@ -158,7 +158,7 @@
             "img3__link",
             "img4__link"
           ],
-          "scientificname": "Sedum reflexum (Petrosedum rupestre)",
+          "scientificname": "Sedum reflexum ",
           "light": "Full Sun",
           "water": "Regular water in spring to summer",
           "humidity": "Not specific",
@@ -173,7 +173,7 @@
           "name": "Sedum sediforme 'Turquoise Tails'",
           "price": "$3.49",
           "height": "23-30cm",
-          "img":"./imgcay/cay mong nuoc/Sedum sediforme Turquoise Tails.jpg",
+          "img":"./imgcay/cay mong nuoc/Sedum sediforme Turquoise Tails.png",
           "discountCode": "ABC123",
           "origin": "southern Europe and regions of the Caucasus",
           "thumbnails": [
@@ -197,7 +197,7 @@
           "name": "Sedum spurium 'Voodoo'",
           "price": "$5.49",
           "height": "15-20cm",
-          "img":"./imgcay/cay mong nuoc/Sedum spurium Voodoo.jpg",
+          "img":"./imgcay/cay mong nuoc/Sedum spurium Voodoo.png",
           "discountCode": "ABC123",
           "origin": "a range of regions in Europe and Asia",
           "thumbnails": [
@@ -215,7 +215,35 @@
           "about2": "Growth Habit: Low Growing / Creeping",
           "about3": "Seasonality: Blooms in Late Summer",
           "about4": ""
+<<<<<<< Updated upstream
         }        
+=======
+        },
+        {
+          "id": 10,
+          "name": "Sedum lineare f. variegatum - Carpet Sedum",
+          "price": "$4.49",
+          "height": "8-10cm",
+          "img":"./imgcay/cay mong nuoc/Sedum lineare f. variegatum - Carpet Sedum.png",
+          "discountCode": "ABC123",
+          "thumbnails": [
+            "img1__link",
+            "img2__link",
+            "img3__link",
+            "img4__link"
+          ],
+          "scientificname": "Sedum lineare f. variegatum",
+          "light": "Full Sun",
+          "water": "Regular water to establish roots",
+          "humidity": "Not specific",
+          "about": "'Carpet Sedum' is a low-growing succulent with variegated leaves and yellow flowers in summer.",
+          "about1": "Cold Hardiness: Zone 4 (-30F)",
+          "about2": "Growth Habit: Low Growing / Creeping",
+          "about3": "Seasonality: Blooms in Summer",
+          "about4": ""
+        }
+        
+>>>>>>> Stashed changes
       ],
       "flower":[
         {
@@ -223,7 +251,7 @@
             "name": "Mediterranean Pink Heather",
             "price": "$24.95",
             "height": "30-40cm",
-            "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.jpg",
+            "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -246,7 +274,7 @@
             "name": "Proven Winners® Color Choice® Black Lace® Elderberry",
             "price": "$69.95",
             "height": "180-240cm",
-            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.jpg",
+            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -269,7 +297,7 @@
             "name": "Pink Double Knock Out® Rose",
             "price": "$69.95",
             "height": "35cm-40cm",
-            "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.jpg",
+            "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -292,7 +320,7 @@
             "name": "Flutterby Petite® Tutti Fruitti Butterfly Bush",
             "price": "$72.95",
             "height": "60-90cm",
-            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.jpg",
+            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -315,7 +343,7 @@
             "name": "Apricot Drift® Rose",
             "price": "$69.95",
             "height": "60-90cm",
-            "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.jpg",
+            "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -338,7 +366,7 @@
             "name": "Sweet Drift® Rose",
             "price": "$69.95",
             "height": "60-80cm",
-            "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.jpg",
+            "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -361,7 +389,7 @@
             "name": "Flutterby Petite® Blue Heaven Butterfly Bush",
             "price": "$72.95",
             "height": "60-90cm",
-            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.jpg",
+            "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -384,7 +412,7 @@
             "name": "Endless Summer® Twist-n-Shout® Hydrangea",
             "price": "$24.98",
             "height": "90-120cm",
-            "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.jpg",
+            "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -407,7 +435,7 @@
             "name": "Endless Summer® BloomStruck® Hydrangea",
             "price": "$29.22",
             "height": "120-150cm",
-            "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.jpg",
+            "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -430,7 +458,7 @@
             "name": "Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea",
             "price": "$86.95",
             "height": "35-60cm",
-            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.jpg",
+            "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Tiny Tuff Stuff™ Hydrangea.png",
             "discountCode": "ABC123",
             "thumbnails": [
               "img1__link",
@@ -455,7 +483,7 @@
           "name": "Laura tree",
           "height": "80-90cm",
           "price": "£35.00 - £110.00",
-          "img":"./imgcay/cay trong ngoai troi/Laura tree.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Laura tree.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "img1__link",
@@ -477,7 +505,7 @@
           "name": "Laura shrub",
           "price": "£15.00 - £100.00",
           "height": "20-30cm",
-          "img":"./imgcay/cay trong ngoai troi/Laura shrub.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Laura shrub.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "img1__link",
@@ -499,7 +527,7 @@
           "name": "Boo",
           "price": "£35.00 - £60.00",
           "height": "70-80cm",
-          "img":"./imgcay/cay trong ngoai troi/Boo.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Boo.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "img1__link",
@@ -521,7 +549,7 @@
           "name": "Phoebe",
           "price": "£50.00 - £150.00",
           "height": "100-110cm",
-          "img":"./imgcay/cay trong ngoai troi/Phoebe.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Phoebe.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "img1__link",
@@ -543,7 +571,7 @@
           "name": "Tam",
           "height": "110-120cm",
           "price": "£65.00",
-          "img":"./imgcay/cay trong ngoai troi/Tam.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Tam.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "img1__link",
@@ -565,7 +593,7 @@
           "name": "Ivy",
           "height": "20-30cm",
           "price": "£8.00 - £25.00",
-          "img":"./imgcay/cay trong ngoai troi/Ivy.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Ivy.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "img1__link",
@@ -587,7 +615,7 @@
           "name": "Leon",
           "height": "80-150cm",
           "price": "£40.00 - £100.00",
-          "img":"./imgcay/cay trong ngoai troi/Leon.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Leon.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "lime_tree_img1__link",
@@ -609,7 +637,7 @@
           "name": "Ollie",
           "height": "60-150cm",
           "price": "£30.00 - £80.00",
-          "img":"./imgcay/cay trong ngoai troi/Ollie.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Ollie.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "olive_tree_img1__link",
@@ -631,7 +659,7 @@
           "name": "Jazz",
           "height": "30-90cm",
           "price": "£20.00 - £60.00",
-          "img":"./imgcay/cay trong ngoai troi/Jazz.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Jazz.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "star_jasmine_img1__link",
@@ -653,7 +681,7 @@
           "name": "Kai",
           "height": "60-120cm",
           "price": "£40.00 - £100.00",
-          "img":"./imgcay/cay trong ngoai troi/Kai.jpg",
+          "img":"./imgcay/cay trong ngoai troi/Kai.png",
           "discountCode": "ABC123",
           "thumbnails": [
               "kumquat_tree_img1__link",
@@ -677,7 +705,7 @@
         "name": "Howard",
         "height": "40-50cm",
         "price": "£25.00 - £65.00",
-        "img":"./imgcay/cay trong nha/Howard.jpg",
+        "img":"./imgcay/cay trong nha/Howard.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "img1__link",
@@ -699,7 +727,7 @@
         "name": "Rick",
         "price": "£9.00 - £85.00",
         "height": "30-40cm",
-        "img":"./imgcay/cay trong nha/Rick.jpg",
+        "img":"./imgcay/cay trong nha/Rick.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "img1__link",
@@ -721,7 +749,7 @@
         "name": "Jane",
         "price": "£18.00",
         "height": "20-30cm",
-        "img":"./imgcay/cay trong nha/Jane.jpg",
+        "img":"./imgcay/cay trong nha/Jane.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "img1__link",
@@ -743,7 +771,7 @@
         "name": "Cedric",
         "price": "£20.00 - £40.00",
         "height": "30-40cm",
-        "img":"./imgcay/cay trong nha/Cedric.jpg",
+        "img":"./imgcay/cay trong nha/Cedric.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "img1__link",
@@ -765,7 +793,7 @@
         "name": "Theodore",
         "height": "20-30cm",
         "price": "£20.00",
-        "img":"./imgcay/cay trong nha/Theodore.jpg",
+        "img":"./imgcay/cay trong nha/Theodore.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "img1__link",
@@ -787,7 +815,7 @@
         "name": "Phil",
         "height": "30-40cm",
         "price": "£15.00 - £75.00",
-        "img":"./imgcay/cay trong nha/Phil.jpg",
+        "img":"./imgcay/cay trong nha/Phil.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "img1__link",
@@ -809,7 +837,7 @@
         "name": "ZZ Plant",
         "height": "30-60cm",
         "price": "£20.00 - £50.00",
-        "img":"./imgcay/cay trong nha/bali.jpg",
+        "img":"./imgcay/cay trong nha/bali.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "zz_img1__link",
@@ -831,7 +859,7 @@
         "name": "Pippa",
         "height": "30-60cm",
         "price": "£15.00 - £40.00",
-        "img":"./imgcay/cay trong nha/Kitchen set.jpg",
+        "img":"./imgcay/cay trong nha/Kitchen set.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "peace_lily_img1__link",
@@ -853,7 +881,7 @@
         "name": "Chamaedorea",
         "height": "60-120cm",
         "price": "£30.00 - £70.00",
-        "img":"./imgcay/cay trong nha/Suri.jpg",
+        "img":"./imgcay/cay trong nha/Suri.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "chamaedorea_img1__link",
@@ -875,7 +903,7 @@
         "name": "Fiddle-Leaf Fig",
         "height": "60-300cm",
         "price": "£40.00 - £150.00",
-        "img":"./imgcay/cay trong nha/Large succulent set.jpg",
+        "img":"./imgcay/cay trong nha/Large succulent set.png",
         "discountCode": "ABC123",
         "thumbnails": [
             "fiddle_leaf_fig_img1__link",
