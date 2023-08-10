@@ -1,0 +1,205 @@
+{
+    "indoor": [
+        {
+            "id": 1,
+            "name": "Howard",
+            "height": "40-50cm",
+            "price": "£25.00 - £65.00",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientific name": "Aspidistra",
+            "light": "Most light conditions: He’s maybe the least fussy plant you’ll meet. He’ll deal with almost any light level (he’s not mad on strong sunshine).",
+            "water": "Light watering: He’s very tolerant of irregular watering, let his soil dry out completely before giving him a drink.",
+            "humidity": "Keep his leaves green and lush, and avoid brown tips, by giving him a mist every few days.",
+            "about": "Aspidistra are sometimes known as the Cast Iron Plant because they’re almost impossible to kill. They’re practically bomb-proof (we have not tested this). If you forget to water yours, give it a dark spot and just generally forget it exists for a bit, it will merrily make do on its own.",
+            "about1": "They’ve built up that tolerance for poor conditions by growing in the shade under larger trees in China and Vietnam. Their resilience has made them an extremely popular houseplant, because anybody can care for one. If you’re just beginning your plant parenting journey, there’s no better starting point. You’d have to try weirdly hard to kill him (don’t try).",
+            "about2": "Did you know?",
+            "about3": "The aspidistra was massively popular in Victorian times, because it easily tolerated the poor light and air quality of 19th century homes"
+        },
+        {
+            "id": 2,
+            "name": "Rick",
+            "price": "£9.00 - £85.00",
+            "height": "30-40cm",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientific name": "Dracaena fragrans",
+            "light": "Most light conditions: He's happy in anything from light shade to bright, soft light. Keep him out of harsh direct sun.",
+            "water": "Light watering: He’s low maintenance on water. He’s very drought tolerant, let his soil dry out completely before giving him a drink.",
+            "humidity": "As we all do, he needs moisture to keep looking fresh. He’ll love a bathroom or a spray with a mister every few days.",
+            "about": "Native tribes of northern Tanzania and Mt. Kilimanjaro used corn plants to mark sacred sites as far back as 1000 BC. This is a plant deserving of some respect.",
+            "about1": "While they might grow as high as six metres in the wild, indoors corn plants are more about character than size, providing a bit of tropical flavour even on grey days. If they’re really happy, they might reward you by growing small, white flowers. To keep yours in a good mood, remember: generous with the misting, sparing with the watering. It will also love you if you give it a feed with liquid fertiliser once a month in spring and summer. It will help it grow big and strong.",
+            "about2": "Did you know?",
+            "about3": "In ancient times, in Africa, corn plants were a symbol of reason and good fortune."
+        },
+        {
+            "id": 3,
+            "name": "Jane",
+            "price": "£18.00",
+            "height": "20-30cm",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientific name": "Maranta leuconeura",
+            "light": "Medium light: She loves lots of light but ideally not direct sun, which will make her colours fade. A little bit of shade is ok.",
+            "water": "Light watering: She likes her soil on the drier side. Wait for her soil to be dry to a depth of at least two inches before watering again.",
+            "humidity": "She enjoys a humid environment. A naturally steamy bathroom or kitchen is great, or you can mist her regularly.",
+            "about": "Maranta leuconeura is part of a group of plants known as prayer plants. They get the name from the fact that their leaves fold up at night, like praying hands, then unfold in the day, to absorb the day’s light. All these plants have vivid patterns on their leaves and maranta leuconeura is one of the most dazzling.",
+            "about1": "The leaves are dark green, with a lime green ripple running down the middle. If that weren’t impressive enough, they have bright pink veins and a deep purple underside. It’s a stunning plant. ",
+            "about2": "Did you know?",
+            "about3": "Although it looks very much like a calathea, they’re actually different plant families."
+        },
+        {
+            "id": 4,
+            "name": "Cedric",
+            "price": "£20.00 - £40.00",
+            "height": "30-40cm",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientific name": "Sansevieria cylindrica",
+            "light": "Most light conditions: He’s happy almost anywhere, even shady corners. He’ll grow faster in a bright spot.",
+            "water": "Light watering: He hardly ever needs water and can go ages without a drink. Water him when the soil is completely dry.",
+            "feeding": "He needs almost no attention but a feed once in spring and again in summer will help him grow. ",
+            "about": "Like all snake plants, this one is really easy to look after. It’s the ideal beginner’s plant. Put it anywhere from indirect sun to shade, water it every month or so, and then just leave it alone. That’s all it needs. This snake plant looks a little bit different to others. Instead of the usual flat leaves, it has long cylindrical leaves, hence the name sansevieria cylindrica.",
+            "about1": "The reason snake plants need so little care is because they come from places where the weather is hot and dry, mostly in parts of Africa and Asia. Their hard leaves let almost no water evaporate, even sealing their pores during the day to keep everything in. In the wild they may only get rain every few months, so forgetting to water yours for a while won’t bother it at all.",
+            "about2": "Did you know?",
+            "about3": "The tallest varieties of snake plant can grow up to 2 metres tall."
+        },
+        {
+            "id": 5,
+            "name": "Theodore",
+            "height": "20-30cm",
+            "price": "£20.00",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientific name": "Dischidia nummularia",
+            "light": "Medium light: He can tolerate partial shade, perfect for those rooms with medium light.",
+            "water": "Light watering: He needs very little water, so let his soil totally dry out between drinks. Let all excess water drain off.",
+            "humidity": "He loves moist air. He’ll enjoy living in a steamy bathroom, or give him a good mist a couple of times a week.",
+            "about": "If you happen to find yourself in a forest in the tropics of Asia, look up and you might see string of nickels, or dischidia imbricata. It makes its home in the crevices of tall trees (scientifically, it’s known as an epiphyte). It dangles handsomely soaking up moisture from the atmosphere.",
+            "about1": "This plant also comes in a variegated option, if you like your leaves a little jazzier be sure to check out Theodora.",
+            "about2": "Did you know?",
+            "about3": "It is sometimes known as Shingle plant, because its overlapping leaves look a bit like roof shingles."
+        },
+        {
+            "id": 6,
+            "name": "Phil",
+            "height": "30-40cm",
+            "price": "£15.00 - £75.00",
+            "thumbnails": [
+                "img1__link",
+                "img2__link",
+                "img3__link",
+                "img4__link"
+            ],
+            "scientific name": "Philodendron Scandens",
+            "light": "Medium light: He’ll be fine in semi-shade, though his leaves may fade a bit. He prefers a position in a bright room.",
+            "water": "Light watering: He likes to be watered when his top two inches of soil are dry. He’s not keen on sitting in soggy soil.",
+            "humidity": "A moist atmosphere helps keep his leaves healthy. Give him a good mist every few days. Or put him in a steamy bathroom.",
+            "about": "Philo means ‘’loving’ in Greek, while dendron means ‘tree’. Which makes this the ‘loving tree’. While that could be because it’s just so easy to like, it’s probably because of its big heart-shaped leaves.",
+            "about1": "It’s a pretty easy plant to take care of, as long as you give it the right light and water. You can also give it a growth boost by feeding it with liquid fertiliser once per month in spring and summer.",
+            "about2": "Did you know?",
+            "about3": "There are 489 different species of philodendron. Gold star to you if you can list them all."
+        },
+        {
+            "id": 7,
+            "name": "ZZ Plant",
+            "height": "30-60cm",
+            "price": "£20.00 - £50.00",
+            "thumbnails": [
+                "zz_img1__link",
+                "zz_img2__link",
+                "zz_img3__link",
+                "zz_img4__link"
+            ],
+            "scientific name": "Zamioculcas zamiifolia",
+            "light": "Low to bright indirect light: Can tolerate low light conditions but also thrives in brighter settings.",
+            "water": "Infrequent watering: Allow the soil to dry out completely between waterings.",
+            "humidity": "Not particularly humidity-sensitive.",
+            "about": "The ZZ plant is a tough, low-maintenance plant known for its glossy, dark green leaves. It can survive in various light conditions and can handle periods of neglect. Its rhizomatous root system stores water, making it drought-tolerant.",
+            "about1": "Originating from Africa, ZZ plants have adapted to thrive in arid conditions. They're an excellent choice for beginners and those with less time for plant care.",
+            "about2": "Did you know?",
+            "about3": "ZZ plants have air-purifying qualities and are considered toxic if ingested, so keep them away from pets and small children."
+        },
+        {
+            "id": 8,
+            "name": "Peace Lily",
+            "height": "30-60cm",
+            "price": "£15.00 - £40.00",
+            "thumbnails": [
+                "peace_lily_img1__link",
+                "peace_lily_img2__link",
+                "peace_lily_img3__link",
+                "peace_lily_img4__link"
+            ],
+            "scientific name": "Spathiphyllum",
+            "light": "Low to bright indirect light: Prefers moderate light but can tolerate lower light levels.",
+            "water": "Moderate watering: Keep the soil consistently moist but not waterlogged.",
+            "humidity": "Higher humidity preferred: Mist the leaves regularly or place on a tray of water.",
+            "about": "The Peace Lily is known for its elegant white blooms and lush, dark green leaves. It's a popular choice for indoor spaces due to its air-purifying qualities. While relatively easy to care for, it appreciates consistent moisture and humidity.",
+            "about1": "Native to tropical rainforests, Peace Lilies thrive in the high humidity and filtered light found in these environments.",
+            "about2": "Did you know?",
+            "about3": "Peace Lilies are not true lilies. They are part of the Araceae family and are not toxic to humans but can be mildly toxic to pets."
+        },
+        {
+            "id": 9,
+            "name": "Chamaedorea",
+            "height": "60-120cm",
+            "price": "£30.00 - £70.00",
+            "thumbnails": [
+                "chamaedorea_img1__link",
+                "chamaedorea_img2__link",
+                "chamaedorea_img3__link",
+                "chamaedorea_img4__link"
+            ],
+            "scientific name": "Chamaedorea elegans",
+            "light": "Indirect light: Thrives in bright but indirect sunlight.",
+            "water": "Moderate watering: Allow the top inch of soil to dry out before watering again.",
+            "humidity": "Higher humidity preferred: Mist the leaves or use a humidity tray.",
+            "about": "The Chamaedorea, commonly known as the Parlor Palm, is a compact palm with delicate fronds. It's well-suited for indoor spaces and brings a touch of the tropics to your home. It's relatively easy to care for, making it a popular choice among plant enthusiasts.",
+            "about1": "Originating from Mexico and Central America, Chamaedorea prefers the shaded forest floor, which makes it adaptable to lower light conditions indoors.",
+            "about2": "Did you know?",
+            "about3": "Chamaedorea elegans is considered non-toxic to pets and humans, making it a pet-friendly choice for households."
+        },
+        {
+            "id": 10,
+            "name": "Fiddle-Leaf Fig",
+            "height": "60-300cm",
+            "price": "£40.00 - £150.00",
+            "thumbnails": [
+                "fiddle_leaf_fig_img1__link",
+                "fiddle_leaf_fig_img2__link",
+                "fiddle_leaf_fig_img3__link",
+                "fiddle_leaf_fig_img4__link"
+            ],
+            "scientific name": "Ficus lyrata",
+            "light": "Bright, indirect light: Requires ample sunlight but avoid direct sunlight.",
+            "water": "Moderate watering: Allow the top inch of soil to dry before rewatering.",
+            "humidity": "Average to higher humidity preferred: Mist the leaves occasionally.",
+            "about": "The Fiddle-Leaf Fig is known for its large, violin-shaped leaves that create an elegant and dramatic presence. It's a popular choice for interior decoration, but it requires careful attention to light and humidity to thrive indoors.",
+            "about1": "Native to western Africa, Fiddle-Leaf Figs grow in tropical rainforests, receiving filtered light through the canopy.",
+            "about2": "Did you know?",
+            "about3": "Fiddle-Leaf Figs can be a bit finicky, but with proper care, they can make a stunning statement piece in your living space."
+        }
+        
+    ]
+}
