@@ -1,0 +1,13 @@
+{
+    "discountCodes": [
+      {
+        "code": "BESTDAY",
+        "percentage": 0.05
+      },
+      {
+        "code": "GREEN",
+        "percentage": 0.1
+      }
+    ]
+  }
+  

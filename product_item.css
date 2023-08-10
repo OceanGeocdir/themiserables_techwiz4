@@ -97,3 +97,6 @@
     transform: translateY(10px);
     box-shadow: none;
 }
+.addtocart{
+    cursor: pointer;
+}

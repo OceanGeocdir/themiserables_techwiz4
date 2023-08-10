@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
@@ -31,10 +31,10 @@
     <section id="cart-add" class="section-p1">
         <div id="coupon">
             <h3>Apply Coupon</h3>
-            <input type="text" placeholder="Enter Your Counpon">
-            <button class="normal">Apply</button>
+            <input type="text" placeholder="Enter Your Coupon" id="discount-code">
+            <button class="normal" onclick="applyDiscount()">Apply</button>
         </div>
-    
+
         <div id="subtotal">
             <h3>Cart Totals</h3>
             <table>
@@ -43,17 +43,16 @@
                     <td id="cart-subtotal">$ 0.00</td>
                 </tr>
                 <tr>
-                    <td>Shipping</td>
-                    <td>Free</td>
+                    <td>Discount</td>
+                    <td id="cart-discount">$ 0.00</td>
                 </tr>
                 <tr>
                     <td><strong>Total</strong></td>
                     <td id="cart-total"><strong>$ 0.00</strong></td>
                 </tr>
             </table>
-            <button class="normal">Procees to checkout</button>
+            <button class="normal">Proceed to checkout</button>
         </div>
-    </section>
     
 </body>
 

@@ -1,3 +1,36 @@
+function applyDiscount() {
+    var discountCode = document.getElementById('discount-code').value;
+    var productList = JSON.parse(localStorage.getItem('product_list')) || [];
+
+    // Đọc thông tin mã giảm giá từ tệp JSON
+    fetch('./json/discountCodes.json')
+        .then(response => response.json())
+        .then(data => {
+            var totalDiscount = 0;
+
+            productList.forEach(function(product) {
+                // Tìm mã giảm giá trong danh sách
+                var matchingDiscount = data.discountCodes.find(function(discount) {
+                    return discount.code === discountCode;
+                });
+
+                if (matchingDiscount) {
+                    totalDiscount += (parseFloat(product.price.replace('$', '')) * product.quantity) * matchingDiscount.percentage;
+                }
+            });
+
+            var cartSubtotalElement = document.getElementById('cart-subtotal');
+            var cartDiscountElement = document.getElementById('cart-discount');
+            var cartTotalElement = document.getElementById('cart-total');
+
+            var cartSubtotal = parseFloat(cartSubtotalElement.textContent.replace('$', ''));
+
+            var discountedTotal = cartSubtotal - totalDiscount;
+
+            cartDiscountElement.textContent = '$ ' + totalDiscount.toFixed(2);
+            cartTotalElement.textContent = '$ ' + discountedTotal.toFixed(2);
+        });
+}
 function updateCart() {
     var cartBody = document.getElementById('cart-body');
     cartBody.innerHTML = ''; // Xóa dữ liệu cũ
@@ -36,6 +69,7 @@ function updateCart() {
     var cartTotalElement = document.getElementById('cart-total');
     cartSubtotalElement.textContent = '$ ' + cartSubtotal.toFixed(2);
     cartTotalElement.textContent = '$ ' + cartSubtotal.toFixed(2);
+    applyDiscount();
 }
 
 
