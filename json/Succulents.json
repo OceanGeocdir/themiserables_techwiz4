@@ -7,6 +7,7 @@
           "height": "10-20cm",
           "img":"./imgcay/cay mong nuoc/sedum-reflexum-blue-spruce.jpg",
           "discountCode": "ABC123",
+          "origin": "Europe and parts of Asia",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -30,6 +31,7 @@
           "height": "10-30cm",
           "img":"./imgcay/cay mong nuoc/sedum-hybridum-immergrunchen.jpg",
           "discountCode": "ABC123",
+          "origin": "eastern Asia, specifically regions of China, Korea, and Russia",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -53,6 +55,7 @@
           "height": "6-10cm",
           "img":"./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.jpg",
           "discountCode": "ABC123",
+          "origin": "southern Europe and parts of northern Africa",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -76,6 +79,7 @@
           "height": "10-15cm",
           "img":"./imgcay/cay mong nuoc/sedum-album-coral-carpet.jpg",
           "discountCode": "ABC123",
+          "origin": "a wide range of regions across Europe, including countries like France, Spain, Italy, and Greece",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -99,6 +103,7 @@
           "height": "9-15cm",
           "img":"./imgcay/cay mong nuoc/Sedum spurium 'Tricolor'.jpg",
           "discountCode": "ABC123",
+          "origin": "parts of Europe and Asia, including countries such as Russia, Ukraine, and Turkey",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -122,6 +127,7 @@
           "height": "5-10cm",
           "img":"./imgcay/cay mong nuoc/Sedum reflexum Angelina.jpg",
           "discountCode": "ABC123",
+          "origin": "a wide range of regions across Europe, including countries like France, Spain, Italy, and Greece",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -145,6 +151,7 @@
           "height": "7-9cm",
           "img":"./imgcay/cay mong nuoc/sedum-album-black-pearl .jpg",
           "discountCode": "ABC123",
+          "origin": "western and central Europe",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -168,6 +175,7 @@
           "height": "23-30cm",
           "img":"./imgcay/cay mong nuoc/Sedum sediforme Turquoise Tails.jpg",
           "discountCode": "ABC123",
+          "origin": "southern Europe and regions of the Caucasus",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -191,6 +199,7 @@
           "height": "15-20cm",
           "img":"./imgcay/cay mong nuoc/Sedum spurium Voodoo.jpg",
           "discountCode": "ABC123",
+          "origin": "a range of regions in Europe and Asia",
           "thumbnails": [
             "img1__link",
             "img2__link",
@@ -206,31 +215,7 @@
           "about2": "Growth Habit: Low Growing / Creeping",
           "about3": "Seasonality: Blooms in Late Summer",
           "about4": ""
-        },
-        {
-          "id": 10,
-          "name": "Sedum lineare f. variegatum - Carpet Sedum",
-          "price": "$4.49",
-          "height": "8-10cm",
-          "img":"./imgcay/cay mong nuoc/Sedum lineare f. variegatum - Carpet Sedum.jpg",
-          "discountCode": "ABC123",
-          "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
-          ],
-          "scientificname": "Sedum lineare f. variegatum",
-          "light": "Full Sun",
-          "water": "Regular water to establish roots",
-          "humidity": "Not specific",
-          "about": "'Carpet Sedum' is a low-growing succulent with variegated leaves and yellow flowers in summer.",
-          "about1": "Cold Hardiness: Zone 4 (-30F)",
-          "about2": "Growth Habit: Low Growing / Creeping",
-          "about3": "Seasonality: Blooms in Summer",
-          "about4": ""
-        }
-        
+        }        
       ],
       "flower":[
         {

@@ -5,13 +5,14 @@
             "name": "Laura tree",
             "height": "80-90cm",
             "price": "£35.00 - £110.00",
+            "origin": "the Mediterranean region",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Laurus nobilis",
+            "scientificname": "Laurus nobilis",
             "light": "Most light conditions: She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day.",
             "water": "Regular watering: She likes her soil gently moist. In hot summers she'll like very frequent watering. She needs less in winter.",
             "humidity": "Help her grow strong and healthy by giving her a feed with some liquid fertiliser once per month in spring and summer.",
@@ -25,13 +26,14 @@
             "name": "Laura shrub",
             "price": "£15.00 - £100.00",
             "height": "20-30cm",
+            "origin": "the Mediterranean region",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Laurus Nobilis",
+            "scientificname": "Laurus Nobilis",
             "light": "Most light conditions: She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day.",
             "water": "Light watering: She likes her soil gently moist. She’ll cope with a bit of forgetful watering but doesn’t like to dry out entirely.",
             "humidity": "Help her grow strong and healthy by giving her a feed with some liquid fertiliser once per month in spring and summer.",
@@ -45,16 +47,17 @@
             "name": "Boo",
             "price": "£35.00 - £60.00",
             "height": "70-80cm",
+            "origin": "Sichuan, China",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Fargesia robusta",
+            "scientificname": "Fargesia robusta",
             "light": "A sunny spot: They like a spot that gets a mix of sun and shade. Sun all day can be a bit much for them.",
             "water": "Moist soil: They like their soil quite moist, so give them a drink whenever the surface of the soil feels dry.",
-            "haircuts": "Haircuts: Boo is a very quick grower, so don’t be afraid to chop them back if they gets too big.",
+            "humidity": "Haircuts: Boo is a very quick grower, so don’t be afraid to chop them back if they gets too big.",
             "about": "If there are two things most of us know about bamboo they’re that it produces hollow canes and pandas eat it. There is a whole lot more to know about bamboo. ",
             "about1": "There are over 1,000 different bamboo species, growing natively on every continent except Europe. They almost all have hollow stems, grow in dense clumps and many grow very, very quickly. Some species are known to grow at a rate of almost 4cm per hour. Yes, per hour. This one, umbrella bamboo, is a lot slower than that, but still a quick grower.",
             "about2": "Did you know?",
@@ -65,13 +68,14 @@
             "name": "Phoebe",
             "price": "£50.00 - £150.00",
             "height": "100-110cm",
+            "origin": "Canary Islands off the coast of Morocco",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Phoenix canariensis",
+            "scientificname": "Phoenix canariensis",
             "light": "Medium light: She loves the sun, but she’s happiest if she gets a little bit of shade for part of the day, for a break from the heat.",
             "water": "Light watering: She likes her soil on the dry side. You can let her dry out completely between drinks.",
             "humidity": "humidity: Help her grow big and strong by giving her a feed with liquid fertiliser once per month in spring and summer.",
@@ -85,13 +89,14 @@
             "name": "Tam",
             "height": "110-120cm",
             "price": "£65.00",
+            "origin": "eastern Australia",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Dicksonia Antarctica",
+            "scientificname": "Dicksonia Antarctica",
             "light": "Gentle sun: His preferred place to live is a spot that gives him a mix of shade and gentle sun. A south exposure, for example, will burn his leaves!",
             "water": "Moist soil: Don't let him dry out. Water him when the top two inches of soil are dry.",
             "humidity": "Shelter: Strong winds are no friend of tree ferns so position him somewhere that he'll be well protected from them.",
@@ -105,13 +110,14 @@
             "name": "Ivy",
             "height": "20-30cm",
             "price": "£8.00 - £25.00",
+            "origin": "western, central, and southern Europe as well as southeast Asia",
             "thumbnails": [
                 "img1__link",
                 "img2__link",
                 "img3__link",
                 "img4__link"
             ],
-            "scientific name": "Hedera helix",
+            "scientificname": "Hedera helix",
             "light": "Most light conditions: She could not be more easygoing when it comes to light. She’ll cope in almost anything but loves bright, indirect light.",
             "water": "Regular watering: She likes her soil gently moist, but not soggy. Water her when her top two inches of soil are dry.",
             "humidity": "Humidity: She’s used to lots of rain - well, she is English - so she likes a moist atmosphere. Mist her every couple of days.",
@@ -125,13 +131,14 @@
             "name": "Lime Tree",
             "height": "80-150cm",
             "price": "£40.00 - £100.00",
+            "origin": "tropical areas along the Malay archipelago",
             "thumbnails": [
                 "lime_tree_img1__link",
                 "lime_tree_img2__link",
                 "lime_tree_img3__link",
                 "lime_tree_img4__link"
             ],
-            "scientific name": "Citrus aurantiifolia",
+            "scientificname": "Citrus aurantiifolia",
             "light": "Full sunlight: Requires 6-8 hours of direct sunlight daily.",
             "water": "Regular watering: Keep the soil evenly moist, allowing the top inch to dry out between waterings.",
             "humidity": "Average humidity preferred: Mist occasionally if the air is dry.",
@@ -145,13 +152,14 @@
             "name": "Olive Tree",
             "height": "60-150cm",
             "price": "£30.00 - £80.00",
+            "origin": "Africa and temperate Asia as well as southern Europe",
             "thumbnails": [
                 "olive_tree_img1__link",
                 "olive_tree_img2__link",
                 "olive_tree_img3__link",
                 "olive_tree_img4__link"
             ],
-            "scientific name": "Olea europaea",
+            "scientificname": "Olea europaea",
             "light": "Full sunlight: Requires at least 6-8 hours of direct sunlight daily.",
             "water": "Moderate watering: Allow the top inch of soil to dry before watering thoroughly.",
             "humidity": "Average humidity preferred: Tolerates dry air well.",
@@ -165,13 +173,14 @@
             "name": "Star Jasmine",
             "height": "30-90cm",
             "price": "£20.00 - £60.00",
+            "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
             "thumbnails": [
                 "star_jasmine_img1__link",
                 "star_jasmine_img2__link",
                 "star_jasmine_img3__link",
                 "star_jasmine_img4__link"
             ],
-            "scientific name": "Trachelospermum jasminoides",
+            "scientificname": "Trachelospermum jasminoides",
             "light": "Bright indirect light: Prefers bright, indirect sunlight, but can tolerate some direct sun.",
             "water": "Regular watering: Keep the soil consistently moist, but not waterlogged.",
             "humidity": "Average humidity preferred: Mist occasionally in dry conditions.",
@@ -179,26 +188,6 @@
             "about1": "Native to East Asia, Star Jasmine is a vining plant that climbs and cascades naturally.",
             "about2": "Did you know?",
             "about3": "Star Jasmine's sweet fragrance makes it a sought-after choice for arbors, trellises, and garden landscapes."
-        },
-        {
-            "id": 10,
-            "name": "Kumquat Tree",
-            "height": "60-120cm",
-            "price": "£40.00 - £100.00",
-            "thumbnails": [
-                "kumquat_tree_img1__link",
-                "kumquat_tree_img2__link",
-                "kumquat_tree_img3__link",
-                "kumquat_tree_img4__link"
-            ],
-            "scientific name": "Fortunella",
-            "light": "Bright sunlight: Requires 6-8 hours of direct sunlight daily.",
-            "water": "Moderate watering: Allow the top inch of soil to dry before watering thoroughly.",
-            "humidity": "Average humidity preferred: Regular misting can help in dry environments.",
-            "about": "The Kumquat Tree produces small, flavorful citrus fruits that can be eaten whole, peel and all. It's a compact tree suitable for indoor cultivation, adding both aesthetic appeal and a tangy treat to your living space.",
-            "about1": "Kumquat Trees are native to East Asia and thrive in warm, sunny climates.",
-            "about2": "Did you know?",
-            "about3": "Kumquat fruits are often enjoyed fresh or used in culinary creations, such as jams and baked goods."
         }
     ]
 }
