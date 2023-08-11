@@ -95,6 +95,7 @@ button.white {
     gap: 30px;
     position: relative;
     padding: 0 20px;
+    background-color: #C9E6C0;
 }
 
 #header .logo img {
