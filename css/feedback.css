@@ -85,8 +85,9 @@ body{
 }
   
   /* Begin Right Contact Page */
-  .direct-contact-container {
+  .feedback__direct-contact-container {
     max-width: 400px;
+    height: auto;
     position: absolute;
     top: 50%;
     right: 20px;
@@ -94,19 +95,19 @@ body{
   }
   
   /* Location, Phone, Email Section */
-  .contact-list {
+  .feedback__contact-list {
     list-style-type: none;
     margin-left: -30px;
     padding-right: 20px;
   }
   
-  .list-item {
+  .feedback__list-item {
     line-height: 4;
     color: #000;
     margin-left: 20px;
   }
   
-  .contact-text {
+  .feedback__contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
     color: #000;
@@ -125,32 +126,32 @@ body{
     margin-left: 53px;
   }
   
-  .contact-text a {
+  .feedback__contact-text a {
     color: #000;
     text-decoration: none;
     -webkit-transition-duration: 0.2s;
             transition-duration: 0.2s;
   }
   
-  .contact-text a:hover {
+  .feedback__contact-text a:hover {
     color: #fff;
     text-decoration: none;
   }
   
   
   /* Social Media Icons */
-  .social-media-list {
+  .feedback__social-media-list {
     position: relative;
     font-size: 2.3rem;
     text-align: center;
     width: 100%;
   }
   
-  .social-media-list li a {
+  .feedback__social-media-list li a {
     color: #fff;
   }
   
-  .social-media-list li {
+  .feedback__social-media-list li {
     position: relative;
     top: 0;
     left: -20px;
@@ -167,7 +168,7 @@ body{
     transition: all .2s ease-in-out;
   }
   
-  .social-media-list li:after {
+  .feedback__social-media-list li:after {
     content: '';
     position: absolute;
     top: 0;
@@ -182,11 +183,11 @@ body{
     transition: all .2s ease-in-out;
   }
   
-  .social-media-list li:hover {
+  .feedback__social-media-list li:hover {
     background-color: #fff;
   }
   
-  .social-media-list li:hover:after {
+  .feedback__social-media-list li:hover:after {
     opacity: 1;
     -webkit-transform: scale(1.12);
             transform: scale(1.12);
@@ -194,11 +195,11 @@ body{
             transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
   }
   
-  .social-media-list li:hover a {
+  .feedback__social-media-list li:hover a {
     color: #111;
   }
   
-  .copyright {
+  .feedback__copyright {
     font: 200 14px 'Oswald', sans-serif;
     color: #000;
     letter-spacing: 1px;
