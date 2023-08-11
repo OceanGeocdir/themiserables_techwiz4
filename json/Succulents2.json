@@ -415,7 +415,7 @@
         "height": "80-90cm",
         "price": "$96",
         "origin": "the Mediterranean region",
-        "link":"imgcay/cay trong ngoai troi/Laura tree.png",
+        "link":"./imgcay/cay trong ngoai troi/Laura tree.png",
         "thumbnails": [
             "img1__link",
             "img2__link",
@@ -437,7 +437,7 @@
         "price": "$100",
         "height": "20-30cm",
         "origin": "the Mediterranean region",
-        "link":"imgcay/cay trong ngoai troi/Laura shrub.png",
+        "link":"./imgcay/cay trong ngoai troi/Laura shrub.png",
         "thumbnails": [
             "img1__link",
             "img2__link",
@@ -459,7 +459,7 @@
         "price": "$60.99",
         "height": "70-80cm",
         "origin": "Sichuan, China",
-        "link":"imgcay/cay trong ngoai troi/Boo.png",
+        "link":"./imgcay/cay trong ngoai troi/Boo.png",
         "thumbnails": [
             "img1__link",
             "img2__link",
@@ -481,7 +481,7 @@
         "price": "$150",
         "height": "100-110cm",
         "origin": "Canary Islands off the coast of Morocco",
-        "link":"imgcay/cay trong ngoai troi/Phoebe.png",
+        "link":"./imgcay/cay trong ngoai troi/Phoebe.png",
         "thumbnails": [
             "img1__link",
             "img2__link",
@@ -503,7 +503,7 @@
         "height": "110-120cm",
         "price": "$75",
         "origin": "eastern Australia",
-        "link":"imgcay/cay trong ngoai troi/Tam.png",
+        "link":"./imgcay/cay trong ngoai troi/Tam.png",
         "thumbnails": [
             "img1__link",
             "img2__link",
@@ -525,7 +525,7 @@
         "height": "20-30cm",
         "price": " $35",
         "origin": "western, central, and southern Europe as well as southeast Asia",
-        "link":"imgcay/cay trong ngoai troi/Ivy.png",
+        "link":"./imgcay/cay trong ngoai troi/Ivy.png",
         "thumbnails": [
             "img1__link",
             "img2__link",
@@ -547,7 +547,7 @@
         "height": "80-150cm",
         "price": "$49",
         "origin": "tropical areas along the Malay archipelago",
-        "link":"imgcay/cay trong ngoai troi/Leon.png",
+        "link":"./imgcay/cay trong ngoai troi/Leon.png",
         "thumbnails": [
             "lime_tree_img1__link",
             "lime_tree_img2__link",
@@ -569,7 +569,7 @@
         "height": "60-150cm",
         "price": "$92",
         "origin": "Africa and temperate Asia as well as southern Europe",
-        "link":"imgcay/cay trong ngoai troi/Ollie.png",
+        "link":"./imgcay/cay trong ngoai troi/Ollie.png",
         "thumbnails": [
             "olive_tree_img1__link",
             "olive_tree_img2__link",
@@ -591,7 +591,7 @@
         "height": "30-90cm",
         "price": "$69",
         "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
-        "link":"./imgcay/cay trong ngoai troi/Kai.png",
+        "link":"././imgcay/cay trong ngoai troi/Kai.png",
         "thumbnails": [
             "star_jasmine_img1__link",
             "star_jasmine_img2__link",

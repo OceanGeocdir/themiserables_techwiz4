@@ -4,11 +4,7 @@
             "id": 1,
             "name": "Laura tree",
             "height": "80-90cm",
-<<<<<<< HEAD
             "price": "$96",
-=======
-            "price": "$40.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "the Mediterranean region",
             "thumbnails": [
                 "img1__link",
@@ -113,11 +109,7 @@
             "id": 6,
             "name": "Ivy",
             "height": "20-30cm",
-<<<<<<< HEAD
             "price": " $35",
-=======
-            "price": "$35.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "western, central, and southern Europe as well as southeast Asia",
             "thumbnails": [
                 "img1__link",
@@ -138,11 +130,7 @@
             "id": 7,
             "name": "Lime Tree",
             "height": "80-150cm",
-<<<<<<< HEAD
             "price": "$49",
-=======
-            "price": "$120.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "tropical areas along the Malay archipelago",
             "thumbnails": [
                 "lime_tree_img1__link",
@@ -163,11 +151,7 @@
             "id": 8,
             "name": "Olive Tree",
             "height": "60-150cm",
-<<<<<<< HEAD
             "price": "$92",
-=======
-            "price": "$92.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "Africa and temperate Asia as well as southern Europe",
             "thumbnails": [
                 "olive_tree_img1__link",
@@ -188,11 +172,7 @@
             "id": 9,
             "name": "Star Jasmine",
             "height": "30-90cm",
-<<<<<<< HEAD
             "price": "$69",
-=======
-            "price": "$69.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
             "thumbnails": [
                 "star_jasmine_img1__link",

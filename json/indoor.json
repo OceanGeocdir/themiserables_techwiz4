@@ -4,11 +4,7 @@
             "id": 1,
             "name": "Howard",
             "height": "40-50cm",
-<<<<<<< HEAD
             "price": "$83.00",
-=======
-            "price": "$31.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "eastern Asia",
             "thumbnails": [
                 "img1__link",
@@ -28,11 +24,7 @@
         {
             "id": 2,
             "name": "Rick",
-<<<<<<< HEAD
             "price": "$108.00",
-=======
-            "price": "$11.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "height": "30-40cm",
             "origin": "tropical Africa",
             "thumbnails": [
@@ -74,11 +66,7 @@
         {
             "id": 4,
             "name": "Cedric",
-<<<<<<< HEAD
             "price": "$51.00",
-=======
-            "price": "$26.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "height": "30-40cm",
             "origin": "Angola, Southern Africa",
             "thumbnails": [
@@ -121,11 +109,7 @@
             "id": 6,
             "name": "Phil",
             "height": "30-40cm",
-<<<<<<< HEAD
             "price": "$96.00",
-=======
-            "price": "$19.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "Brazil and Colombia",
             "thumbnails": [
                 "img1__link",
@@ -146,11 +130,7 @@
             "id": 7,
             "name": "ZZ Plant",
             "height": "30-60cm",
-<<<<<<< HEAD
             "price": "$83",
-=======
-            "price": "$31.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "East Africa, from Kenya to South Africa",
             "thumbnails": [
                 "zz_img1__link",
@@ -171,11 +151,7 @@
             "id": 8,
             "name": "Peace Lily",
             "height": "30-60cm",
-<<<<<<< HEAD
             "price": "$51",
-=======
-            "price": "$51.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "tropical regions of the Americas and southeastern Asia",
             "thumbnails": [
                 "peace_lily_img1__link",
@@ -196,11 +172,7 @@
             "id": 9,
             "name": "Chamaedorea",
             "height": "60-120cm",
-<<<<<<< HEAD
             "price": "$94",
-=======
-            "price": "$94.00",
->>>>>>> 4fa41a07392f2cca34788ae0fb22d572d3f10ad0
             "origin": "southeastern Mexico to northern Guatemala",
             "thumbnails": [
                 "chamaedorea_img1__link",
