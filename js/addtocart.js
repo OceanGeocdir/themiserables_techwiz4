@@ -1,10 +1,10 @@
 angular.module('myApp', [])
 .controller('SucculentsController', function ($scope, $http) {
-    $http.get('./json/Succulents.json').then(function (response) {
-        $scope.succulents = response.data.Succulents;
-        $scope.Flower = response.data.flower;
-        $scope.indoors = response.data.indoor;
-        $scope.outdoors = response.data.outdoor;
+    $http.get('./json/Succulents2.json').then(function (response) {
+        $scope.succulents = response.data.page1;
+        $scope.Flower = response.data.page2;
+        $scope.indoors = response.data.page3;
+        $scope.outdoors = response.data.page4;
     });
 
     $scope.addToCart = function (item) {
