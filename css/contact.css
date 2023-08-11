@@ -118,21 +118,5 @@
 }
 
 @media (max-width: 477px) {
-    #header__responsive {
-        display: flex;
-        flex-direction: column;
-    }
-    #header {
-        display: block;
-        width: 100%;
-    }
-    #contact-detail {
-        /* margin-bottom: 100px; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: space-between; */
-    }
-    #contact-detail .detail {
-        /* width: 40%; */
-    }
+
 }

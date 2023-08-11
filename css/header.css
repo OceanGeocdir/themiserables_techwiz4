@@ -86,3 +86,18 @@
 .search-box_btn {
     color: #088178;
 }
+@media (max-width: 799px)  {
+    
+    .search-box {
+        border: 1px solid #088178;
+    }
+    .search-box {
+        position: absolute;
+        right: 170px;
+        top: 27px;
+    }
+    
+}
+@media (max-width: 477px) {
+    
+}
