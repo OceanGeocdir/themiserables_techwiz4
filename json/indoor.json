@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Howard",
             "height": "40-50cm",
-            "price": "$31.00 - $83.00",
+            "price": "$83.00",
             "origin": "eastern Asia",
             "thumbnails": [
                 "img1__link",
@@ -24,7 +24,7 @@
         {
             "id": 2,
             "name": "Rick",
-            "price": "$11.00 - $108.00",
+            "price": "$108.00",
             "height": "30-40cm",
             "origin": "tropical Africa",
             "thumbnails": [
@@ -45,7 +45,7 @@
         {
             "id": 3,
             "name": "Jane",
-            "price": "£23.00",
+            "price": "$23.00",
             "height": "20-30cm",
             "origin": "Brazilian tropical forests",
             "thumbnails": [
@@ -66,7 +66,7 @@
         {
             "id": 4,
             "name": "Cedric",
-            "price": "$26.00 - $51.00",
+            "price": "$51.00",
             "height": "30-40cm",
             "origin": "Angola, Southern Africa",
             "thumbnails": [
@@ -88,7 +88,7 @@
             "id": 5,
             "name": "Theodore",
             "height": "20-30cm",
-            "price": "$26.00",
+            "price": "$26",
             "origin": "tropical areas of China, India and most areas of Indo-China",
             "thumbnails": [
                 "img1__link",
@@ -109,7 +109,7 @@
             "id": 6,
             "name": "Phil",
             "height": "30-40cm",
-            "price": "$19.00 - $96.00",
+            "price": "$96.00",
             "origin": "Brazil and Colombia",
             "thumbnails": [
                 "img1__link",
@@ -130,7 +130,7 @@
             "id": 7,
             "name": "ZZ Plant",
             "height": "30-60cm",
-            "price": "$31.00 - $83.00",
+            "price": "$83",
             "origin": "East Africa, from Kenya to South Africa",
             "thumbnails": [
                 "zz_img1__link",
@@ -151,7 +151,7 @@
             "id": 8,
             "name": "Peace Lily",
             "height": "30-60cm",
-            "price": "$19.00 - $51.00",
+            "price": "$51",
             "origin": "tropical regions of the Americas and southeastern Asia",
             "thumbnails": [
                 "peace_lily_img1__link",
@@ -172,7 +172,7 @@
             "id": 9,
             "name": "Chamaedorea",
             "height": "60-120cm",
-            "price": "$37.00 - $94.00",
+            "price": "$94",
             "origin": "southeastern Mexico to northern Guatemala",
             "thumbnails": [
                 "chamaedorea_img1__link",

@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Laura tree",
             "height": "80-90cm",
-            "price": "$40.00 - $96.00",
+            "price": "$96",
             "origin": "the Mediterranean region",
             "thumbnails": [
                 "img1__link",
@@ -24,7 +24,7 @@
         {
             "id": 2,
             "name": "Laura shrub",
-            "price": "$100.00",
+            "price": "$100",
             "height": "20-30cm",
             "origin": "the Mediterranean region",
             "thumbnails": [
@@ -45,7 +45,7 @@
         {
             "id": 3,
             "name": "Boo",
-            "price": "$60.00",
+            "price": "$60.99",
             "height": "70-80cm",
             "origin": "Sichuan, China",
             "thumbnails": [
@@ -66,7 +66,7 @@
         {
             "id": 4,
             "name": "Phoebe",
-            "price": "$150.00",
+            "price": "$150",
             "height": "100-110cm",
             "origin": "Canary Islands off the coast of Morocco",
             "thumbnails": [
@@ -88,7 +88,7 @@
             "id": 5,
             "name": "Tam",
             "height": "110-120cm",
-            "price": "$75.00",
+            "price": "$75",
             "origin": "eastern Australia",
             "thumbnails": [
                 "img1__link",
@@ -109,7 +109,7 @@
             "id": 6,
             "name": "Ivy",
             "height": "20-30cm",
-            "price": "$11.00 - $35.00",
+            "price": " $35",
             "origin": "western, central, and southern Europe as well as southeast Asia",
             "thumbnails": [
                 "img1__link",
@@ -130,7 +130,7 @@
             "id": 7,
             "name": "Lime Tree",
             "height": "80-150cm",
-            "price": "$49.00 - $120.00",
+            "price": "$49",
             "origin": "tropical areas along the Malay archipelago",
             "thumbnails": [
                 "lime_tree_img1__link",
@@ -151,7 +151,7 @@
             "id": 8,
             "name": "Olive Tree",
             "height": "60-150cm",
-            "price": "$41.00 - $92.00",
+            "price": "$92",
             "origin": "Africa and temperate Asia as well as southern Europe",
             "thumbnails": [
                 "olive_tree_img1__link",
@@ -172,7 +172,7 @@
             "id": 9,
             "name": "Star Jasmine",
             "height": "30-90cm",
-            "price": "$26.00 - $69.00",
+            "price": "$69",
             "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
             "thumbnails": [
                 "star_jasmine_img1__link",
