@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	  
 		if (user) {
 		  alert("Login successful!");
-		  window.location.href = "./home.html"
+		  window.location.href = "./index.html"
 		  localStorage.setItem('login', true)
 		} else {
 		  alert("Invalid credentials. Please try again.");
