@@ -12,36 +12,31 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+<div class="col-lg-9 col-md-12" ng-controller="page4Controller">
     <div class="container">
         <div class="row">
-
-            <div class="col-lg-9 col-md-12" ng-controller="page4Controller">
-                <div class="container">
-                    <div class="row">
-                        
-                        
-                        <div class="col-lg-4 col-md-6   mb-4" ng-repeat="Outdoor in data5">
-                            <div class="card sp_card ">
-                                <div class="sp_img_item">
-                                    <img ng-src="{{ Outdoor.img }}" class="card-img-top" style="height: 260px;">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ Outdoor.name }}</h5>
-                                    <p class="card-text">{{ Outdoor.scientificname }}</p>
-                                    <div class="price_card">
-                                        <span>{{ Outdoor.price }}</span>
-                                        <i class="fa-solid fa-cart-shopping addtocart"
-                                    ng-click="addToCart(Outdoor)"></i>
-                                    </div>
-                                    </div>
-                            </div>
-                        </div>
- 
+            
+            
+            <div class="col-lg-4 col-md-6   mb-4" ng-repeat="Outdoor in data5">
+                <div class="card sp_card ">
+                    <div class="sp_img_item">
+                        <img ng-src="{{ Outdoor.img }}" class="card-img-top" style="height: 260px;">
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ Outdoor.name }}</h5>
+                        <p class="card-text">{{ Outdoor.scientificname }}</p>
+                        <div class="price_card">
+                            <span>{{ Outdoor.price }}</span>
+                            <i class="fa-solid fa-cart-shopping addtocart"
+                        ng-click="addToCart(Outdoor)"></i>
+                        </div>
+                        </div>
                 </div>
             </div>
+
         </div>
     </div>
+</div>
 
 
 

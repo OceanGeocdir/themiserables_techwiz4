@@ -7,7 +7,7 @@ app.config(function ($routeProvider) {
     .when("/c", { templateUrl: "page3.html" })
     .when("/d", { templateUrl: "page4.html" })
     .when("/e", { templateUrl: "page5.html" })
-    .when("/f", { templateUrl: "page6.html" })
+    .when("/f", { templateUrl: "page6.html" }) 
 });
 
 app.controller("testController", function ($scope, $http) {
