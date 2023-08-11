@@ -24,30 +24,59 @@
     <!-- ! Style sheet -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
 
 </head>
 <!-- angular.js -->
 
 <body>
-    <header id="header">
-        <div class="logo">
+
+
+    <section id="header">
+        <a href="#">
+            <img src="/img/logoo.png" class="logo" style="width:50px">
+        </a>
+        <div id="search-box-1">
+            <!-- serach box -->
+            <div class="search-box">
+                <input type="text" class="search-box_input">
+                <button class="search-box_btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <ul id="navbar">
+                <li><a href="#1/home">Home</a></li>
+                <li><a class="active" href="product.html">Shop</a></li>
+                <li><a href="#!/blog">Blog</a></li>
+                <li><a href="#!/about">About</a></li>
+                <li><a href="#!/feedback">Feedback</a></li>
+                <li><a href="#!/contact">Contact</a></li>
+                <li id="lg-bag"><a href="#!/cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="#!/cart"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <!-- <header id="header"> -->
+        <!-- <div class="logo">
             <a href="">
                 <img src="img/treelogo.png" alt="" class="rung">
             </a>
         </div>
-        <!--! tool-bar -->
         <div class="nav-toolbar">
-            <!-- home -->
             <div class="list-item">
                 <span></span>
                 <a href="#!/home" style="text-decoration: none; color: black; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Home</a>
             </div>
 
-            <!-- shop -->
             <div class="list-item">
                 <span></span>
-                <a href="#!/product">Plants</a>
-                <!--todo ---------------------------- Modal layout expand -->
+                <a href="product.html" style="text-decoration: none; color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Plants</a>
                 <div class="list-item__modal">
                     <div class="list-item__modal--overlay"></div>
                     <div class="list-item__modal--body">
@@ -65,25 +94,21 @@
                 </div>
             </div>
 
-            <!-- Feedback -->
             <div class="list-item">
                 <span></span>
                 <a href="#!/feedback" style="text-decoration: none; color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Feedback</a>
             </div>
 
-            <!-- About -->
             <div class="list-item">
                 <span></span>
                 <a href="#!/about" style="text-decoration: none; color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">About</a>
             </div>
 
-            <!-- contact -->
             <div class="list-item">
                 <span></span>
                 <a href="#!/contact" style="text-decoration: none; color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Contact</a>
             </div>
 
-            <!-- Search -->
             <div class="list-item search" id="searchButton">
                 <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                 <lord-icon src="https://cdn.lordicon.com/xfftupfv.json" trigger="hover" colors="primary:#121331">
@@ -102,7 +127,6 @@
                 </div>
             </div>
 
-            <!-- Cart -->
             <div class="list-item cart">
                 <a href="#!/cart">
                     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
@@ -111,7 +135,6 @@
                 </a>
             </div>
 
-            <!-- search -->
             <div id="searchButton">
                 <div class="header__search__modal--respon">
                     <div class="header__search-box__responsive">
@@ -136,8 +159,6 @@
         </div>
 
         </div>
-        <!-- ! Responsive mobile -->
-        <!-- header responsive icon -->
         <div class="list-item responsive">
             <div class="header__responsive--icon" id="icon-responsive">
                 <i class="bi bi-list" style="font-size: 30px;"></i>
@@ -161,7 +182,6 @@
                 <div><a href="#!/about">About</a></div>
                 <div><a href="#!about">Contact</a></div>
                 
-                <!-- cart -->
                 <div class="header__cartButton">
                     <a href="">
                         <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
@@ -178,8 +198,8 @@
                     </a>
                 </div>
             </div>
-        </div>
-    </header>
+        </div> -->
+    <!-- </header> -->
 
     <!-- view homepage -->
     <div ng-app="myApp">
@@ -359,6 +379,14 @@
             $(this).children('i').toggleClass('bi bi-x-lg')
         })
     })
+</script>
+<script>
+    var btnSearch = document.querySelector('.search-box_btn')
+    btnSearch.addEventListener('click', function() {
+    this.parentElement.classList.toggle('open')
+    this.previousElementSibling .focus()
+
+})
 </script>
 
 </html>

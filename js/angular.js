@@ -6,10 +6,11 @@ app.config(function ($routeProvider) {
     .when("/home", { templateUrl: "home.html"})
     .when("/about", { templateUrl: "about.html"})
     .when("/cart", { templateUrl: "newcart.html", controller: "CartController" })
-    .when("/contact", { templateUrl: "contact.html"})
+    .when("/contact", { templateUrl: "contact.html", controller: "contactController"})
     .when("/feedback", { templateUrl: "feedback.html"})
     .when("/product", { templateUrl: "product.html", controller: "productController" })
     .when("/login", { templateUrl: "login.html"})
+    .when("/blog", { templateUrl: "blog.html", controller: "blogductController"})
 });
 
 app.controller("homeController", function ($scope, $http){
@@ -17,6 +18,9 @@ app.controller("homeController", function ($scope, $http){
 });
 
 app.controller("aboutController", function ($scope, $http){
+    // trang about.html
+});
+app.controller("blogController", function ($scope, $http){
     // trang about.html
 });
 
@@ -39,6 +43,7 @@ app.controller("CartController", function ($scope) {
 app.controller("contactController", function ($scope, $http){
     // trang contact.html
 });
+
 
 app.controller("feedbackController", function ($scope, $http){
     // trang feedback.html
