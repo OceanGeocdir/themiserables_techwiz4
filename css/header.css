@@ -95,7 +95,12 @@
         right: 170px;
         top: 27px;
     }
-    
+    #mobile a i {
+        color: #088178;
+    }
+    #bar{
+        color: #088178!important;
+    }
 }
 @media (max-width: 477px) {
     

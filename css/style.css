@@ -1403,6 +1403,16 @@ footer .coppyright {
     .section-p1-1 {
         box-shadow:none;
     }
+    /* about */
+    .carousel-control-next-icon::after{
+        display: none;
+    } 
+
+/* about */
+    .section-p1-1 {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 }
@@ -1673,9 +1683,19 @@ footer .coppyright {
         display: flex;
         flex-direction: column;
     }
+    /* home */
     .container-font {
         font-size: 20px;
+        margin-left: 0;
     }
+    .container {
+        margin-left: 10px;
+    }
+    .service-item__icon img {
+        display: none;
+    }
+
+
 } 
 
 
