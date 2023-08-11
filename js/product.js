@@ -9,6 +9,7 @@ app.config(function ($routeProvider) {
   .when("/d", { templateUrl: "page4.html", myController:"productController" })   // Cấu hình routing đến page4.html
 });
 
+
 app.controller("productController", function ($scope, $http) {
   $http.get("./json/Succulents2.json").then(function (response) {
     $scope.data1 = response.data.page1;
