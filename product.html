@@ -28,7 +28,11 @@
     </head>
 
     <body>
-
+        <div class="icon-menu-product-1">
+            <button class="icon-menu-product">
+                <i class="fa-solid fa-circle-right"></i>
+            </button>
+        </div>
         <div class="container">
             <div class="row" style="flex-wrap: nowrap; overflow: hidden;">
                 <div class="col-lg-3 col-md-12 col-title p-0 " >
@@ -43,11 +47,16 @@
                             <ul>
                                 <ul>
                                     <li><a href="#!"><div class="clickable-area"></div></a></li>
+                                    <li><a href="#!/a"><div class="clickable-area">Moderate</div></a></li>
+                                    <li><a href="#!/b"><div class="clickable-area">High</div></a></li>
+                                    <li><a href="#!/c"><div class="clickable-area">Low</div></a></li>
+                                    <li><a href="#!/d"><div class="clickable-area">Warm</div></a></li>
+                                    <!-- <li><a href="#!"><div class="clickable-area"></div></a></li>
                                     <li><a href="#!/a"><div class="clickable-area">Page1</div></a></li>
                                     <li><a href="#!/b"><div class="clickable-area">Page2</div></a></li>
                                     <li><a href="#!/c"><div class="clickable-area">Page3</div></a></li>
-                                    <li><a href="#!/d"><div class="clickable-area">Page4</div></a></li>
-                                  </ul>
+                                    <li><a href="#!/d"><div class="clickable-area">Page4</div></a></li> -->
+                                </ul>
     
                             </ul>
                         </div>
@@ -68,47 +77,60 @@
                     </div>
                 </div>
 
-
-                <!-- <div class="div-12">
-                    <div class="col-lg-3 col-md-12 col-title-20 p-0" >
-                        <div class="col-title-1">
-                            <div class="title">
-                                <h3>Filter</h3>
-                            </div>
-                            <div class="light">
-                                <div class="title-1">
-                                    <h4>Light</h4>
-                                </div>
-                                <ul>
-                                    <li><a href="#!">Happiest in direct sunlight</a></li>
-                                    <li><a href="#!/a">Happy in light and shade</a></li>
-                                    <li><a href="#!/b">Happy in shade</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-title-1">
-                            <div class="light">
-                                <div class="title-1">
-                                    <h4>Light</h4>
-                                </div>
-                                
-                                <ul>
-                                    <li><a href="#!/c">Almost un-killable</a></li>
-                                    <li><a href="#!/d">Easy to care for</a></li>
-                                    <li><a href="#!/e">Nedd some love</a></li>
-                                    <li><a href="#!/f">Can handle wind</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                
+                <div class="div-12">
+                    <div class="title">
+                        <h3>Filter</h3>
+                        <i class="fa-solid fa-xmark"></i>
                     </div>
-                </div> -->
+                    <div class="light">
+                        <div class="title-1">
+                            <h4>Light</h4>
+                        </div>
+                        <ul>
+                            <li><a href="#!">Happiest in direct sunlight</a></li>
+                            <li><a href="#!/a">Happy in light and shade</a></li>
+                            <li><a href="#!/b">Happy in shade</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="light">
+                        <div class="title-1">
+                            <h4>Light</h4>
+                        </div>
+                        
+                        <ul>
+                            <li><a href="#!/c">Almost un-killable</a></li>
+                            <li><a href="#!/d">Easy to care for</a></li>
+                            <li><a href="#!/e">Nedd some love</a></li>
+                            <li><a href="#!/f">Can handle wind</a></li>
+                        </ul>
+                    </div>
+                </div>
 
                 <div ng-view></div>
             </div>
         </div>
     
+        <script>
+            var btnMenu = document.querySelector('.icon-menu-product')
+            var div12 = document.querySelector('.div-12')
+            var titleClose = document.querySelector('.title i')
 
+            btnMenu.addEventListener('click', ()=>{
+                div12.style.left= '0'
+            })
+            titleClose.addEventListener('click', ()=>{
+                div12.style.left= '-500px'
+            })
+
+            var light = document.querySelectorAll('.light ul li')
+            light.forEach(item => {
+                item.addEventListener('click', ()=> {
+                    div12.style.left= '-500px'
+                })
+            });
+        </script>
             <script src="./js/product.js"></script>
         </body>
 

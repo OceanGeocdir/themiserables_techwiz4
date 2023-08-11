@@ -1182,19 +1182,20 @@ footer .coppyright {
 }
 
 /* ----------------------------------------- */
-/* .col-title-12  {
-    display: none;
-} */
 
 .col-title-20 {
     display: none;
 }
+.icon-menu-product-1 {
+    display: none;
+}
 .div-12 {
     position: absolute;
-    left: 0;
+    left: -500px;
     top: 0;
     z-index: 1111;
-    /* background-color: #408099; */
+    width: 500px;
+    transition: all 0.5s ease;
 }
 
 .clickable-area {
@@ -1204,7 +1205,27 @@ footer .coppyright {
     cursor: pointer; /* Con trỏ chuột thay đổi khi di chuột qua khu vực */
 }
 
-
+/* filter */
+.icon-menu-product {
+    background-color: #088178;
+    border-radius: 10px;
+    width: 70px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+    box-shadow: -5px 0 0 #abe9e5;
+    margin-bottom: 10px;
+}
+.icon-menu-product:active {
+    transform: translateX(10px);
+}
+.icon-menu-product i {
+    font-size: 30px;
+}
 
 
 
@@ -1326,10 +1347,50 @@ footer .coppyright {
         width: 50%;
     }
 
+
+
+
+    /* ----------- */
+    .col-title {
+        display: none;
+    }
+    .col-title-1-1 {
+        display: block;
+    }
+    .col-title-20 {
+        display: block;
+        height: 100%;
+    }
+    .div-12 {
+        height: 100%;
+        background-color: #7ec7c2;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20PX;
+    }
+    .title i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .title h3{
+        margin-bottom: 0;
+    }
+    .icon-menu-product-1 {
+        margin-top: 15px;
+        display: block;
+    }
+    .title-1 h4{
+        background-color: #a7e8e3;
+        color: #f9f6f0;
+    }
+
     /* product_item */ 
 
 
-    .col-title-1 .light {
+    /* .col-title-1 .light {
         display: none;
     }
 
@@ -1348,7 +1409,7 @@ footer .coppyright {
         z-index: 111;
         background-color: #f9f6f0;
         height: 100%;
-    }
+    } */
 
 
 
@@ -1596,6 +1657,41 @@ footer .coppyright {
     }
     #page-header p {
         margin-bottom: 10px;
+    }
+    .col-title {
+        display: none;
+    }
+    .col-title-1-1 {
+        display: block;
+    }
+    .col-title-20 {
+        display: block;
+        height: 100%;
+    }
+    .div-12 {
+        height: 100%;
+        background-color: #7ec7c2;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20PX;
+    }
+    .title i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .title h3{
+        margin-bottom: 0;
+    }
+    .icon-menu-product-1 {
+        margin-top: 15px;
+        display: block;
+    }
+    .title-1 h4{
+        background-color: #a7e8e3;
+        color: #f9f6f0;
     }
 } 
 
