@@ -96,13 +96,13 @@ button {
     height: var(--height);
     padding: 0 20px;
     border-radius: 99px;
-    border: 1px solid #2e80ce;
+    border: 1px solid #228b22;
     font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
     line-height: var(--height);
     color: #fff;
-    background: #2e80ce;
+    background: #228b22;
 }
 
 .btn:hover {
