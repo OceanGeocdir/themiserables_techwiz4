@@ -41,11 +41,11 @@
                 ----------------->
 
                 <form class="form-horizontal" role="form" method="post"
-                    action="contact.php">
+                    action="">
 
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <label for="">Name</label>
+                            <label for>Name</label>
                             <input type="text" class="form-control" id="name"
                                 placeholder="NAME" name="name" value>
                         </div>
@@ -53,26 +53,24 @@
 
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <label for="">Email</label>
+                            <label for>Email</label>
                             <input type="email" class="form-control" id="email"
                                 placeholder="EMAIL" name="email" value>
                         </div>
                     </div>
 
-                    <label for="">Feedback</label>
+                    <label for>Feedback</label>
                     <textarea class="form-control" rows="10"
                         placeholder="Tell us more about our products!"
                         name="message"></textarea>
 
-                    <button class="btn btn-primary send-button" id="submit"
-                        type="submit" value="SEND">
-                        <div class="button">
+                    <button class="btn send-button" id="submit"
+                        type="" value="SEND">
+                        <div class="button" id="sendbtn"  onclick="openPopup()">
                             <i class="fa fa-paper-plane"></i>
-                            <span class="send-text"><a href="">SEND</a></span>
+                            <span class="send-text">SEND</span>
                         </div>
-
                     </button>
-
                 </form>
 
                 <!----------------
@@ -100,17 +98,20 @@
 
                     <hr>
                     <ul class="social-media-list">
-                        <li><a href="#" target="_blank" class="contact-icon">
-                                <i class="fa fa-github" aria-hidden="true"></i></a>
+                        <li>
+                            <a href="https://twitter.com" target="" class="contact-icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
                         </li>
-                        <li><a href="#" target="_blank" class="contact-icon">
-                                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" class="contact-icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
                         </li>
-                        <li><a href="#" target="_blank" class="contact-icon">
-                                <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li><a href="#" target="_blank" class="contact-icon">
-                                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank" class="contact-icon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
                         </li>
                     </ul>
                     <hr>
@@ -122,6 +123,13 @@
 
             </div>
 
+            <div class="container" id="popup">
+                <div class="popup">
+                    <img src="img/popup.jpg" alt>
+                    <p>Thank you for joining our green path!</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+            </div>
         </section>
         <!-- partial -->
     </body>
@@ -195,5 +203,17 @@
         runSlider();
 })();
 });
+
+        // when user click send button
+        // Notification popup will pop up
+        const popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.style.display = "block";
+        }
+
+        function closePopup() {
+            popup.style.display = "none";
+        }
     </script>
 </html>

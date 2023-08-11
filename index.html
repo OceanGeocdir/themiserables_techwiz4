@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Plant Palace</title>
     <script
     src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script
@@ -83,18 +83,18 @@
                         colors="primary:#121331">
                     </lord-icon>  
                 </div>
-                <div class="search-box__modal" id="searchTool">
-                    <div class="search__modal--overlay"></div>
-                    <div class="search__modal--body">
-                        <div class="search-box">
-                            <form action="" id="search-box">
-                                <input type="text"
-                                placeholder="Search by plant name, plant type or space in your home">
-                                <button><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+
+    <div class="search-box__modal" id="searchTool">
+        <div class="search__modal--overlay"></div>
+        <div class="search__modal--body">
+            <div class="search-box">
+                <form action="" id="search-box">
+                    <input type="text" placeholder="Search by plant name, plant type or space in your home">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
 
                 <!-- Cart -->
                 <div class="list-item cart">
@@ -317,15 +317,31 @@
     <script src="./js/login.js"></script>
 
     <script>
-        // ! header search box
-document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
     var searchButton = document.getElementById('searchButton');
     var searchModal = document.getElementById("searchTool");
 
     searchButton.addEventListener("click", function () {
         searchModal.classList.toggle("hover");
     });
+
+    window.addEventListener("scroll", function () {
+        searchModal.classList.remove("hover");
+    });
+    
+    // Đảm bảo rằng khi người dùng click trên một vùng khác bên ngoài modal, modal cũng sẽ bị ẩn
+    document.addEventListener("click", function (event) {
+        if (!searchModal.contains(event.target) && !searchButton.contains(event.target)) {
+            searchModal.classList.remove("hover");
+        }
+    });
+
+    // Ẩn modal khi người dùng rời khỏi trang
+    window.addEventListener("beforeunload", function () {
+        searchModal.classList.remove("hover");
+    });
 });
+
 
         //click button menu navbar
         document.getElementById('icon-responsive').addEventListener("click", function() {

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/blog.css">
 </head>
+
 <body>
     <header id="header">
         <div class="logo">
@@ -15,97 +19,89 @@
                 <img src="img/logoo.png" alt="">
             </a>
         </div>
-            <!--! tool-bar -->
-            <div class="nav-toolbar">
-                <!-- home -->
-                <div class="list-item">
-                    <span></span>
-                    <a href="./home.html">Home</a>
-                </div>
+        <!--! tool-bar -->
+        <div class="nav-toolbar">
+            <!-- home -->
+            <div class="list-item">
+                <span></span>
+                <a href="./home.html">Home</a>
+            </div>
 
-                <!-- shop -->
-                <div class="list-item">
-                    <span></span>
-                    <a href="">Plants</a>
-                    <!--todo ---------------------------- Modal layout expand -->
-                    <div class="list-item__modal">
-                        <div class="list-item__modal--overlay"></div>
-                        <div class="list-item__modal--body">
-                            <div class="expand__all">All Plants</div>
-                            <div class="expand__plants--type">
-                                <div class="expand__plants"><a href="">Indoor plants</a></div>
-                                <div class="expand__plants"><a href="">Outdoor plants</a></div>
-                                <div class="expand__plants"><a href="">Succulents</a></div>
-                                <div class="expand__plants"><a href="">Flowering shrubs</a></div>
-                            </div>
-                            <div class="expand__img">
-                                <img src="img/vatmuc.jpg" alt="">
-                            </div>
+            <!-- shop -->
+            <div class="list-item">
+                <span></span>
+                <a href="">Plants</a>
+                <!--todo ---------------------------- Modal layout expand -->
+                <div class="list-item__modal">
+                    <div class="list-item__modal--overlay"></div>
+                    <div class="list-item__modal--body">
+                        <div class="expand__all">All Plants</div>
+                        <div class="expand__plants--type">
+                            <div class="expand__plants"><a href="">Indoor plants</a></div>
+                            <div class="expand__plants"><a href="">Outdoor plants</a></div>
+                            <div class="expand__plants"><a href="">Succulents</a></div>
+                            <div class="expand__plants"><a href="">Flowering shrubs</a></div>
+                        </div>
+                        <div class="expand__img">
+                            <img src="img/vatmuc.jpg" alt="">
                         </div>
                     </div>
-                </div>
-
-                <!-- Feedback -->
-                <div class="list-item">
-                    <span></span>
-                    <a href="">Feedback</a>
-                </div>
-
-                <!-- About -->
-                <div class="list-item">
-                    <span></span>
-                    <a href="./about.html">About</a>
-                </div>
-
-                <!-- contact -->
-                <div class="list-item">
-                    <span></span>
-                    <a href="./contact.html">Contact</a>
-                </div>
-
-                <!-- Search -->
-                <div class="list-item search" id="searchButton">
-                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-                    <lord-icon
-                        src="https://cdn.lordicon.com/xfftupfv.json"
-                        trigger="hover"
-                        colors="primary:#121331">
-                    </lord-icon>  
-                </div>
-                <div class="search-box__modal" id="searchTool">
-                    <div class="search__modal--overlay"></div>
-                    <div class="search__modal--body">
-                        <div class="search-box">
-                            <form action="" id="search-box">
-                                <input type="text"
-                                placeholder="Search by plant name, plant type or space in your home">
-                                <button><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cart -->
-                <div class="list-item cart">
-                    <a href="./cart.html">
-                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-                        <lord-icon
-                            src="https://cdn.lordicon.com/lqsduwhb.json"
-                            trigger="hover"
-                            colors="primary:#121331"
-                            >
-                        </lord-icon>
-                    </a>
                 </div>
             </div>
 
-            <div class="login">
-                <a href="./login.html">
-                    <button class="signin">
-                        Đăng nhập
-                    </button>
+            <!-- Feedback -->
+            <div class="list-item">
+                <span></span>
+                <a href="">Feedback</a>
+            </div>
+
+            <!-- About -->
+            <div class="list-item">
+                <span></span>
+                <a href="./about.html">About</a>
+            </div>
+
+            <!-- contact -->
+            <div class="list-item">
+                <span></span>
+                <a href="./contact.html">Contact</a>
+            </div>
+
+            <!-- Search -->
+            <div class="list-item search" id="searchButton">
+                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/xfftupfv.json" trigger="hover" colors="primary:#121331">
+                </lord-icon>
+            </div>
+            <div class="search-box__modal" id="searchTool">
+                <div class="search__modal--overlay"></div>
+                <div class="search__modal--body">
+                    <div class="search-box">
+                        <form action="" id="search-box">
+                            <input type="text" placeholder="Search by plant name, plant type or space in your home">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cart -->
+            <div class="list-item cart">
+                <a href="./cart.html">
+                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                    <lord-icon src="https://cdn.lordicon.com/lqsduwhb.json" trigger="hover" colors="primary:#121331">
+                    </lord-icon>
                 </a>
             </div>
+        </div>
+
+        <div class="login">
+            <a href="./login.html">
+                <button class="signin">
+                    Login
+                </button>
+            </a>
+        </div>
 
         </div>
         <!-- ! Responsive mobile -->
@@ -137,25 +133,20 @@
                     <div class="search__modal--respon">
                         <div class="search-box__responsive">
                             <form action="" id="search-box">
-                                <input type="text"
-                                    placeholder="Search by plant name, plant type or space in your home">
+                                <input type="text" placeholder="Search by plant name, plant type or space in your home">
                                 <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-                                <lord-icon
-                                    src="https://cdn.lordicon.com/xfftupfv.json"
-                                    trigger="hover"
+                                <lord-icon src="https://cdn.lordicon.com/xfftupfv.json" trigger="hover"
                                     colors="primary:#121331">
-                                </lord-icon> 
+                                </lord-icon>
                             </form>
-                         </div>
+                        </div>
                     </div>
                 </div>
                 <!-- cart -->
                 <div class="cartButton">
                     <a href="">
                         <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-                        <lord-icon
-                            src="https://cdn.lordicon.com/lqsduwhb.json"
-                            trigger="hover"
+                        <lord-icon src="https://cdn.lordicon.com/lqsduwhb.json" trigger="hover"
                             colors="primary:#121331">
                         </lord-icon>
                     </a>
@@ -171,105 +162,96 @@
         </div>
     </header>
     <section id="page-header" class="blog-header">
-        <h2>#readmore</h2>
-        <p>Read all case studies about our products@</p>
+        <br>
+        <h2 style="margin-left: 20px;">#readmore</h2>
+        <p style="margin-left: 20px;">Understand more about the green future</p>
     </section>
-    
-    <div id="blog">
+
+    <div id="blog" style="margin-top: -142px;">
         <div class="blog-box">
             <div class="blog-img">
-                <img src="./img/bannerbox2.jpg" alt="">
+                <img src="./img/carou4.jpg" alt="">
             </div>
             <div class="blog-detail">
-                <h4>The catton-Jersey Zip-Up Hoodie</h4>
-                <p>
-                    Kickstarter man braid godard coloring book. 
-                    raclette waistcoat selfies yr wolf chartreuse hexagon irony.
+                <h4 style="color: #228b22;">Decorate your home with plants</h4>
+                <p>Plants will love a naturally steamy spot, like a kitchen. Bring life to your countertops with a leafy
+                    calathea like Jolene or Jo, or let a humidity-loving fern like Bertie bask blissfully by your sink.
+                    Draw your eyes upwards with a trailing plant, like Rapunzel or Silvy, and let their vines dangle
+                    from the top of a cupboard or fridge.
                     <a href="#">CONTINUE READING</a>
                 </p>
             </div>
-            <h1>13/01</h1>
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="./img/bannerbox2.jpg" alt="">
+                <img src="./img/carousel8.jpg" alt="">
             </div>
             <div class="blog-detail">
-                <h4>The catton-Jersey Zip-Up Hoodie</h4>
+                <h4 style="color: #228b22;">(Almost) unkillable houseplants</h4>
                 <p>
-                    Kickstarter man braid godard coloring book. 
-                    raclette waistcoat selfies yr wolf chartreuse hexagon irony.
+                    We know what it’s like to be guilty of plant murder, we've pulled together a collection of plants
+                    who are low maintenance enough to forgive you for the odd missed watering.
                     <a href="#">CONTINUE READING</a>
                 </p>
             </div>
-            <h1>13/01</h1>
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="./img/bannerbox2.jpg" alt="">
+                <img src="./img/carousel2.jpg" alt="">
             </div>
             <div class="blog-detail">
-                <h4>The catton-Jersey Zip-Up Hoodie</h4>
+                <h4 style="color: #228b22;">Customer Happiness Guarantee</h4>
                 <p>
-                    Kickstarter man braid godard coloring book. 
-                    raclette waistcoat selfies yr wolf chartreuse hexagon irony.
+                    We guarantee your plants will arrive in happy, healthy condition. If not, we replace them for free
+                    as part of our 30-Day Customer Happiness Guarantee. It’s natural for live plants to show minor signs
+                    of stress after transit but if the damage is beyond minor blemishes*, reach out to us within 30 days
+                    of receipt...
                     <a href="#">CONTINUE READING</a>
                 </p>
             </div>
-            <h1>13/01</h1>
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="./img/bannerbox2.jpg" alt="">
+                <img src="./img/carou3.jpg" alt="">
             </div>
             <div class="blog-detail">
-                <h4>The catton-Jersey Zip-Up Hoodie</h4>
+                <h4 style="color: #228b22;">Treat Your Houseplants With These Summer Care Tips</h4>
                 <p>
-                    Kickstarter man braid godard coloring book. 
-                    raclette waistcoat selfies yr wolf chartreuse hexagon irony.
+                    If you missed our ultimate spring care guide, start there first. You’ll find advice on how to repot
+                    and clean up your plants, along with tips for adjusting your...
                     <a href="#">CONTINUE READING</a>
                 </p>
             </div>
-            <h1>13/01</h1>
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="./img/bannerbox2.jpg" alt="">
+                <img src="./img/carou5.jpg" alt="">
             </div>
             <div class="blog-detail">
-                <h4>The catton-Jersey Zip-Up Hoodie</h4>
+                <h4 style="color: #228b22;">Our Favorite Plants for Dad</h4>
                 <p>
-                    Kickstarter man braid godard coloring book. 
-                    raclette waistcoat selfies yr wolf chartreuse hexagon irony.
+                    What do you gift the dad who has it all? Switch up the same old Father’s Day routine this year and
+                    give Dad a gift that grows. Whether he’s new to the plant life or already a certified Plant Dad,
+                    here are our favorite picks for Father’s Day.
                     <a href="#">CONTINUE READING</a>
                 </p>
             </div>
-            <h1>13/01</h1>
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="./img/bannerbox2.jpg" alt="">
+                <img src="./img/carousel6.jpg" alt="">
             </div>
             <div class="blog-detail">
-                <h4>The catton-Jersey Zip-Up Hoodie</h4>
+                <h4 style="color: #228b22;">Grow-How Tip: Why Does My Plant Have Yellow Leaves?</h4>
                 <p>
-                    Kickstarter man braid godard coloring book. 
-                    raclette waistcoat selfies yr wolf chartreuse hexagon irony.
+                    A good portion of the time, yellow leaves are caused by watering too often. However, some plants can
+                    also get yellow leaves when they are underwatered, or watered too infrequently.
                     <a href="#">CONTINUE READING</a>
                 </p>
             </div>
-            <h1>13/01</h1>
         </div>
     </div>
-
-    <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">
-            <i class="fa-solid fa-arrow-right"></i>
-        </a>
-    </section>
-
+    
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newtext">
             <h4>Sign Up For Newsletter</h4>
@@ -284,4 +266,5 @@
 </body>
 
 <script src="app.js"></script>
+
 </html>
