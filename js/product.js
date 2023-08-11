@@ -7,7 +7,7 @@ app.config(function ($routeProvider) {
       controller: "page1Controller",
     })
     .when("/a", {
-      templateUrl: "/page1.html",
+      templateUrl: "/page/page1.html",
       controller: "page1Controller",
     })
     .when("/b", {
