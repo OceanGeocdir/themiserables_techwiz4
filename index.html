@@ -243,6 +243,16 @@
     <script src="js/app.js"></script>
 
     <script>
+        // ! header search box
+document.addEventListener("DOMContentLoaded", function() {
+    var searchButton = document.getElementById('searchButton');
+    var searchModal = document.getElementById("searchTool");
+
+    searchButton.addEventListener("click", function () {
+        searchModal.classList.toggle("hover");
+    });
+});
+
         //click button menu navbar
         document.getElementById('icon-responsive').addEventListener("click", function() {
             document.getElementById("header__responsive").classList.toggle("active");

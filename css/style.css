@@ -157,6 +157,7 @@ span::after {
     pointer-events: none;
     transform: translate(0);
     transition: transform 1s ease-in-out;
+    z-index: 10;
 }
 
 .list-item__modal--overlay {
@@ -179,15 +180,7 @@ span::after {
 }
 
 .list-item:hover
-.list-item__modal--body {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: all;
-    transform: scaleY(1);
-}
-
-.list-item:hover
-.list-item__modal--overlay {
+.list-item__modal {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
