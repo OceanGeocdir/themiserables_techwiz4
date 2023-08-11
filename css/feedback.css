@@ -84,11 +84,6 @@ body{
   color: #fff;
 }
   
-  .button:hover {
-    -webkit-transform: translate3d(0px, -29px, 0px);
-            transform: translate3d(0px, -29px, 0px);
-  }
-  
   /* Begin Right Contact Page */
   .direct-contact-container {
     max-width: 400px;
@@ -346,14 +341,8 @@ body{
 
     .button .send-text {
         position: absolute;
-        top: 70%;
-        left: 70%;
-        transform: translate(-70%, -70%);
-    }
-
-    .button:hover {
-        -webkit-transform: translate3d(0px, -29px, 0px);
-              transform: translate3d(0px, -29px, 0px);
+        top: 40px;
+        left: 40%;
     }
 }
   

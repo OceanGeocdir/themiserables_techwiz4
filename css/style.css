@@ -576,6 +576,7 @@ footer .follow ul {
     position: relative;
     display: flex;
     gap: 25px;
+    z-index: 0;
 }
 
 .follow ul li {
