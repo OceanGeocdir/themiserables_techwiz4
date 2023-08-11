@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300'
+            rel='stylesheet' type='text/css'>
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700"
+            rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700"
+            rel="stylesheet">
+
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"><link
+            rel='stylesheet'
+            href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel='stylesheet'
+            href='https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css'>
+
+        <link rel="stylesheet" href="css/feedback.css">
+    </head>
+    <body>
+        <section id="contact">
+
+            <h1 class="section-header">FEED-BACK</h1>
+
+            <div class="contact-wrapper">
+
+                <!--
+          
+                CONTACT PAGE LEFT
+          
+                ----------------->
+
+                <form class="form-horizontal" role="form" method="post"
+                    action="contact.php">
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label for="">Name</label>
+                            <input type="text" class="form-control" id="name"
+                                placeholder="NAME" name="name" value>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="EMAIL" name="email" value>
+                        </div>
+                    </div>
+
+                    <label for="">Feedback</label>
+                    <textarea class="form-control" rows="10"
+                        placeholder="Tell us more about our products!"
+                        name="message"></textarea>
+
+                    <button class="btn btn-primary send-button" id="submit"
+                        type="submit" value="SEND">
+                        <div class="button">
+                            <i class="fa fa-paper-plane"></i>
+                            <span class="send-text"><a href="">SEND</a></span>
+                        </div>
+
+                    </button>
+
+                </form>
+
+                <!----------------
+          
+                CONTACT PAGE RIGHT
+          
+                ----------------->
+
+                <div class="direct-contact-container">
+
+                    <ul class="contact-list">
+                        <li class="list-item"><i class="fa fa-map-marker fa-2x"><span
+                                    class="contact-text place">New York</span></i></li>
+
+                        <li class="list-item"><i class="fa fa-phone fa-2x"><span
+                                    class="contact-text phone"><a
+                                        href="tel:1-212-555-5555"
+                                        title="Give me a call">+84 705806353</a></span></i></li>
+
+                        <li class="list-item"><i class="fa fa-envelope fa-2x"><span
+                                    class="contact-text gmail"><a
+                                        href="mailto:#" title="Send me an email">khuyenle541@gmail.com</a></span></i></li>
+
+                    </ul>
+
+                    <hr>
+                    <ul class="social-media-list">
+                        <li><a href="#" target="_blank" class="contact-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#" target="_blank" class="contact-icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#" target="_blank" class="contact-icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#" target="_blank" class="contact-icon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <hr>
+
+                    <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED TO
+                        <!--YOUR SITE NAME--></div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- partial -->
+    </body>
+
+    <script
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script
+        src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+    <script>
+        $(document).ready(function () {
+
+(function changeBg() {
+    var img_array = ["http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Still_nature_-_Museu_Calouste_Gulbenkian.JPG/1280px-Still_nature_-_Museu_Calouste_Gulbenkian.JPG",
+    "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Snow_covered_hillside_with_small_evergreens.jpg/1280px-Snow_covered_hillside_with_small_evergreens.jpg",
+    "http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Uvas.jpg/1280px-Uvas.jpg"
+    ],
+    _nxtIndex = 0,
+    _curIndex = 0,
+    interval = 15000;
+        function nextIndex(){ _nxtIndex =  (  _nxtIndex + 1) % img_array.length; return _nxtIndex;};
+
+        function shiftIndexes(){
+            _curIndex = _nxtIndex;
+            nextIndex();
+        }
+
+        function assignBackgrounds(){
+            for (var i=0; i<img_array.length;i++){
+
+                $('#background-slide'+i).css('backgroundImage', function () {
+                         return 'url(' + img_array[i] + ')';
+                     });
+                 if(i==0){
+                     $('#background-slide'+i).css('opacity', 1);
+                 }
+                 else{
+                     $('#background-slide'+i).css('opacity', 0);
+                 }
+            }
+         }
+
+        function startBackgroundOpacityToggle() {
+          //console.log("in startBackgroundOpacityToggle. _curIndex = "+_curIndex);
+          elem = $('#background-slide'+_curIndex);
+          elem.animate({
+                     opacity: (elem.css('opacity')==0) ? 1 : 0
+                 }, {
+                     duration: 5000,
+                     start: finishBackgroundOpacityToggle
+                   }); };
+
+        function finishBackgroundOpacityToggle (){
+          //console.log("in finishBackgroundOpacity. _nxtIndex = "+_nxtIndex);
+            elem = $('#background-slide'+_nxtIndex);
+            elem.animate({
+                    opacity: (elem.css('opacity')==0) ? 1 : 0
+                },  {
+                    duration: 5000,
+                    complete: runSlider
+                  });
+
+        };
+
+        function runSlider(){
+            shiftIndexes();
+            setTimeout(startBackgroundOpacityToggle,interval);
+        }
+
+        assignBackgrounds();
+        runSlider();
+})();
+});
+    </script>
+</html>

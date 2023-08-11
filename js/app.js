@@ -33,15 +33,7 @@ pro.forEach(item => {
 })
 
 
-// ! header search box
-document.addEventListener("DOMContentLoaded", function() {
-    var searchButton = document.querySelector(".searchIcon");
-    var searchModal = document.getElementById("searchTool");
 
-    searchButton.addEventListener("click", function () {
-        searchModal.classList.toggle("hover");
-    });
-});
 
 let btn1 = document.getElementById('toTop')
 btn1.style.display = 'none'
