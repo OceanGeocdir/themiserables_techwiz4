@@ -93,8 +93,10 @@ button.white {
     height: 67px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     gap: 30px;
-    position: relative;
+    position: fixed;
     padding: 0 20px;
+    background-color: #fff;
+    z-index: 10;
 }
 
 #header .logo img {
@@ -578,6 +580,7 @@ footer .follow ul {
     position: relative;
     display: flex;
     gap: 25px;
+    z-index: 0;
 }
 
 .follow ul li {
@@ -629,6 +632,11 @@ footer .follow ul {
 .follow ul li:hover::after {
     opacity: 0.5;
 }
+
+/* footer .follow h4 {
+    font-size: 50px;
+    font-weight: bold;
+} */
 
 ul li i {
     color: #777;

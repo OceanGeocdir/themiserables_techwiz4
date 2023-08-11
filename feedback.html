@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Plant Palace</title>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300'
             rel='stylesheet' type='text/css'>
 
@@ -65,8 +65,8 @@
                         name="message"></textarea>
 
                     <button class="btn send-button" id="submit"
-                        type="" value="SEND">
-                        <div class="button" id="sendbtn"  onclick="openPopup()">
+                         value="SEND">
+                        <div class="button" onclick="openPopup()">
                             <i class="fa fa-paper-plane"></i>
                             <span class="send-text">SEND</span>
                         </div>
@@ -79,51 +79,53 @@
           
                 ----------------->
 
-                <div class="direct-contact-container">
-
-                    <ul class="contact-list">
-                        <li class="list-item"><i class="fa fa-map-marker fa-2x"><span
-                                    class="contact-text place">New York</span></i></li>
-
-                        <li class="list-item"><i class="fa fa-phone fa-2x"><span
-                                    class="contact-text phone"><a
+                <div class="feedback__wrapper--contact">
+                    <ul class="feedback__contact-list">
+                        <li class="feedback__list-item"><i class="fa fa-map-marker fa-2x"><span
+                                    class="feedback__contact-text place">New York</span></i></li>
+    
+                        <li class="feedback__list-item"><i class="fa fa-phone fa-2x"><span
+                                    class="feedback__contact-text phone"><a
                                         href="tel:1-212-555-5555"
                                         title="Give me a call">+84 705806353</a></span></i></li>
-
-                        <li class="list-item"><i class="fa fa-envelope fa-2x"><span
-                                    class="contact-text gmail"><a
+    
+                        <li class="feedback__list-item"><i class="fa fa-envelope fa-2x"><span
+                                    class="feedback__contact-text gmail"><a
                                         href="mailto:#" title="Send me an email">khuyenle541@gmail.com</a></span></i></li>
-
+    
                     </ul>
+                </div>
+                <div class="feedback__direct-contact-container">
+
 
                     <hr>
-                    <ul class="social-media-list">
-                        <li>
-                            <a href="https://twitter.com" target="" class="contact-icon">
+                    <ul class="feedback__social-media-list">
+                        <a href="https://twitter.com/">
+                            <li>
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank" class="contact-icon">
+                            </li>
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <li>
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank" class="contact-icon">
+                            </li>
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <li>
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                        </li>
+                            </li>
+                        </a>
                     </ul>
                     <hr>
 
-                    <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED TO
+                    <div class="feedback__copyright">&copy; ALL OF THE RIGHTS RESERVED TO
                         <!--YOUR SITE NAME--></div>
 
                 </div>
 
             </div>
 
-            <div class="container" id="popup">
+            <div class="feedback__popup--container" id="popup">
                 <div class="popup">
                     <img src="img/popup.jpg" alt>
                     <p>Thank you for joining our green path!</p>
@@ -140,80 +142,80 @@
         src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 
     <script>
-        $(document).ready(function () {
+//         $(document).ready(function () {
 
-(function changeBg() {
-    var img_array = ["http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Still_nature_-_Museu_Calouste_Gulbenkian.JPG/1280px-Still_nature_-_Museu_Calouste_Gulbenkian.JPG",
-    "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Snow_covered_hillside_with_small_evergreens.jpg/1280px-Snow_covered_hillside_with_small_evergreens.jpg",
-    "http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Uvas.jpg/1280px-Uvas.jpg"
-    ],
-    _nxtIndex = 0,
-    _curIndex = 0,
-    interval = 15000;
-        function nextIndex(){ _nxtIndex =  (  _nxtIndex + 1) % img_array.length; return _nxtIndex;};
+// (function changeBg() {
+//     var img_array = ["http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Still_nature_-_Museu_Calouste_Gulbenkian.JPG/1280px-Still_nature_-_Museu_Calouste_Gulbenkian.JPG",
+//     "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Snow_covered_hillside_with_small_evergreens.jpg/1280px-Snow_covered_hillside_with_small_evergreens.jpg",
+//     "http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Uvas.jpg/1280px-Uvas.jpg"
+//     ],
+//     _nxtIndex = 0,
+//     _curIndex = 0,
+//     interval = 15000;
+//         function nextIndex(){ _nxtIndex =  (  _nxtIndex + 1) % img_array.length; return _nxtIndex;};
 
-        function shiftIndexes(){
-            _curIndex = _nxtIndex;
-            nextIndex();
-        }
+//         function shiftIndexes(){
+//             _curIndex = _nxtIndex;
+//             nextIndex();
+//         }
 
-        function assignBackgrounds(){
-            for (var i=0; i<img_array.length;i++){
+//         function assignBackgrounds(){
+//             for (var i=0; i<img_array.length;i++){
 
-                $('#background-slide'+i).css('backgroundImage', function () {
-                         return 'url(' + img_array[i] + ')';
-                     });
-                 if(i==0){
-                     $('#background-slide'+i).css('opacity', 1);
-                 }
-                 else{
-                     $('#background-slide'+i).css('opacity', 0);
-                 }
-            }
-         }
+//                 $('#background-slide'+i).css('backgroundImage', function () {
+//                          return 'url(' + img_array[i] + ')';
+//                      });
+//                  if(i==0){
+//                      $('#background-slide'+i).css('opacity', 1);
+//                  }
+//                  else{
+//                      $('#background-slide'+i).css('opacity', 0);
+//                  }
+//             }
+//          }
 
-        function startBackgroundOpacityToggle() {
+        // function startBackgroundOpacityToggle() {
           //console.log("in startBackgroundOpacityToggle. _curIndex = "+_curIndex);
-          elem = $('#background-slide'+_curIndex);
-          elem.animate({
-                     opacity: (elem.css('opacity')==0) ? 1 : 0
-                 }, {
-                     duration: 5000,
-                     start: finishBackgroundOpacityToggle
-                   }); };
+        //   elem = $('#background-slide'+_curIndex);
+        //   elem.animate({
+        //              opacity: (elem.css('opacity')==0) ? 1 : 0
+        //          }, {
+        //              duration: 5000,
+        //              start: finishBackgroundOpacityToggle
+        //            }); };
 
-        function finishBackgroundOpacityToggle (){
+        // function finishBackgroundOpacityToggle (){
           //console.log("in finishBackgroundOpacity. _nxtIndex = "+_nxtIndex);
-            elem = $('#background-slide'+_nxtIndex);
-            elem.animate({
-                    opacity: (elem.css('opacity')==0) ? 1 : 0
-                },  {
-                    duration: 5000,
-                    complete: runSlider
-                  });
+//             elem = $('#background-slide'+_nxtIndex);
+//             elem.animate({
+//                     opacity: (elem.css('opacity')==0) ? 1 : 0
+//                 },  {
+//                     duration: 5000,
+//                     complete: runSlider
+//                   });
 
-        };
+//         };
 
-        function runSlider(){
-            shiftIndexes();
-            setTimeout(startBackgroundOpacityToggle,interval);
-        }
+//         function runSlider(){
+//             shiftIndexes();
+//             setTimeout(startBackgroundOpacityToggle,interval);
+//         }
 
-        assignBackgrounds();
-        runSlider();
-})();
-});
+//         assignBackgrounds();
+//         runSlider();
+// })();
+// });
 
         // when user click send button
         // Notification popup will pop up
         const popup = document.getElementById("popup");
 
         function openPopup() {
-            popup.style.display = "block";
+            popup.classList.add("active");
         }
 
         function closePopup() {
-            popup.style.display = "none";
+            popup.classList.remove("active");
         }
     </script>
 </html>
