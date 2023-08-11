@@ -10,7 +10,7 @@ app.config(function ($routeProvider) {
 });
 
 app.controller("page1Controller", function ($scope, $http) {
-  $http.get("/json/Succulents2.json").then(function (response) {
+  $http.get("./json/Succulents2.json").then(function (response) {
     $scope.data1 = response.data.page1;
   });
   $scope.addToCart = function (item) {
@@ -39,7 +39,7 @@ app.controller("page1Controller", function ($scope, $http) {
 });
 
 app.controller("page2Controller", function ($scope, $http) {
-  $http.get("/json/Succulents2.json").then(function (response) {
+  $http.get("./json/Succulents2.json").then(function (response) {
     $scope.data2 = response.data.page2;
   });
   $scope.addToCart = function (item) {
@@ -68,7 +68,7 @@ app.controller("page2Controller", function ($scope, $http) {
 });
 
 app.controller("page3Controller", function ($scope, $http) {
-  $http.get("/json/Succulents2.json").then(function (response) {
+  $http.get("./json/Succulents2.json").then(function (response) {
     $scope.data3 = response.data.page3;
   });
   $scope.addToCart = function (item) {
@@ -97,7 +97,7 @@ app.controller("page3Controller", function ($scope, $http) {
 });
 
 app.controller("page4Controller", function ($scope, $http) {
-  $http.get("/json/Succulents2.json").then(function (response) {
+  $http.get("./json/Succulents2.json").then(function (response) {
     $scope.data4 = response.data.page4;
   });
   $scope.addToCart = function (item) {

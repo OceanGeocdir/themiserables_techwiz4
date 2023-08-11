@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en"  ng-app="myApp">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plant Palace</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,14 +23,17 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sora:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/hom.css" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
+  <body >
     <!-- Header -->
+    <div ng-controller="homeController">
     <header class="header">
       <div class="container">
         <!-- Header top -->
@@ -39,18 +43,18 @@
           <!-- Hero content -->
           <section class="hero__content">
             <h1 class="hero__heading">More plants, better future.</h1>
-            <p class="hero__desc">
+            <p class="hero__desc" style="color: green;">
               For a clean green environment and a happier life, green the place
               you live
             </p>
             <div class="hero__row">
               <a href="#!" class="btn"> Go Shop</a>
-              <span class="hero__phone"> or call 0999999999 </span>
+              <span class="hero__phone"> or Call +84 705 806 353</span>
             </div>
           </section>
 
           <!-- Hero media -->
-          <div id="carouselExample" class="carousel slide">
+          <div id="carouselExample" class="carousel slide" >
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
@@ -60,7 +64,7 @@
                   alt="..."
                   width="100%"
                   ,
-                  height="700px"
+                  height="700px" style="position: relative; z-index: 1;"
                 />
               </div>
               <div class="carousel-item">
@@ -142,8 +146,7 @@
             <hr />
           </h2>
           <p class="section-desc work__desc">
-            We will guide you on how to take care of your plants most
-            effectively
+            We will guide you on how to take care of your plants most effectively
           </p>
 
           <div class="work__list">
@@ -443,8 +446,7 @@
                     not have to breathe harmful dust outside. However, do not
                     rush to rejoice! Because this lifestyle has more potential
                     harm than you think. Some common building materials and
-                    ventilation systems emit some harmful chemicals such as
-                    formaldehyde and benzene, as well as other heavy metals...
+                    ventilation systems ...
                   </p>
                   <a href="#!" class="news-item__more"> Learn More </a>
                 </section>
@@ -472,9 +474,7 @@
                     stress. Research shows that students show 70% more focus and
                     attention in a classroom containing bonsai. Attendance is
                     also higher in these classes. A study conducted at Texas A&M
-                    University found that employees working in a room filled
-                    with bonsai generated 13% more ideas than workers in a room
-                    with sculptures...
+                    University found that employees working in...
                   </p>
                   <a href="#!" class="news-item__more"> Learn More </a>
                 </section>
@@ -499,5 +499,7 @@
         </div>
       </section>
     </main>
+    </div>
   </body>
+  
 </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+            <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
+
+    <body ng-controller="productController">
+
+        <div class="container">
+            <div class="row" style="flex-wrap: nowrap; overflow: hidden;">
+                <div class="col-lg-3 col-md-12 col-title p-0 " >
+                    <div class="col-title-1">
+                        <div class="title">
+                            <h3>Filter</h3>
+                        </div>
+                        <div class="light">
+                            <div class="title-1">
+                                <h4>Light</h4>
+                            </div>
+                            <ul>
+                                <ul>
+                                    <li><a href="#!"><div class="clickable-area"></div></a></li>
+                                    <li><a href="#!/a"><div class="clickable-area">Page1</div></a></li>
+                                    <li><a href="#!/b"><div class="clickable-area">Page2</div></a></li>
+                                    <li><a href="#!/c"><div class="clickable-area">Page3</div></a></li>
+                                    <li><a href="#!/d"><div class="clickable-area">Page4</div></a></li>
+                                  </ul>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-title-1">
+                        <div class="light">
+                            <div class="title-1">
+                                <h4>Light</h4>
+                            </div>
+                            
+                            <ul>
+                                <li><a href="#!/c">Almost un-killable</a></li>
+                                <li><a href="#!/d">Easy to care for</a></li>
+                                <li><a href="#!/e">Nedd some love</a></li>
+                                <li><a href="#!/f">Can handle wind</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="div-12">
+                    <div class="col-lg-3 col-md-12 col-title-20 p-0" >
+                        <div class="col-title-1">
+                            <div class="title">
+                                <h3>Filter</h3>
+                            </div>
+                            <div class="light">
+                                <div class="title-1">
+                                    <h4>Light</h4>
+                                </div>
+                                <ul>
+                                    <li><a href="#!">Happiest in direct sunlight</a></li>
+                                    <li><a href="#!/a">Happy in light and shade</a></li>
+                                    <li><a href="#!/b">Happy in shade</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-title-1">
+                            <div class="light">
+                                <div class="title-1">
+                                    <h4>Light</h4>
+                                </div>
+                                
+                                <ul>
+                                    <li><a href="#!/c">Almost un-killable</a></li>
+                                    <li><a href="#!/d">Easy to care for</a></li>
+                                    <li><a href="#!/e">Nedd some love</a></li>
+                                    <li><a href="#!/f">Can handle wind</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div ng-view></div>
+            </div>
+        </div>
+    
+
+            <script src="./js/product.js"></script>
+        </body>
+
+    </html>

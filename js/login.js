@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	  
 		if (user) {
 		  alert("Login successful!");
-		  window.location.href = "./home.html"
+		  window.location.href = "./index.html"
 		  localStorage.setItem('login', true)
 		} else {
 		  alert("Invalid credentials. Please try again.");
@@ -68,4 +68,16 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	  });
   });
-  
+  // Lấy tham chiếu đến các phần tử cần sử dụng
+  const showPopupButton = document.getElementById('showPopup');
+  const popup = document.getElementById('popup');
+
+  // Xử lý sự kiện khi nút được nhấp
+  showPopupButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+  });
+  window.addEventListener('click', (event) => {
+    if (event.target === popup) {
+      popup.style.display = 'none';
+    }
+  });

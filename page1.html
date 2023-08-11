@@ -12,26 +12,25 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-    <div class="container">
-        <div class="row">
+    
 
             <div class="col-lg-9 col-md-12" ng-controller="page1Controller">
                 <div class="container">
                     <div class="row">
                         
                         
-                        <div class="col-lg-4 col-md-6   mb-4" ng-repeat="Outdoor in data1">
+                        <div class="col-lg-4 col-md-6   mb-4" ng-repeat="Indoor in data1">
                             <div class="card sp_card ">
                                 <div class="sp_img_item">
-                                    <img ng-src="{{ Outdoor.img }}" class="card-img-top" style="height: 260px;">
+                                    <img ng-src="{{ Indoor.img }}" class="card-img-top" style="height: 260px;">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">{{ Outdoor.name }}</h5>
-                                    <p class="card-text">{{ Outdoor.scientificname }}</p>
+                                    <h5 class="card-title">{{ Indoor.name }}</h5>
+                                    <p class="card-text">{{ Indoor.scientificname }}</p>
                                     <div class="price_card">
-                                        <span>{{ Outdoor.price }}</span>
+                                        <span>{{ Indoor.price }}</span>
                                         <i class="fa-solid fa-cart-shopping addtocart"
-                                    ng-click="addToCart(Outdoor)"></i>
+                                    ng-click="addToCart(Indoor)"></i>
                                     </div>
                                     </div>
                             </div>
@@ -40,12 +39,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+      
 
 
 
-</body>
-
-<script src="./js/addtocart.js"></script>
+<script src="./js/addtocart1.js"></script>
 
