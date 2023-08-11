@@ -44,9 +44,9 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
-            <ul id="navbar">
-                <li><a href="#1/home">Home</a></li>
-                <li><a class="active" href="#!/product">Shop</a></li>
+            <ul id="navbar" class="navbar">
+                <li><a class="active" href="#1/home">Home</a></li>
+                <li><a  href="#!/product">Shop</a></li>
                 <li><a href="#!/blog">Blog</a></li>
                 <li><a href="#!/about">About</a></li>
                 <li><a href="#!/feedback">Feedback</a></li>
@@ -336,50 +336,7 @@
 <script src="./js/login.js"></script>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var searchButton = document.getElementById('searchButton');
-        var searchModal = document.getElementById("searchTool");
 
-        searchButton.addEventListener("click", function () {
-            searchModal.classList.toggle("hover");
-        });
-
-        window.addEventListener("scroll", function () {
-            searchModal.classList.remove("hover");
-        });
-
-        // Đảm bảo rằng khi người dùng click trên một vùng khác bên ngoài modal, modal cũng sẽ bị ẩn
-        document.addEventListener("click", function (event) {
-            if (!searchModal.contains(event.target) && !searchButton.contains(event.target)) {
-                searchModal.classList.remove("hover");
-            }
-        });
-
-        // Ẩn modal khi người dùng rời khỏi trang
-        window.addEventListener("beforeunload", function () {
-            searchModal.classList.remove("hover");
-        });
-    });
-
-
-    //click button menu navbar
-    document.getElementById('icon-responsive').addEventListener("click", function () {
-        document.getElementById("header__responsive").classList.toggle("active");
-        document.getElementById("expand-list").classList.remove("hover");
-    })
-
-    document.getElementById("expand__plants").addEventListener("click", function () {
-        var expand = document.getElementById("expand-list").classList.toggle("hover");
-    })
-
-    // when user click icon menu navbar, will change close icon
-    $(document).ready(function () {
-        $('#icon-responsive').click(function () {
-            $(this).children('i').toggleClass('bi bi-x-lg')
-        })
-    })
-</script>
 <script>
     var btnSearch = document.querySelector('.search-box_btn')
     btnSearch.addEventListener('click', function() {
@@ -389,8 +346,13 @@
 })
 </script>
 <script>
-    var btn = document.getElementById('navbar li')
-    console.log(btn)
+    var btns = document.querySelectorAll('.navbar li a')
+    btns.forEach(item =>{
+        item.addEventListener('click', ()=>{
+            btns.forEach(btn => btn.classList.remove('active'))
+            item.classList.add('active')
+        })
+    })
 </script>
 
 </html>
