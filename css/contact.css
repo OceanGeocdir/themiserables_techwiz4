@@ -1,6 +1,7 @@
 /* contact */
 
 #contact-detail {
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -9,8 +10,11 @@
 
 #contact-detail .detail {
     width: 40%;
+    margin-left: 100px;
 }
-
+.map {
+    margin-right: 50px;
+}
 #form-detail form span,
 #contact-detail .detail span {
     font-size: 12px;
@@ -108,4 +112,27 @@
     font-size: 16px;
     font-weight: 600;
     color: #000;
+}
+@media (max-width: 799px) {
+
+}
+
+@media (max-width: 477px) {
+    #header__responsive {
+        display: flex;
+        flex-direction: column;
+    }
+    #header {
+        display: block;
+        width: 100%;
+    }
+    #contact-detail {
+        /* margin-bottom: 100px; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+    }
+    #contact-detail .detail {
+        /* width: 40%; */
+    }
 }
