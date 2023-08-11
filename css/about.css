@@ -1,11 +1,13 @@
 /* about page */
 page-header .about-header {
     background-image: url(/img/bannerbox2.jpg);
+    margin-top: 69px;
 }
 
 #about-head {
     display: flex;
     align-items: center;
+    margin-top: 69px;
 }
 
 #about-head img {

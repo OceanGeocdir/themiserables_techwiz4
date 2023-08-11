@@ -1,6 +1,7 @@
 /* cart */
 #cart {
     overflow-x: auto;
+    margin-top: 69px;
 }
 
 #cart table {
