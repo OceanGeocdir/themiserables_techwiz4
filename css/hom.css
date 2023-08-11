@@ -534,9 +534,6 @@ img{
 }
 
 /* Install */
-.install {
-    margin-top: 180px;
-}
 
 .install__inner {
     display: flex;
