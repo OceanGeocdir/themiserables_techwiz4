@@ -17,14 +17,20 @@
     padding-bottom: 90px;
 }
 
-#blog .blog-img {
-    width: 50%;
-    margin-right: 40px;
+img {
+    border-radius: 20px;
+}
+
+#blog .blog-img  {
+    width: 400px;
+    height: 400px;
+    margin-right: 5px;
 }
 
 #blog .blog-detail {
     width: 50%;
-    margin-right: 40px;
+    margin-left: 25px;
+    margin-bottom: 45px;
 }
 
 #blog img {
