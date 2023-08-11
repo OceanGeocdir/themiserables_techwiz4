@@ -222,12 +222,13 @@
             };
 
             // Use function to delete local storage && alert
-            $scope.proceedToCheckout = function () {
+            if (productList.length > 0) {
                 alert("Payment successful!");
-
                 localStorage.removeItem("product_list");
                 $scope.cartItems = [];
-            };
+            } else {
+                alert("Oops, you haven't added anything to your cart.");
+            }
 
 
             $scope.updateQuantity = function (index, newQuantity) {
