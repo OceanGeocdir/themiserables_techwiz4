@@ -3,7 +3,8 @@
 #contact-detail {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 0 50px 30px;
 }
 
 #contact-detail .detail {
