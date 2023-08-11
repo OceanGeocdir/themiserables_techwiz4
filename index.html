@@ -21,27 +21,27 @@
 <!-- angular.js -->
 <body >
     <header id="header">
-        <div class="logo">
+        <div class="header__logo">
             <a href="">
                 <img src="img/logoo.png" alt="">
             </a>
         </div>
             <!--! tool-bar -->
-            <div class="nav-toolbar">
+            <div class="header__nav-toolbar">
                 <!-- home -->
-                <div class="list-item">
+                <div class="header__list-item">
                     <span></span>
                     <a href="#!/home">Home</a>
                 </div>
 
                 <!-- shop -->
-                <div class="list-item">
+                <div class="header__list-item">
                     <span></span>
                     <a href="#!/product">Plants</a>
                     <!--todo ---------------------------- Modal layout expand -->
-                    <div class="list-item__modal">
-                        <div class="list-item__modal--overlay"></div>
-                        <div class="list-item__modal--body">
+                    <div class="header__list-item__modal">
+                        <div class="header__list-item__modal--overlay"></div>
+                        <div class="header__list-item__modal--body">
                             <div class="expand__all">All Plants</div>
                             <div class="expand__plants--type">
                                 <div class="expand__plants"><a href="">Indoor plants</a></div>
@@ -57,25 +57,25 @@
                 </div>
 
                 <!-- Feedback -->
-                <div class="list-item">
+                <div class="header__list-item">
                     <span></span>
                     <a href="#!/feedback">Feedback</a>
                 </div>
 
                 <!-- About -->
-                <div class="list-item">
+                <div class="header__list-item">
                     <span></span>
                     <a href="#!/about">About</a>
                 </div>
 
                 <!-- contact -->
-                <div class="list-item">
+                <div class="header__list-item">
                     <span></span>
                     <a href="#!/contact">Contact</a>
                 </div>
 
                 <!-- Search -->
-                <div class="list-item search" id="searchButton">
+                <div class="header__list-item search" id="searchButton">
                     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                     <lord-icon
                         src="https://cdn.lordicon.com/xfftupfv.json"
@@ -84,20 +84,20 @@
                     </lord-icon>  
                 </div>
 
-    <div class="search-box__modal" id="searchTool">
-        <div class="search__modal--overlay"></div>
-        <div class="search__modal--body">
-            <div class="search-box">
-                <form action="" id="search-box">
-                    <input type="text" placeholder="Search by plant name, plant type or space in your home">
-                    <button><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
+                <div class="header__search-box__modal" id="searchTool">
+                    <div class="header__search__modal--overlay"></div>
+                    <div class="header__search__modal--body">
+                        <div class="header__search-box">
+                            <form action="" id="search-box">
+                                <input type="text" placeholder="Search by plant name, plant type or space in your home">
+                                <button><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Cart -->
-                <div class="list-item cart">
+                <div class="header__list-item cart">
                     <a href="#!/cart">
                         <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                         <lord-icon
@@ -110,9 +110,9 @@
                 </div>
             </div>
 
-            <div class="login">
+            <div class="header__login">
                 <a>
-                    <button class="signin" id="showPopup">
+                    <button class="header__signin" id="showPopup">
                         Login
                     </button>
                 </a>
@@ -121,7 +121,7 @@
         </div>
         <!-- ! Responsive mobile -->
         <!-- header responsive icon -->
-        <div class="list-item responsive">
+        <div class="header__list-item responsive">
             <div class="header__responsive--icon" id="icon-responsive">
                 <i class="bi bi-list" style="font-size: 30px;"></i>
             </div>
@@ -132,7 +132,7 @@
             <div class="header__responsive--navbar">
                 <div><a href="#!">Home</a></div>
                 <div class="header__responsive--nav-expand">
-                    <span id="expand__plants">Plants</span>
+                    <span id="header__expand__plants">Plants</span>
                     <div class="header__responsive--expand-list" id="expand-list">
                         <a href="">Indoor Plants</a>
                         <a href="">Outdoor Plants</a>
@@ -145,8 +145,8 @@
                 <div><a href="#!about">Contact</a></div>
                 <!-- search -->
                 <div id="searchButton">
-                    <div class="search__modal--respon">
-                        <div class="search-box__responsive">
+                    <div class="header__search__modal--respon">
+                        <div class="header__search-box__responsive">
                             <form action="" id="search-box">
                                 <input type="text"
                                     placeholder="Search by plant name, plant type or space in your home">
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <!-- cart -->
-                <div class="cartButton">
+                <div class="header__cartButton">
                     <a href="">
                         <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
                         <lord-icon
@@ -173,7 +173,7 @@
                 </div>
                 <div class="header__responsive--login">
                     <a >
-                        <button class="signin" id="showPopup">
+                        <button class="header__responsive--signin" id="showPopup">
                             Login
                         </button>
                     </a>

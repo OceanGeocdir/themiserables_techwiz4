@@ -85,13 +85,18 @@ body{
 }
   
   /* Begin Right Contact Page */
+
+.feedback__wrapper--contact {
+    position: absolute;
+    top: 70px;
+    right: 5px;
+}
   .feedback__direct-contact-container {
     max-width: 400px;
     height: auto;
     position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+    top: 220px;
+    right: 60px;
   }
   
   /* Location, Phone, Email Section */
@@ -212,7 +217,7 @@ body{
   }
 
 /* * ========================== css popup modal */
-.container {
+.feedback__popup--container {
   width: 400px;
   height: 300px;
   position: absolute;
@@ -225,8 +230,11 @@ body{
   -moz-box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
   box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
   display: none;
-  transform: scale(0);
   transition: transform 0.5s ease-in-out;
+}
+
+.feedback__popup--container.active {
+  display: block;
 }
 
 .popup {
