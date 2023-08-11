@@ -96,18 +96,19 @@ button {
     height: var(--height);
     padding: 0 20px;
     border-radius: 99px;
-    border: 1px solid #2e80ce;
+    border: 1px solid #228b22;
     font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
     line-height: var(--height);
     color: #fff;
-    background: #2e80ce;
+    background: #228b22;
 }
 
 .btn:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     cursor: pointer;
+    background-color: #228b22;
 }
 
 .section-heading {
@@ -115,7 +116,7 @@ button {
     font-size: 5rem;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: #10375c;
+    color: #228b22;
 }
 
 .section-desc {
@@ -147,8 +148,8 @@ button {
 
 .control__btn:hover {
     color: #fff;
-    border-color: #2e80ce;
-    background: #2e80ce;
+    border-color: #155615;
+    background: #228b22;
     cursor: pointer;
 }
 
@@ -160,9 +161,7 @@ button {
 .header {
     min-height: 100vh;
     padding-top: 30px;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-
+    background-color: #C9E6C0
     
 }
 
@@ -338,7 +337,7 @@ img{
 }
 
 .service-item:hover .service-item__icon {
-    background: #2e80ce;
+    background: #228b22;
     color: #fff;
 }
 
@@ -364,7 +363,7 @@ img{
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.27;
-    color: #10375c;
+    color: #228b22;
 }
 
 .service-item__desc {
@@ -378,11 +377,12 @@ img{
 /* Work */
 .work {
     padding: 100px 0;
-    background: #f7fbff;
+    background: #f7fffd;
 }
 
 .work__desc {
-    width: 468px;
+    width: 700px;
+    margin-bottom: 20px;
 }
 
 .work__list {
@@ -395,14 +395,14 @@ img{
 
 .work-item {
     padding: 10px;
-    border: 10px solid #eaf6ff;
+    border: 10px solid #eafff1;
     border-radius: 4px;
     transition: 0.25s;
 }
 
 .work-item:hover {
     transform: translateY(-16px);
-    border-color: #2e80ce;
+    border-color: #228b22;
 }
 
 .work-item__heading {
@@ -410,7 +410,7 @@ img{
     font-weight: 600;
     font-size: 2.6rem;
     line-height: 1.38;
-    color: #10375c;
+    color: #1f951f;
     text-align: center;
 }
 
@@ -419,7 +419,7 @@ img{
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: #575f66;
+    color: #000000;
     text-align: center;
 }
 
@@ -428,7 +428,7 @@ img{
     margin-top: 18px;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: #2e80ce;
+    color: #175c17;
 }
 
 /* Feature */
@@ -520,15 +520,15 @@ img{
 
 .member-item__name {
     margin-top: 12px;
-    font-weight: 500;
-    font-size: 1.6rem;
+    font-weight: 800;
+    font-size: 1.8rem;
     line-height: 1.75;
-    color: #10375c;
+    color: #228b22;
 }
 
 .member-item__title {
-    font-weight: 300;
-    font-size: 1.4rem;
+    font-weight: 200;
+    font-size: 1.2rem;
     line-height: 1.86;
     color: #575f66;
 }
@@ -692,7 +692,7 @@ img{
 .appointment__inner {
     padding: 100px 70px;
     border-radius: 4px;
-    background: #f7fbff;
+    background: #f7fffd;
     text-align: center;
 }
 
@@ -711,7 +711,7 @@ img{
     content: "";
     width: 136px;
     height: 2px;
-    background: #2e80ce;
+    background: #C9E6C0;
 }
 
 .appointment__desc {
