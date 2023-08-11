@@ -8,7 +8,7 @@ app.config(function ($routeProvider) {
   .when("/cart", { templateUrl: "cart.html"})
   .when("/contact", { templateUrl: "contact.html"})
   .when("/feedback", { templateUrl: "feedback.html"})
-  .when("/product", { templateUrl: "test.html", controller: "productController"})
+  .when("/product", { templateUrl: "product.html"})
   .when("/login", { templateUrl: "login.html"})
 
 

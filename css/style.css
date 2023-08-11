@@ -235,6 +235,7 @@ span::after {
     visibility: visible;
     pointer-events: all;
     transform: translate(1);
+    z-index: 5;
 }
 
 .search__modal--overlay {
@@ -250,12 +251,13 @@ span::after {
     width: 100%;
     height: 200px;
     background-color: #fff;
-    position: absolute;
     left: 0px;
     top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 5;
 }
 
 .search__modal--body .search-box {
@@ -263,6 +265,8 @@ span::after {
     border: 1px solid #000;
     padding: 1%;
     border-radius: 32px;
+    z-index: 5;
+    position: relative; /* Thêm dòng này để tạo stacking context */
 }
 
 .search__modal--body .search-box input {
@@ -297,11 +301,13 @@ span::after {
 
 #header__responsive {
     display: none;
+
 }
 
 /* todo =============================== css mobile */
 #header__responsive {
     position: absolute;
+    
     top: 69px;
     left: 0;
     width: 100%;
