@@ -50,31 +50,6 @@ ul {
     list-style: none;
 }
 
-button.normal {
-    font-size: 14px;
-    font-weight: 600;
-    padding: 15px 30px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    transition: 0.2s;
-}
-
-button.white {
-    font-size: 13px;
-    font-weight: 600;
-    padding: 11px 18px;
-    color: #fff;
-    background-color: transparent;
-    cursor: pointer;
-    border: 1px solid #fff;
-    outline: none;
-    transition: 0.2s;
-}
-
 #header {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -85,8 +60,6 @@ button.white {
     height: 67px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     gap: 30px;
-    position: fixed;
-    top: 0;
     padding: 0 20px;
     background-color: #fff;
     z-index: 10;
@@ -298,7 +271,10 @@ span::after {
 
 #header__responsive {
     display: none;
+}
 
+.header__search__modal--respon {
+    display: none;
 }
 
 /* todo =============================== css mobile */
@@ -318,7 +294,7 @@ span::after {
 }
 
 /* ?==================== Responsive header */
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     #header {
         gap: 20px;
     }
@@ -359,7 +335,7 @@ span::after {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .list-item.responsive {
         display: block;
         position: absolute;
@@ -385,7 +361,7 @@ span::after {
         cursor: pointer;
     }
 
-    .header__responsive--login a button.signin {
+    .header__responsive--login a button.header__responsive--signin {
         background-color: #C9E6C0;
     }
 
@@ -466,7 +442,11 @@ span::after {
         padding: 5px;
     }
 
-    .search__modal--respon .search-box__responsive {
+    .header__search__modal--respon {
+        display: flex;
+    }
+
+    .header__search__modal--respon .header__search-box__responsive {
         width: 280px;
         border: 1px solid #000;
         border-radius: 32px;
@@ -475,7 +455,7 @@ span::after {
         position: relative;
     }
 
-    .search-box__responsive input {
+    .header__search-box__responsive input {
         width: 220px;
         padding: 3px;
         outline: none;
@@ -484,7 +464,7 @@ span::after {
         margin-left: 12px;
     }
 
-    .search-box__responsive lord-icon {
+    .header__search-box__responsive lord-icon {
         position: absolute;
         top: 2px;
         right: 8px;
@@ -532,8 +512,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 40px 80px;
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: -0.5px -6px 3px -1px #dddddd;
+    -moz-box-shadow: -0.5px -6px 3px -1px #dddddd;
+    box-shadow: -0.5px -6px 3px -1px #dddddd;
 }
 
 footer .col {
@@ -629,7 +613,7 @@ footer .follow ul {
 
 
 
-ul li i {
+ul .follow__animate i {
     color: #777;
     font-size: 1.75em !important;
     transition: 0.5s;
@@ -641,13 +625,13 @@ ul li i {
     transform: translate(-50%, -50%);
 }
 
-ul li:hover i {
+ul .follow__animate:hover i {
     transform: scale(0);
     font-size: 1.75em;
     transition-delay: 0.25s;
 }
 
-ul li span {
+ul .follow__animate span {
     position: absolute;
 }
 
