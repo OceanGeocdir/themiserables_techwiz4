@@ -1189,7 +1189,12 @@ footer .coppyright {
     /* background-color: #408099; */
 }
 
-
+.clickable-area {
+    width: 100%; /* Khu vực clickable chiếm toàn bộ chiều rộng của thẻ <a> */
+    height: 100%; /* Khu vực clickable chiếm toàn bộ chiều cao của thẻ <a> */
+    background-color: transparent; /* Màu nền trong suốt, để chỉ thấy khu vực clickable */
+    cursor: pointer; /* Con trỏ chuột thay đổi khi di chuột qua khu vực */
+  }
 
 
 
@@ -1535,3 +1540,26 @@ footer .coppyright {
 .fa-solid{
     cursor: pointer;
 }
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }

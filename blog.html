@@ -9,6 +9,167 @@
     <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
+    <header id="header">
+        <div class="logo">
+            <a href="./home.html">
+                <img src="img/logoo.png" alt="">
+            </a>
+        </div>
+            <!--! tool-bar -->
+            <div class="nav-toolbar">
+                <!-- home -->
+                <div class="list-item">
+                    <span></span>
+                    <a href="./home.html">Home</a>
+                </div>
+
+                <!-- shop -->
+                <div class="list-item">
+                    <span></span>
+                    <a href="">Plants</a>
+                    <!--todo ---------------------------- Modal layout expand -->
+                    <div class="list-item__modal">
+                        <div class="list-item__modal--overlay"></div>
+                        <div class="list-item__modal--body">
+                            <div class="expand__all">All Plants</div>
+                            <div class="expand__plants--type">
+                                <div class="expand__plants"><a href="">Indoor plants</a></div>
+                                <div class="expand__plants"><a href="">Outdoor plants</a></div>
+                                <div class="expand__plants"><a href="">Succulents</a></div>
+                                <div class="expand__plants"><a href="">Flowering shrubs</a></div>
+                            </div>
+                            <div class="expand__img">
+                                <img src="img/vatmuc.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feedback -->
+                <div class="list-item">
+                    <span></span>
+                    <a href="">Feedback</a>
+                </div>
+
+                <!-- About -->
+                <div class="list-item">
+                    <span></span>
+                    <a href="./about.html">About</a>
+                </div>
+
+                <!-- contact -->
+                <div class="list-item">
+                    <span></span>
+                    <a href="./contact.html">Contact</a>
+                </div>
+
+                <!-- Search -->
+                <div class="list-item search" id="searchButton">
+                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/xfftupfv.json"
+                        trigger="hover"
+                        colors="primary:#121331">
+                    </lord-icon>  
+                </div>
+                <div class="search-box__modal" id="searchTool">
+                    <div class="search__modal--overlay"></div>
+                    <div class="search__modal--body">
+                        <div class="search-box">
+                            <form action="" id="search-box">
+                                <input type="text"
+                                placeholder="Search by plant name, plant type or space in your home">
+                                <button><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cart -->
+                <div class="list-item cart">
+                    <a href="./cart.html">
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/lqsduwhb.json"
+                            trigger="hover"
+                            colors="primary:#121331"
+                            >
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+
+            <div class="login">
+                <a href="./login.html">
+                    <button class="signin">
+                        Đăng nhập
+                    </button>
+                </a>
+            </div>
+
+        </div>
+        <!-- ! Responsive mobile -->
+        <!-- header responsive icon -->
+        <div class="list-item responsive">
+            <div class="header__responsive--icon" id="icon-responsive">
+                <i class="bi bi-list" style="font-size: 30px;"></i>
+            </div>
+        </div>
+
+        <div id="header__responsive">
+            <div class="header__responsive--overlay"></div>
+            <div class="header__responsive--navbar">
+                <div><a href="./home.html">Home</a></div>
+                <div class="header__responsive--nav-expand">
+                    <span id="expand__plants">Plants</span>
+                    <div class="header__responsive--expand-list" id="expand-list">
+                        <a href="">Indoor Plants</a>
+                        <a href="">Outdoor Plants</a>
+                        <a href="">Succulents</a>
+                        <a href="">Flowering Shrubs</a>
+                    </div>
+                </div>
+                <div><a href="./blog.html">Feedback</a></div>
+                <div><a href="./about.html">About</a></div>
+                <div><a href="./contact.html">Contact</a></div>
+                <!-- search -->
+                <div id="searchButton">
+                    <div class="search__modal--respon">
+                        <div class="search-box__responsive">
+                            <form action="" id="search-box">
+                                <input type="text"
+                                    placeholder="Search by plant name, plant type or space in your home">
+                                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/xfftupfv.json"
+                                    trigger="hover"
+                                    colors="primary:#121331">
+                                </lord-icon> 
+                            </form>
+                         </div>
+                    </div>
+                </div>
+                <!-- cart -->
+                <div class="cartButton">
+                    <a href="">
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/lqsduwhb.json"
+                            trigger="hover"
+                            colors="primary:#121331">
+                        </lord-icon>
+                    </a>
+                </div>
+                <div class="header__responsive--login">
+                    <a href="./login.html">
+                        <button class="signin">
+                            Đăng nhập
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
     <section id="page-header" class="blog-header">
         <h2>#readmore</h2>
         <p>Read all case studies about our products@</p>
@@ -17,7 +178,7 @@
     <div id="blog">
         <div class="blog-box">
             <div class="blog-img">
-                <img src="img/bannerbox2.jpg" alt="">
+                <img src="./img/bannerbox2.jpg" alt="">
             </div>
             <div class="blog-detail">
                 <h4>The catton-Jersey Zip-Up Hoodie</h4>
@@ -31,7 +192,7 @@
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="img/bannerbox2.jpg" alt="">
+                <img src="./img/bannerbox2.jpg" alt="">
             </div>
             <div class="blog-detail">
                 <h4>The catton-Jersey Zip-Up Hoodie</h4>
@@ -45,7 +206,7 @@
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="img/bannerbox2.jpg" alt="">
+                <img src="./img/bannerbox2.jpg" alt="">
             </div>
             <div class="blog-detail">
                 <h4>The catton-Jersey Zip-Up Hoodie</h4>
@@ -59,7 +220,7 @@
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="img/bannerbox2.jpg" alt="">
+                <img src="./img/bannerbox2.jpg" alt="">
             </div>
             <div class="blog-detail">
                 <h4>The catton-Jersey Zip-Up Hoodie</h4>
@@ -73,7 +234,7 @@
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="img/bannerbox2.jpg" alt="">
+                <img src="./img/bannerbox2.jpg" alt="">
             </div>
             <div class="blog-detail">
                 <h4>The catton-Jersey Zip-Up Hoodie</h4>
@@ -87,7 +248,7 @@
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="img/bannerbox2.jpg" alt="">
+                <img src="./img/bannerbox2.jpg" alt="">
             </div>
             <div class="blog-detail">
                 <h4>The catton-Jersey Zip-Up Hoodie</h4>

@@ -8,10 +8,10 @@
         "img":"./imgcay/cay trong bui phan/Mediterranean Pink Heather.png",
         "origin": "Europe, Iceland, the Faroe Islands, and the Azores",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Calluna vulgaris",
         "light": "Full sun to partial shade",
@@ -31,10 +31,10 @@
         "img":"./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.png",
         "origin": "Europe as far east as Turkey",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Sambucus nigra 'Eva'",
         "light": "Full sun to light shade",
@@ -54,10 +54,10 @@
         "img":"./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.png",
         "origin": "the United States",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Rosa 'Radtkopink'",
         "light": "Full sun to partial shade",
@@ -77,10 +77,10 @@
         "img":"./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.png",
         "origin": "China",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Buddleja davidii 'Tutti Fruitti'",
         "light": "Full sun to partial shade",
@@ -100,10 +100,10 @@
         "img":"./imgcay/cay trong bui phan/Apricot Drift® Rose.png",
         "origin": "eastern Asia, in northeastern China, Japan, Korea and southeastern Siberia",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Rosa 'Meimirrote'",
         "light": "Full sun",
@@ -123,10 +123,10 @@
         "img":"./imgcay/cay trong bui phan/Sweet Drift® Rose.png",
         "origin": " the United States",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Rosa 'Meiswetdom'",
         "light": "Full sun",
@@ -146,10 +146,10 @@
         "img":"./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.png",
         "origin": "China",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Buddleja davidii",
         "light": "Full Sun",
@@ -169,10 +169,10 @@
         "img":"./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.png",
         "origin": "Japan",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Hydrangea macrophylla",
         "light": "Partial Shade to Full Sun",
@@ -192,10 +192,10 @@
         "img":"./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.png",
         "origin": "eastern Asia, specifically Japan and China",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientific_name": "Hydrangea macrophylla",
         "light": "Partial Shade to Full Sun",
@@ -215,12 +215,12 @@
         "height": "40-50cm",
         "price": "$83.00",
         "origin": "eastern Asia",
-        "link":"./imgcay/cay trong nha/Howard.png",
+        "img":"./imgcay/cay trong nha/Howard.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Aspidistra",
         "light": "Most light conditions: He’s maybe the least fussy plant you’ll meet. He’ll deal with almost any light level (he’s not mad on strong sunshine).",
@@ -237,12 +237,12 @@
         "price": "$108.00",
         "height": "30-40cm",
         "origin": "tropical Africa",
-        "link":"./imgcay/cay trong nha/Rick.png",
+        "img":"./imgcay/cay trong nha/Rick.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Dracaena fragrans",
         "light": "Most light conditions: He's happy in anything from light shade to bright, soft light. Keep him out of harsh direct sun.",
@@ -259,12 +259,12 @@
         "price": "$23.00",
         "height": "20-30cm",
         "origin": "Brazilian tropical forests",
-        "link":"./imgcay/cay trong nha/Jane.png",
+        "img":"./imgcay/cay trong nha/Jane.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Maranta leuconeura",
         "light": "Medium light: She loves lots of light but ideally not direct sun, which will make her colours fade. A little bit of shade is ok.",
@@ -281,12 +281,12 @@
         "price": "$51.00",
         "height": "30-40cm",
         "origin": "Angola, Southern Africa",
-        "link":"./imgcay/cay trong nha/Cedric.png",
+        "img":"./imgcay/cay trong nha/Cedric.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Sansevieria cylindrica",
         "light": "Most light conditions: He’s happy almost anywhere, even shady corners. He’ll grow faster in a bright spot.",
@@ -303,12 +303,12 @@
         "height": "20-30cm",
         "price": "$26",
         "origin": "tropical areas of China, India and most areas of Indo-China",
-        "link":"./imgcay/cay trong nha/Theodore.png",
+        "img":"./imgcay/cay trong nha/Theodore.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Dischidia nummularia",
         "light": "Medium light: He can tolerate partial shade, perfect for those rooms with medium light.",
@@ -325,12 +325,12 @@
         "height": "30-40cm",
         "price": "$96.00",
         "origin": "Brazil and Colombia",
-        "link":"./imgcay/cay trong nha/Phil.png",
+        "img":"./imgcay/cay trong nha/Phil.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Philodendron Scandens",
         "light": "Medium light: He’ll be fine in semi-shade, though his leaves may fade a bit. He prefers a position in a bright room.",
@@ -347,12 +347,12 @@
         "height": "30-60cm",
         "price": "$83",
         "origin": "East Africa, from Kenya to South Africa",
-        "link":"./imgcay/cay trong nha/bali.png",
+        "img":"./imgcay/cay trong nha/bali.png",
         "thumbnails": [
-            "zz_img1__link",
-            "zz_img2__link",
-            "zz_img3__link",
-            "zz_img4__link"
+            "zz_img1__img",
+            "zz_img2__img",
+            "zz_img3__img",
+            "zz_img4__img"
         ],
         "scientificname": "Zamioculcas zamiifolia",
         "light": "Low to bright indirect light: Can tolerate low light conditions but also thrives in brighter settings.",
@@ -369,12 +369,12 @@
         "height": "30-60cm",
         "price": "$51",
         "origin": "tropical regions of the Americas and southeastern Asia",
-        "link":"./imgcay/cay trong nha/Kitchen set.png",
+        "img":"./imgcay/cay trong nha/Kitchen set.png",
         "thumbnails": [
-            "peace_lily_img1__link",
-            "peace_lily_img2__link",
-            "peace_lily_img3__link",
-            "peace_lily_img4__link"
+            "peace_lily_img1__img",
+            "peace_lily_img2__img",
+            "peace_lily_img3__img",
+            "peace_lily_img4__img"
         ],
         "scientificname": "Spathiphyllum",
         "light": "Low to bright indirect light: Prefers moderate light but can tolerate lower light levels.",
@@ -391,12 +391,12 @@
         "height": "60-120cm",
         "price": "$20",
         "origin": "southeastern Mexico to northern Guatemala",
-        "link":"./imgcay/cay trong nha/Suri.png",
+        "img":"./imgcay/cay trong nha/Suri.png",
         "thumbnails": [
-            "chamaedorea_img1__link",
-            "chamaedorea_img2__link",
-            "chamaedorea_img3__link",
-            "chamaedorea_img4__link"
+            "chamaedorea_img1__img",
+            "chamaedorea_img2__img",
+            "chamaedorea_img3__img",
+            "chamaedorea_img4__img"
         ],
         "scientificname": "Chamaedorea elegans",
         "light": "Indirect light: Thrives in bright but indirect sunlight.",
@@ -415,12 +415,12 @@
         "height": "80-90cm",
         "price": "$96",
         "origin": "the Mediterranean region",
-        "link":"./imgcay/cay trong ngoai troi/Laura tree.png",
+        "img":"./imgcay/cay trong ngoai troi/Laura tree.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Laurus nobilis",
         "light": "Most light conditions: She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day.",
@@ -437,12 +437,12 @@
         "price": "$100",
         "height": "20-30cm",
         "origin": "the Mediterranean region",
-        "link":"./imgcay/cay trong ngoai troi/Laura shrub.png",
+        "img":"./imgcay/cay trong ngoai troi/Laura shrub.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Laurus Nobilis",
         "light": "Most light conditions: She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day.",
@@ -459,12 +459,12 @@
         "price": "$60.99",
         "height": "70-80cm",
         "origin": "Sichuan, China",
-        "link":"./imgcay/cay trong ngoai troi/Boo.png",
+        "img":"./imgcay/cay trong ngoai troi/Boo.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Fargesia robusta",
         "light": "A sunny spot: They like a spot that gets a mix of sun and shade. Sun all day can be a bit much for them.",
@@ -481,12 +481,12 @@
         "price": "$150",
         "height": "100-110cm",
         "origin": "Canary Islands off the coast of Morocco",
-        "link":"./imgcay/cay trong ngoai troi/Phoebe.png",
+        "img":"./imgcay/cay trong ngoai troi/Phoebe.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Phoenix canariensis",
         "light": "Medium light: She loves the sun, but she’s happiest if she gets a little bit of shade for part of the day, for a break from the heat.",
@@ -503,12 +503,12 @@
         "height": "110-120cm",
         "price": "$75",
         "origin": "eastern Australia",
-        "link":"./imgcay/cay trong ngoai troi/Tam.png",
+        "img":"./imgcay/cay trong ngoai troi/Tam.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Dicksonia Antarctica",
         "light": "Gentle sun: His preferred place to live is a spot that gives him a mix of shade and gentle sun. A south exposure, for example, will burn his leaves!",
@@ -525,12 +525,12 @@
         "height": "20-30cm",
         "price": " $35",
         "origin": "western, central, and southern Europe as well as southeast Asia",
-        "link":"./imgcay/cay trong ngoai troi/Ivy.png",
+        "img":"./imgcay/cay trong ngoai troi/Ivy.png",
         "thumbnails": [
-            "img1__link",
-            "img2__link",
-            "img3__link",
-            "img4__link"
+            "img1__img",
+            "img2__img",
+            "img3__img",
+            "img4__img"
         ],
         "scientificname": "Hedera helix",
         "light": "Most light conditions: She could not be more easygoing when it comes to light. She’ll cope in almost anything but loves bright, indirect light.",
@@ -547,12 +547,12 @@
         "height": "80-150cm",
         "price": "$49",
         "origin": "tropical areas along the Malay archipelago",
-        "link":"./imgcay/cay trong ngoai troi/Leon.png",
+        "img":"./imgcay/cay trong ngoai troi/Leon.png",
         "thumbnails": [
-            "lime_tree_img1__link",
-            "lime_tree_img2__link",
-            "lime_tree_img3__link",
-            "lime_tree_img4__link"
+            "lime_tree_img1__img",
+            "lime_tree_img2__img",
+            "lime_tree_img3__img",
+            "lime_tree_img4__img"
         ],
         "scientificname": "Citrus aurantiifolia",
         "light": "Full sunlight: Requires 6-8 hours of direct sunlight daily.",
@@ -569,12 +569,12 @@
         "height": "60-150cm",
         "price": "$92",
         "origin": "Africa and temperate Asia as well as southern Europe",
-        "link":"./imgcay/cay trong ngoai troi/Ollie.png",
+        "img":"./imgcay/cay trong ngoai troi/Ollie.png",
         "thumbnails": [
-            "olive_tree_img1__link",
-            "olive_tree_img2__link",
-            "olive_tree_img3__link",
-            "olive_tree_img4__link"
+            "olive_tree_img1__img",
+            "olive_tree_img2__img",
+            "olive_tree_img3__img",
+            "olive_tree_img4__img"
         ],
         "scientificname": "Olea europaea",
         "light": "Full sunlight: Requires at least 6-8 hours of direct sunlight daily.",
@@ -591,12 +591,12 @@
         "height": "30-90cm",
         "price": "$69",
         "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
-        "link":"././imgcay/cay trong ngoai troi/Kai.png",
+        "img":"././imgcay/cay trong ngoai troi/Kai.png",
         "thumbnails": [
-            "star_jasmine_img1__link",
-            "star_jasmine_img2__link",
-            "star_jasmine_img3__link",
-            "star_jasmine_img4__link"
+            "star_jasmine_img1__img",
+            "star_jasmine_img2__img",
+            "star_jasmine_img3__img",
+            "star_jasmine_img4__img"
         ],
         "scientificname": "Trachelospermum jasminoides",
         "light": "Bright indirect light: Prefers bright, indirect sunlight, but can tolerate some direct sun.",
@@ -618,10 +618,10 @@
         "discountCode": "ABC123",
         "origin": "Europe and parts of Asia",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum reflexum",
         "light": "Full Sun",
@@ -642,10 +642,10 @@
         "discountCode": "ABC123",
         "origin": "eastern Asia, specifically regions of China, Korea, and Russia",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Phedimus stoloniferus",
         "light": "Full Sun",
@@ -666,10 +666,10 @@
         "discountCode": "ABC123",
         "origin": "southern Europe and parts of northern Africa",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum dasyphyllum",
         "light": "Full Sun",
@@ -690,10 +690,10 @@
         "discountCode": "ABC123",
         "origin": "a wide range of regions across Europe, including countries like France, Spain, Italy, and Greece",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum album",
         "light": "Full Sun",
@@ -714,10 +714,10 @@
         "discountCode": "ABC123",
         "origin": "parts of Europe and Asia, including countries such as Russia, Ukraine, and Turkey",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Phedimus spurius",
         "light": "Full Sun",
@@ -738,10 +738,10 @@
         "discountCode": "ABC123",
         "origin": "a wide range of regions across Europe, including countries like France, Spain, Italy, and Greece",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum album",
         "light": "Full Sun",
@@ -762,10 +762,10 @@
         "discountCode": "ABC123",
         "origin": "western and central Europe",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum reflexum ",
         "light": "Full Sun",
@@ -786,10 +786,10 @@
         "discountCode": "ABC123",
         "origin": "southern Europe and regions of the Caucasus",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum sediforme",
         "light": "Full Sun",
@@ -810,10 +810,10 @@
         "discountCode": "ABC123",
         "origin": "a range of regions in Europe and Asia",
         "thumbnails": [
-          "img1__link",
-          "img2__link",
-          "img3__link",
-          "img4__link"
+          "img1__img",
+          "img2__img",
+          "img3__img",
+          "img4__img"
         ],
         "scientificname": "Sedum spurium",
         "light": "Full Sun to Partial Shade",
