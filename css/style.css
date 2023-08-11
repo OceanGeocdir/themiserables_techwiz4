@@ -93,9 +93,10 @@ button.white {
     height: 67px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     gap: 30px;
-    position: relative;
+    position: fixed;
     padding: 0 20px;
-    background-color: #C9E6C0;
+    background-color: #fff;
+    z-index: 10;
 }
 
 #header .logo img {
