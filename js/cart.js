@@ -115,7 +115,7 @@ function removeProduct(index) {
 updateCart();
 function login(){
     var login = JSON.parse(localStorage.getItem('login'))
-    var checkout = document.getElementById('checkout')
+    var checkout = document.getElementById('checkout2')
     checkout.addEventListener('click', function(){
         if(login == true){
             alert("Payment Succes")
@@ -125,5 +125,4 @@ function login(){
         }
     })
 }
-login()
-    
+login();
