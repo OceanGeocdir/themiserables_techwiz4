@@ -132,8 +132,8 @@
                         </td>
                         <td class="product__subtotal">
                             <div class="price">
-                                <span class="new__price" id="product-subtotal">{{ item.quantity *
-                                    item.price).toFixed(2) }}</span>
+                                <span class="new__price" id="product-subtotal">${{ item.quantity *
+                                    (item.price) }}</span>
                             </div>
                             <a href="#" class="remove__cart-item" id="remove-cart-item-link"
                                 ng-click="removeFromCart(item)">
