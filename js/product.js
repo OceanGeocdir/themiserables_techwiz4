@@ -11,31 +11,31 @@ app.config(function ($routeProvider) {
       controller: "page1Controller",
     })
     .when("/b", {
-      templateUrl: "page/page2.html",
+      templateUrl: "/page/page2.html",
       controller: "page2Controller",
     })
     .when("/c", {
-      templateUrl: "page/page3.html",
+      templateUrl: "/page/page3.html",
       controller: "page3Controller",
     })
     .when("/d", {
-      templateUrl: "page/page4.html",
+      templateUrl: "/page/page4.html",
       controller: "page4Controller",
     })
     .when("/e", {
-      templateUrl: "page/page5.html",
+      templateUrl: "/page/page5.html",
       controller: "page5Controller",
     })
     .when("/f", {
-      templateUrl: "page/page6.html",
+      templateUrl: "/page/page6.html",
       controller: "page6Controller",
     })
     .when("/g", {
-      templateUrl: "page/page7.html",
+      templateUrl: "/page/page7.html",
       controller: "page7Controller",
     })
     .when("/h", {
-      templateUrl: "page/page8.html",
+      templateUrl: "/page/page8.html",
       controller: "page8Controller",
     });
 });
