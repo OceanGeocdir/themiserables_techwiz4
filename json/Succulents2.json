@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Mediterranean Pink Heather",
-      "price": "$24.95",
+      "price": "24.95",
       "height": "30-40cm",
       "img": "./imgcay/cay trong bui phan/Mediterranean Pink Heather.png",
       "origin": "Europe, Iceland, the Faroe Islands, and the Azores",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "name": "Proven Winners® Color Choice® Black Lace® Elderberry",
-      "price": "$69.95",
+      "price": "69.95",
       "height": "180-240cm",
       "img": "./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.png",
       "origin": "Europe as far east as Turkey",
@@ -39,7 +39,7 @@
     {
       "id": 3,
       "name": "Pink Double Knock Out® Rose",
-      "price": "$69.95",
+      "price": "69.95",
       "height": "35cm-40cm",
       "img": "./imgcay/cay trong bui phan/Pink Double Knock Out® Rose.png",
       "origin": "the United States",
@@ -57,7 +57,7 @@
     {
       "id": 4,
       "name": "Flutterby Petite® Tutti Fruitti Butterfly Bush",
-      "price": "$72.95",
+      "price": "72.95",
       "height": "60-90cm",
       "img": "./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.png",
       "origin": "China",
@@ -75,7 +75,7 @@
     {
       "id": 5,
       "name": "Apricot Drift® Rose",
-      "price": "$69.95",
+      "price": "69.95",
       "height": "60-90cm",
       "img": "./imgcay/cay trong bui phan/Apricot Drift® Rose.png",
       "origin": "eastern Asia, in northeastern China, Japan, Korea and southeastern Siberia",
@@ -93,7 +93,7 @@
     {
       "id": 6,
       "name": "Sweet Drift® Rose",
-      "price": "$69.95",
+      "price": "69.95",
       "height": "60-80cm",
       "img": "./imgcay/cay trong bui phan/Sweet Drift® Rose.png",
       "origin": " the United States",
@@ -111,7 +111,7 @@
     {
       "id": 7,
       "name": "Flutterby Petite® Blue Heaven Butterfly Bush",
-      "price": "$72.95",
+      "price": "72.95",
       "height": "60-90cm",
       "img": "./imgcay/cay trong bui phan/Flutterby Petite® Blue Heaven Butterfly Bush.png",
       "origin": "China",
@@ -129,7 +129,7 @@
     {
       "id": 8,
       "name": "Endless Summer® Twist-n-Shout® Hydrangea",
-      "price": "$24.98",
+      "price": "24.98",
       "height": "90-120cm",
       "img": "./imgcay/cay trong bui phan/Endless Summer® Twist-n-Shout® Hydrangea.png",
       "origin": "Japan",
@@ -147,7 +147,7 @@
     {
       "id": 9,
       "name": "Endless Summer® BloomStruck® Hydrangea",
-      "price": "$29.22",
+      "price": "29.22",
       "height": "120-150cm",
       "img": "./imgcay/cay trong bui phan/Endless Summer® BloomStruck® Hydrangea.png",
       "origin": "eastern Asia, specifically Japan and China",
@@ -168,7 +168,7 @@
       "id": 1,
       "name": "Howard",
       "height": "40-50cm",
-      "price": "$83.00",
+      "price": "83.00",
       "origin": "eastern Asia",
       "img": "./imgcay/cay trong nha/Howard.png",
       "thumbnails": ["img1__img", "img2__img", "img3__img", "img4__img"],
@@ -184,7 +184,7 @@
     {
       "id": 2,
       "name": "Rick",
-      "price": "$108.00",
+      "price": "108.00",
       "height": "30-40cm",
       "origin": "tropical Africa",
       "img": "./imgcay/cay trong nha/Rick.png",
@@ -201,7 +201,7 @@
     {
       "id": 3,
       "name": "Jane",
-      "price": "$23.00",
+      "price": "23.00",
       "height": "20-30cm",
       "origin": "Brazilian tropical forests",
       "img": "./imgcay/cay trong nha/Jane.png",
@@ -218,7 +218,7 @@
     {
       "id": 4,
       "name": "Cedric",
-      "price": "$51.00",
+      "price": "51.00",
       "height": "30-40cm",
       "origin": "Angola, Southern Africa",
       "img": "./imgcay/cay trong nha/Cedric.png",
@@ -236,7 +236,7 @@
       "id": 5,
       "name": "Theodore",
       "height": "20-30cm",
-      "price": "$26",
+      "price": "26",
       "origin": "tropical areas of China, India and most areas of Indo-China",
       "img": "./imgcay/cay trong nha/Theodore.png",
       "thumbnails": ["img1__img", "img2__img", "img3__img", "img4__img"],
@@ -253,7 +253,7 @@
       "id": 6,
       "name": "Phil",
       "height": "30-40cm",
-      "price": "$96.00",
+      "price": "96.00",
       "origin": "Brazil and Colombia",
       "img": "./imgcay/cay trong nha/Phil.png",
       "thumbnails": ["img1__img", "img2__img", "img3__img", "img4__img"],
@@ -270,7 +270,7 @@
       "id": 7,
       "name": "ZZ Plant",
       "height": "30-60cm",
-      "price": "$83",
+      "price": "83",
       "origin": "East Africa, from Kenya to South Africa",
       "img": "./imgcay/cay trong nha/bali.png",
       "thumbnails": [
@@ -292,7 +292,7 @@
       "id": 8,
       "name": "Peace Lily",
       "height": "30-60cm",
-      "price": "$51",
+      "price": "51",
       "origin": "tropical regions of the Americas and southeastern Asia",
       "img": "./imgcay/cay trong nha/Kitchen set.png",
       "thumbnails": [
@@ -314,7 +314,7 @@
       "id": 9,
       "name": "Chamaedorea",
       "height": "60-120cm",
-      "price": "$20",
+      "price": "20",
       "origin": "southeastern Mexico to northern Guatemala",
       "img": "./imgcay/cay trong nha/Suri.png",
       "thumbnails": [
@@ -338,7 +338,7 @@
       "id": 1,
       "name": "Laura tree",
       "height": "80-90cm",
-      "price": "$96",
+      "price": "96",
       "origin": "the Mediterranean region",
       "img": "./imgcay/cay trong ngoai troi/Laura tree.png",
       "thumbnails": ["img1__img", "img2__img", "img3__img", "img4__img"],
@@ -354,7 +354,7 @@
     {
       "id": 2,
       "name": "Laura shrub",
-      "price": "$100",
+      "price": "100",
       "height": "20-30cm",
       "origin": "the Mediterranean region",
       "img": "./imgcay/cay trong ngoai troi/Laura shrub.png",
@@ -371,7 +371,7 @@
     {
       "id": 3,
       "name": "Boo",
-      "price": "$60.99",
+      "price": "60.99",
       "height": "70-80cm",
       "origin": "Sichuan, China",
       "img": "./imgcay/cay trong ngoai troi/Boo.png",
@@ -388,7 +388,7 @@
     {
       "id": 4,
       "name": "Phoebe",
-      "price": "$150",
+      "price": "150",
       "height": "100-110cm",
       "origin": "Canary Islands off the coast of Morocco",
       "img": "./imgcay/cay trong ngoai troi/Phoebe.png",
@@ -406,7 +406,7 @@
       "id": 5,
       "name": "Tam",
       "height": "110-120cm",
-      "price": "$75",
+      "price": "75",
       "origin": "eastern Australia",
       "img": "./imgcay/cay trong ngoai troi/Tam.png",
       "thumbnails": ["img1__img", "img2__img", "img3__img", "img4__img"],
@@ -423,7 +423,7 @@
       "id": 6,
       "name": "Ivy",
       "height": "20-30cm",
-      "price": " $35",
+      "price": " 35",
       "origin": "western, central, and southern Europe as well as southeast Asia",
       "img": "./imgcay/cay trong ngoai troi/Ivy.png",
       "thumbnails": ["img1__img", "img2__img", "img3__img", "img4__img"],
@@ -440,7 +440,7 @@
       "id": 7,
       "name": "Lime Tree",
       "height": "80-150cm",
-      "price": "$49",
+      "price": "49",
       "origin": "tropical areas along the Malay archipelago",
       "img": "./imgcay/cay trong ngoai troi/Leon.png",
       "thumbnails": [
@@ -462,7 +462,7 @@
       "id": 8,
       "name": "Olive Tree",
       "height": "60-150cm",
-      "price": "$92",
+      "price": "92",
       "origin": "Africa and temperate Asia as well as southern Europe",
       "img": "./imgcay/cay trong ngoai troi/Ollie.png",
       "thumbnails": [
@@ -484,7 +484,7 @@
       "id": 9,
       "name": "Star Jasmine",
       "height": "30-90cm",
-      "price": "$69",
+      "price": "69",
       "origin": "eastern and southeastern Asia (Japan, Korea, southern China and Vietnam)",
       "img": "././imgcay/cay trong ngoai troi/Kai.png",
       "thumbnails": [
@@ -507,7 +507,7 @@
     {
       "id": 1,
       "name": "Sedum reflexum 'Blue Spruce'",
-      "price": "$5.49",
+      "price": "5.49",
       "height": "10-20cm",
       "img": "./imgcay/cay mong nuoc/sedum-reflexum-blue-spruce.png",
       "discountCode": "ABC123",
@@ -526,7 +526,7 @@
     {
       "id": 2,
       "name": "Sedum hybridum 'Immergrünchen'",
-      "price": "$5.49",
+      "price": "5.49",
       "height": "10-30cm",
       "img": "./imgcay/cay mong nuoc/sedum-hybridum-immergrunchen.png",
       "discountCode": "ABC123",
@@ -545,7 +545,7 @@
     {
       "id": 3,
       "name": "Sedum dasyphyllum 'Himalayan Skies'",
-      "price": "$6.49",
+      "price": "6.49",
       "height": "6-10cm",
       "img": "./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.png",
       "discountCode": "ABC123",
@@ -564,7 +564,7 @@
     {
       "id": 4,
       "name": "Sedum album 'Coral Carpet'",
-      "price": "$5.49",
+      "price": "5.49",
       "height": "10-15cm",
       "img": "./imgcay/cay mong nuoc/sedum-album-coral-carpet.png",
       "discountCode": "ABC123",
@@ -583,7 +583,7 @@
     {
       "id": 5,
       "name": "Sedum spurium 'Tricolor'",
-      "price": "$5.49",
+      "price": "5.49",
       "height": "9-15cm",
       "img": "./imgcay/cay mong nuoc/Sedum spurium 'Tricolor'.png",
       "discountCode": "ABC123",
@@ -602,7 +602,7 @@
     {
       "id": 6,
       "name": "Sedum reflexum 'Angelina'",
-      "price": "$5.49",
+      "price": "5.49",
       "height": "5-10cm",
       "img": "./imgcay/cay mong nuoc/Sedum reflexum Angelina.png",
       "discountCode": "ABC123",
@@ -621,7 +621,7 @@
     {
       "id": 7,
       "name": "Sedum Album Black Pearl",
-      "price": "$3.99",
+      "price": "3.99",
       "height": "7-9cm",
       "img": "./imgcay/cay mong nuoc/sedum-album-black-pearl.png",
       "discountCode": "ABC123",
@@ -640,7 +640,7 @@
     {
       "id": 8,
       "name": "Sedum sediforme 'Turquoise Tails'",
-      "price": "$3.49",
+      "price": "3.49",
       "height": "23-30cm",
       "img": "./imgcay/cay mong nuoc/Sedum sediforme Turquoise Tails.png",
       "discountCode": "ABC123",
@@ -659,7 +659,7 @@
     {
       "id": 9,
       "name": "Sedum spurium 'Voodoo'",
-      "price": "$5.49",
+      "price": "5.49",
       "height": "15-20cm",
       "img": "./imgcay/cay mong nuoc/Sedum spurium Voodoo.png",
       "discountCode": "ABC123",
@@ -681,7 +681,7 @@
       "id": 1,
       "name": "Howard",
       "height": "40-50cm",
-      "price": "$31.00",
+      "price": "31.00",
       "origin": "eastern Asia",
       "thumbnails": ["img1__link", "img2__link", "img3__link", "img4__link"],
       "scientificname": "Aspidistra",
@@ -696,7 +696,7 @@
     {
       "id": 2,
       "name": "Rick",
-      "price": "$11.00",
+      "price": "11.00",
       "height": "30-40cm",
       "origin": "tropical Africa",
       "thumbnails": ["img1__link", "img2__link", "img3__link", "img4__link"],
@@ -728,7 +728,7 @@
     {
       "id": 4,
       "name": "Cedric",
-      "price": "$26.00",
+      "price": "26.00",
       "height": "30-40cm",
       "origin": "Angola, Southern Africa",
       "thumbnails": ["img1__link", "img2__link", "img3__link", "img4__link"],
@@ -745,7 +745,7 @@
       "id": 5,
       "name": "Theodore",
       "height": "20-30cm",
-      "price": "$26.00",
+      "price": "26.00",
       "origin": "tropical areas of China, India and most areas of Indo-China",
       "thumbnails": ["img1__link", "img2__link", "img3__link", "img4__link"],
       "scientificname": "Dischidia nummularia",
@@ -761,7 +761,7 @@
       "id": 6,
       "name": "Phil",
       "height": "30-40cm",
-      "price": "$19.00",
+      "price": "19.00",
       "origin": "Brazil and Colombia",
       "thumbnails": ["img1__link", "img2__link", "img3__link", "img4__link"],
       "scientificname": "Philodendron Scandens",
@@ -777,7 +777,7 @@
       "id": 7,
       "name": "ZZ Plant",
       "height": "30-60cm",
-      "price": "$31.00",
+      "price": "31.00",
       "origin": "East Africa, from Kenya to South Africa",
       "thumbnails": [
         "zz_img1__link",
@@ -798,7 +798,7 @@
       "id": 8,
       "name": "Peace Lily",
       "height": "30-60cm",
-      "price": "$51.00",
+      "price": "51.00",
       "origin": "tropical regions of the Americas and southeastern Asia",
       "thumbnails": [
         "peace_lily_img1__link",
@@ -819,7 +819,7 @@
       "id": 9,
       "name": "Chamaedorea",
       "height": "60-120cm",
-      "price": "$94.00",
+      "price": "94.00",
       "origin": "southeastern Mexico to northern Guatemala",
       "thumbnails": [
         "chamaedorea_img1__link",
