@@ -62,25 +62,25 @@
                                             <img id="product-image" ng-src="{{ item.img }}" alt="{{ item.product }}">
                                         </td>
                                         <td class="product__name">
-                                            <a href="#" id="product-title">{{ item.product }}</a>
+                                            <a href="#" id="product-title">${{ item.product }}</a>
                                             <br><br>
                                             <small id="product-color-size">{{ item.code }}</small>
                                         </td>
                                         <td class="product__price">
                                             <div class="price">
-                                                <span class="new__price" id="product-price">{{ item.price }}</span>
+                                                <span class="new__price" id="product-price">${{ item.price }}</span>
                                             </div>
                                         </td>
                                         <td class="product__quantity">
                                             <div class="input-counter">
                                                 <div>
-                                                    <!-- ... (quantity input field) ... -->
+                                                 {{item.quantity}}   
                                                 </div>
                                             </div>
                                         </td>
                                         <td class="product__subtotal">
                                             <div class="price">
-                                                <span class="new__price" id="product-subtotal">{{ item.quantity * item.price }}</span>
+                                                <span class="new__price" id="product-subtotal">${{ item.quantity * item.price }}</span>
                                             </div>
                                             <a href="#" class="remove__cart-item" id="remove-cart-item-link" ng-click="removeFromCart(item)">
                                                 <!-- ... (remove icon) ... -->
@@ -122,7 +122,7 @@
                                     <span class="new__price" id="total">{{ calculateTotal() | currency }}</span>
                                 </li>
                             </ul>
-                            <a href="" onclick="openPopup()">PROCEED TO CHECKOUT</a>
+                            <a href="">PROCEED TO CHECKOUT</a>
                         </div>
                     </form>
                 </div>
@@ -196,6 +196,7 @@
     $scope.cartItems = JSON.parse(localStorage.getItem('product_list')) || [];
     $scope.shipping = 5; // Set the shipping cost here
 
+
     $scope.calculateSubtotal = function() {
         return $scope.cartItems.reduce(function(total, item) {
             return total + (item.price * item.quantity);
@@ -206,6 +207,8 @@
         var subtotal = $scope.calculateSubtotal();
         return subtotal + $scope.shipping;
     };
+    
 });
+
 
 </script>

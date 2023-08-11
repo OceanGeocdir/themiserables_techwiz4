@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" >
 
 <head>
     <meta charset="UTF-8">
@@ -46,7 +46,7 @@
             <!-- shop -->
             <div class="list-item">
                 <span></span>
-                <a href="product.html" style="text-decoration: none; color: black;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Plants</a>
+                <a href="#!/product">Plants</a>
                 <!--todo ---------------------------- Modal layout expand -->
                 <div class="list-item__modal">
                     <div class="list-item__modal--overlay"></div>
@@ -182,7 +182,9 @@
     </header>
 
     <!-- view homepage -->
-    <div ng-view> </div>
+    <div ng-app="myApp">
+    <div ng-view > </div>
+    </div>
     <!-- view homepage -->
 
 
