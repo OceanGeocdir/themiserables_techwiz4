@@ -2,12 +2,14 @@ function applyDiscount() {
     var discountCode = document.getElementById('discount-code').value;
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
 
+    // Đọc thông tin mã giảm giá từ tệp JSON
     fetch('./json/discountCodes.json')
         .then(response => response.json())
         .then(data => {
             var totalDiscount = 0;
 
             productList.forEach(function(product) {
+                // Tìm mã giảm giá trong danh sách
                 var matchingDiscount = data.discountCodes.find(function(discount) {
                     return discount.code === discountCode;
                 });
@@ -22,6 +24,7 @@ function applyDiscount() {
             var cartTotalElement = document.getElementById('cart-total');
 
             var cartSubtotal = parseFloat(cartSubtotalElement.textContent.replace('$', ''));
+
             var discountedTotal = cartSubtotal - totalDiscount;
 
             cartDiscountElement.textContent = '$ ' + totalDiscount.toFixed(2);
@@ -31,7 +34,7 @@ function applyDiscount() {
 
 function updateCart() {
     var cartBody = document.getElementById('cart-body');
-    cartBody.innerHTML = '';
+    cartBody.innerHTML = ''; // Xóa dữ liệu cũ
 
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
     var cartSubtotal = 0;
@@ -43,7 +46,8 @@ function updateCart() {
 
         row.innerHTML = `
             <td>
-                <i class="fa-solid fa-trash" onclick="removeProduct(${index})"></i>
+
+            <i class="fa-solid fa-trash" onclick="removeProduct(${index})"></i>
             </td>
             <td>
                 <img src="${product.img}" alt="">
@@ -61,6 +65,7 @@ function updateCart() {
         cartBody.appendChild(row);
     });
 
+    // Cập nhật tổng số tiền
     var cartSubtotalElement = document.getElementById('cart-subtotal');
     var cartTotalElement = document.getElementById('cart-total');
     cartSubtotalElement.textContent = '$ ' + cartSubtotal.toFixed(2);
@@ -68,8 +73,10 @@ function updateCart() {
     applyDiscount();
 }
 
+
 function decreaseQuantity(index) {
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
+
     var existingProduct = productList[index];
 
     if (existingProduct) {
@@ -86,6 +93,7 @@ function decreaseQuantity(index) {
 
 function increaseQuantity(index) {
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
+
     var existingProduct = productList[index];
 
     if (existingProduct) {
@@ -97,16 +105,17 @@ function increaseQuantity(index) {
 
 function removeProduct(index) {
     var productList = JSON.parse(localStorage.getItem('product_list')) || [];
+
     productList.splice(index, 1);
+
     localStorage.setItem('product_list', JSON.stringify(productList));
     updateCart();
 }
 
 updateCart();
-
 function login(){
     var login = JSON.parse(localStorage.getItem('login'))
-    var checkout = document.getElementById('checkout')
+    var checkout = document.getElementById('checkout2')
     checkout.addEventListener('click', function(){
         if(login == true){
             alert("Payment Succes")
@@ -116,16 +125,4 @@ function login(){
         }
     })
 }
-// Lưu danh sách sản phẩm vào Local Storage
-function addToCart(product) {
-    var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-    cartItems.push(product);
-    localStorage.setItem("cartItems", JSON.stringify(cartItems));
-  }
-  
-  // Lấy danh sách sản phẩm từ Local Storage
-  function getCartItems() {
-    return JSON.parse(localStorage.getItem("cartItems")) || [];
-  }
-  
 login();
