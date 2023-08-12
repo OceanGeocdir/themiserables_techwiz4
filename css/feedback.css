@@ -8,7 +8,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #fff;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-bottom: 200px;
   }
   
@@ -33,8 +33,8 @@ body{
     background-color: #C9E6C0;
     -webkit-box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
   -moz-box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
-  box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
-  border-radius: 10px;
+    box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
+    border-radius: 10px;
 }
   
   /* Begin Left Contact Page */
@@ -231,12 +231,12 @@ body{
   -moz-box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
   box-shadow: 4.5px -1px 16.5px 4.5px #dddddd;
   display: none;
-  transition: transform 0.5s ease-in-out;
+  transition: all 0.3s ease;
 }
 
-.feedback__popup--container.active {
+/* .feedback__popup--container.active {
   display: block;
-}
+} */
 
 .popup {
   display: flex;
@@ -363,22 +363,58 @@ body{
         display: flex;
         justify-content: center;
         width: 90%;
-        height: 1000px;
-        margin-bottom: 1500px;
+        height: 900px;
     }
 
     .feedback__wrapper--contact {
         top: 500px;
-        right: 150px;
+        right: 130px;
+        font-size: 16px;
     }
 
     .feedback__direct-contact-container {
-        top: 800px;
+        top: 670px;
+        right: 200px;
+        font-size: 16px;
+    }
+
+    .feedback__contact-text {
+      font-size: 23px;
     }
 }
   
-@media screen and (max-width: 410px) {
-    .send-button {
-      width: 99%;
+@media screen and (max-width: 480px) {
+    .contact-wrapper {
+      width: 90%;
     }
+
+    .feedback__wrapper--contact {
+      display: none;
+    }
+
+    .feedback__direct-contact-container {
+      display: none;
+    }
+
+    .form-control {
+      width: 60%;
+    }
+
+    .btn {
+      width: 60%;
+      position: relative;
+  }
+
+  .button i{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .button .send-text {
+      position: absolute;
+      top: 40px;
+      left: 40%;
+  }
 }
