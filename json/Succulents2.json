@@ -20,7 +20,7 @@
     },
     {
       "id": 2,
-      "name": "Proven Winners® Color Choice® Black Lace® Elderberry",
+      "name": "Proven Winners",
       "price": "69.95",
       "height": "180-240cm",
       "img": "./imgcay/cay trong bui phan/Proven Winners® Color Choice® Black Lace® Elderberry.png",
@@ -56,7 +56,7 @@
     },
     {
       "id": 4,
-      "name": "Flutterby Petite® Tutti Fruitti Butterfly Bush",
+      "name": "Flutterby Petite® Tutti Fruitti Butterfly",
       "price": "72.95",
       "height": "60-90cm",
       "img": "./imgcay/cay trong bui phan/Flutterby Petite® Tutti Fruitti Butterfly Bush.png",
@@ -544,7 +544,7 @@
     },
     {
       "id": 3,
-      "name": "Sedum dasyphyllum 'Himalayan Skies'",
+      "name": "Sedum dasyphyllum",
       "price": "6.49",
       "height": "6-10cm",
       "img": "./imgcay/cay mong nuoc/sedum-dasyphyllum-himalayan-skies-limited.png",
