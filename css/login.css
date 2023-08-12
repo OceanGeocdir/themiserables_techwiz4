@@ -287,7 +287,7 @@ body {
 .form-signup span {
 	color: red;
 }
-.popup {
+.popup2 {
     display: none;
     position: fixed;
     top: 0;
@@ -298,11 +298,14 @@ body {
     z-index: 9999;
   }
   
-  .popup-content {
+  .popup-content2 {
     position: absolute;
-    top: 20%;
+	/* margin-top: 300px; */
+	justify-content: center;
+	align-items: center;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     background-color: transparent;
     padding: 20px;
     width: 80%;
