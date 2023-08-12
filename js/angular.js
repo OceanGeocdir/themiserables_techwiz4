@@ -2,15 +2,14 @@ var app = angular.module("myApp", ["ngRoute"]);
 
 app.config(function ($routeProvider) {
   $routeProvider  
-    .when("/", { templateUrl: "home.html"})
-    .when("/home", { templateUrl: "home.html"})
-    .when("/about", { templateUrl: "about.html"})
-    .when("/cart", { templateUrl: "cart.html", controller: "CartController" })
-    .when("/contact", { templateUrl: "contact.html", controller: "contactController"})
-    .when("/feedback", { templateUrl: "feedback.html"})
-    .when("/product", { templateUrl: "product.html", controller: "productController" })
-    .when("/login", { templateUrl: "login.html"})
-    .when("/blog", { templateUrl: "blog.html", controller: "blogductController"})
+    .when("/", { templateUrl: "/listpage/home.html"})
+    .when("/home", { templateUrl: "/listpage/home.html"})
+    .when("/about", { templateUrl: "/listpage/about.html"})
+    .when("/cart", { templateUrl: "/listpage/cart.html", controller: "CartController" })
+    .when("/contact", { templateUrl: "/listpage/contact.html", controller: "contactController"})
+    .when("/feedback", { templateUrl: "/listpage/feedback.html"})
+    .when("/product", { templateUrl: "/listpage/product.html", controller: "productController" })
+    .when("/blog", { templateUrl: "/listpage/blog.html", controller: "blogductController"})
 
 });
 

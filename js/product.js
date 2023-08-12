@@ -11,7 +11,7 @@ app.config(function ($routeProvider) {
 
 
 app.controller("productController", function ($scope, $http) {
-  $http.get("./json/Succulents2.json").then(function (response) {
+  $http.get("/json/Succulents2.json").then(function (response) {
     $scope.data1 = response.data.page1;
     $scope.data2 = response.data.page2;
     $scope.data3 = response.data.page3;
