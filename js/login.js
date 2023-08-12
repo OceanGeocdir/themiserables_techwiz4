@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		} else if (userExists) {
 			alert("An account with this email already exists");
 		} else {
+			window.location.href= 'index.html'
 			const newUser = {
 				name: username,
 				email: email,

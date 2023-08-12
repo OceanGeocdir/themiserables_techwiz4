@@ -26,6 +26,8 @@ app.controller("blogController", function ($scope, $http){
 });
 
 app.controller("CartController", function ($scope) {
+
+    
     $scope.cartItems = JSON.parse(localStorage.getItem('product_list')) || [];
     $scope.shipping = 5; // Set the shipping cost here
 
@@ -38,6 +40,19 @@ app.controller("CartController", function ($scope) {
     $scope.calculateTotal = function() {
         var subtotal = $scope.calculateSubtotal();
         return subtotal + $scope.shipping;
+    };
+    $scope.checkout = function () {
+        var userLoggedIn = localStorage.getItem('login');
+
+        if (userLoggedIn === 'true') {
+            alert("Thanh toán thành công");
+            localStorage.removeItem('product_list');
+            // Làm tươi lại trang web
+            window.location.reload();
+        } else {
+            alert("Bạn cần đăng nhập để thanh toán");
+            window.location.href = "./login.html";
+        }
     };
 });
 
