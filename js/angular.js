@@ -5,7 +5,7 @@ app.config(function ($routeProvider) {
     .when("/", { templateUrl: "home.html"})
     .when("/home", { templateUrl: "home.html"})
     .when("/about", { templateUrl: "about.html"})
-    .when("/cart", { templateUrl: "newcart.html", controller: "CartController" })
+    .when("/cart", { templateUrl: "cart.html", controller: "CartController" })
     .when("/contact", { templateUrl: "contact.html", controller: "contactController"})
     .when("/feedback", { templateUrl: "feedback.html"})
     .when("/product", { templateUrl: "product.html", controller: "productController" })
@@ -45,12 +45,12 @@ app.controller("CartController", function ($scope) {
         var userLoggedIn = localStorage.getItem('login');
 
         if (userLoggedIn === 'true') {
-            alert("Thanh toán thành công");
+            alert("Payment Succes");
             localStorage.removeItem('product_list');
             // Làm tươi lại trang web
             window.location.reload();
         } else {
-            alert("Bạn cần đăng nhập để thanh toán");
+            alert("You need login to payment");
             window.location.href = "./login.html";
         }
     };

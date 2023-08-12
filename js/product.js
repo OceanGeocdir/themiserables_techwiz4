@@ -2,11 +2,11 @@ var app = angular.module("myApp", ["ngRoute"]);
 
 app.config(function ($routeProvider) {
   $routeProvider
-  .when("/", { templateUrl: "page1.html", myController:"productController" })  // Không cần controller ở đây
-  .when("/a", { templateUrl: "page1.html", myController:"productController" })   // Cấu hình routing đến page1.html
-  .when("/b", { templateUrl: "page2.html", myController:"productController" })   // Cấu hình routing đến page2.html
-  .when("/c", { templateUrl: "page3.html", myController:"productController" })   // Cấu hình routing đến page3.html
-  .when("/d", { templateUrl: "page4.html", myController:"productController" })   // Cấu hình routing đến page4.html
+  .when("/", { templateUrl: "/page/page1.html", myController:"productController" })  // Không cần controller ở đây
+  .when("/a", { templateUrl: "/page/page1.html", myController:"productController" })   // Cấu hình routing đến page1.html
+  .when("/b", { templateUrl: "/page/page2.html", myController:"productController" })   // Cấu hình routing đến page2.html
+  .when("/c", { templateUrl: "/page/page3.html", myController:"productController" })   // Cấu hình routing đến page3.html
+  .when("/d", { templateUrl: "/page/page4.html", myController:"productController" })   // Cấu hình routing đến page4.html
 });
 
 
